@@ -1,15 +1,12 @@
-
-import './App.css';
-import Products from './components/Products';
+import "./App.css";
+import Products from "./components/Products";
+import AllRoutes from "./pages/AllRoutes";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello World</h1>
-      </header>
-
-      <Products/>
+      <Products />
+      <AllRoutes />
     </div>
   );
 }

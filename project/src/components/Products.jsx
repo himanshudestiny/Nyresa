@@ -1,14 +1,12 @@
-import React from 'react'
-import SimpleSidebar from './Sidebar'
+import React from "react";
+import SimpleSidebar from "./Sidebar";
 
 const Products = () => {
   return (
     <div>
-       <SimpleSidebar/>
-       
-       
+      <SimpleSidebar />
     </div>
-  )
-}
+  );
+};
 
-export default Products
+export default Products;
