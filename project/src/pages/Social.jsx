@@ -3,7 +3,6 @@ import {
   Box,
   Container,
   FormControl,
-  Heading,
   Input,
   Text,
   Grid,
@@ -236,13 +235,13 @@ const Social = () => {
                   <Link>Forgot Your Password?</Link>
                   <br />
                   <Input
-                    width="30%"
+                    width={{ base: "40%", sm: "45%", md: "60%" }}
                     mt="30px"
                     color="white"
                     backgroundColor="black"
                     borderRadius={0}
                     type="submit"
-                    value="Login"
+                    value="LOGIN"
                     _hover={{
                       backgroundColor: "white",
                       color: "black",
