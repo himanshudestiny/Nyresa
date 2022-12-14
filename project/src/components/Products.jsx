@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Products.css"
 import { useState } from 'react'
-import { Box, Divider, useBreakpointValue } from '@chakra-ui/react'
+import { Box, Divider, Grid, GridItem, Select, Text, useBreakpointValue } from '@chakra-ui/react'
 
 import Header from '../components/sidebar/Header'
 import Sidebar from '../components/sidebar/Sidebar'
@@ -31,8 +31,25 @@ const Products = () => {
           showSidebarButton={variants?.navigationButton}
           onShowSidebar={toggleSidebar}
         />
+
+
+       
+
+
         <Divider/>
+
+        <Box>
+        <Grid templateColumns="repeat(3,1fr)">
+          <GridItem> dgfdghegfeaf</GridItem>
+          <GridItem> dgfdghegfeaf</GridItem>
+          <GridItem> dgfdghegfeaf</GridItem>
+          <GridItem> dgfdghegfeaf</GridItem>
+        </Grid>
+
       </Box>
+      </Box>
+
+      
     </>
   )
 }
