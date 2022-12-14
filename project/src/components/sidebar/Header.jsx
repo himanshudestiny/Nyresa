@@ -7,12 +7,22 @@ import "../Products.css"
 
 
 
-const Header = ({ showSidebarButton = true, onShowSidebar }) => {
+const Header = ({ showSidebarButton = true, onShowSidebar,count,page,updateCurrentPage ,sortorder}) => {
 
-  const [page,setpage]=useState(1);
+  const [val,setval]=useState("");
+
+   const handlechange=(e)=>{
+
+    // setval(e.target.value);
+
+    sortorder(e.target.value);
+   }
+  
+   console.log(val);
+
   return (
-    <Flex  p={4} color="white" >
-      <Box flex="1">
+    <Flex  p={3} color="white" >
+      <Box >
         {showSidebarButton && (
           
             <Flex gap={1}  onClick={onShowSidebar} cursor="pointer">
@@ -33,9 +43,9 @@ const Header = ({ showSidebarButton = true, onShowSidebar }) => {
         <Text fontSize="xl">Page Title</Text>
       </Center> */}
       <Box className='sortsec' >
-      <Text color="gray">{} Products</Text>
+      <Text color="gray">{108} Products</Text>
       
-      <Select width={{sm:"100px",md:"100px",base:"100px"}} border="none" color="grey"  placeholder='Sort by' height={6}>
+      <Select width={{sm:"100px",md:"100px",base:"100px"}} border="none" color="grey" value={val}  onChange={handlechange} placeholder='Sort by' height={6}>
     <option value='asc'>Price low-to-high</option>
     <option value='desc'>Price high-to-low</option>
     
@@ -44,7 +54,7 @@ const Header = ({ showSidebarButton = true, onShowSidebar }) => {
         {
           !showSidebarButton &&
         
-    <Pagination count={5} currentPage={page} updateCurrentPage={(pan)=>setpage(pan)}/>}
+    <Pagination count={count} currentPage={page} updateCurrentPage={updateCurrentPage}/>}
 
     </Box>
 
