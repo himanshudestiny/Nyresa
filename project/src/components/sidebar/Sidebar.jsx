@@ -27,12 +27,12 @@ import {
   
     
   
-    <Box mt={4} textAlign="left"    fontSize="15px" cursor="pointer">
-        <Flex flexDirection="column" borderTop="1px solid grey" gap={2}>
+    <Box mt={4} textAlign="left" borderTop="1px solid grey"   fontSize="15px" cursor="pointer">
+        <Flex flexDirection="column"  gap={2}>
           {
             show=='sidebar' && 
           
-          <Box lineHeight={8}>
+          <Box lineHeight={8} mt={5}>
         <Text >NEW ARRIVALS</Text>
         <Text fontWeight="bold" fontSize={14} mt={2} mb={2}>Current Week</Text>
         <Text color="grey" className='hovereffect'>Previous Weeks </Text>
@@ -150,16 +150,16 @@ import {
      
        
       <Box
-        position="fixed"
+        
         left={0}
         p={5}
-        w="280px"
+        w="330px"
         top={0}
         h="100%"
         borderRight="1px solid black"
         
       >
-         <Text mt="30px" color="grey" fontSize="11px">Men/New Arrivals/Current Week </Text>
+         <Text  color="grey" fontSize="11px">Men/New Arrivals/Current Week </Text>
          {/* <Divider mt="13px"/> */}
 
         <SidebarContent onClick={onClose} show={variant} />
