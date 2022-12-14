@@ -1,0 +1,25 @@
+.Nav1 {
+  font-family: "Arial, Helvetica, sans-serif";
+  font-weight: 600;
+  color: rgb(89, 88, 88);
+  width: 82%;
+  margin: auto;
+}
+.Nav1 p:hover {
+  color: black;
+}
+.categ {
+  padding: 20px;
+  font-family: "Century Gothic";
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.categ:hover {
+  background-color: #f2f2f2;
+}
+#heart {
+    color: rgb(89, 88, 88);
+}
+#heart:hover {
+    color: black;
+}
