@@ -2,6 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import Social from "./Social";
+import PrivateRoute from "../components/PrivateRoute";
 
 const AllRoutes = () => {
   return (

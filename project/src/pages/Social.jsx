@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Box,
   Container,
   FormControl,
-  Heading,
   Input,
   Text,
   Grid,
@@ -15,39 +14,65 @@ import {
   Select,
   Link,
 } from "@chakra-ui/react";
-import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { addUser } from "../redux/social/social.actions";
+import { login } from "../redux/auth/auth.actions";
 
 const initState = {
+  initials: "",
+  title: "",
   firstname: "",
   lastname: "",
   email: "",
   password: "",
+  repassword: "",
 };
 
 const Social = () => {
-  const [formData, setFormData] = useState(initState);
-  const [loginData, setLoginData] = useState({
-    email: "",
-    password: "",
-  });
+  const { loading, error } = useSelector((store) => store.authManager);
+  const { isAuth } = useSelector((store) => store.authManager.data);
   const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const [registerformData, setRegisterFormData] = useState(initState);
+  const [loginformData, setLoginFormData] = useState([]);
 
-  const handleSubmit = (e) => {
+  useEffect(() => {
+    if (isAuth) {
+      navigate("/");
+    } else {
+      navigate("/login");
+    }
+  }, [isAuth, navigate]);
+
+  const handleRegisterSubmit = (e) => {
     e.preventDefault();
+    dispatch(addUser(registerformData));
+  };
+
+  const handleInputSubmit = (e) => {
+    e.preventDefault();
+    dispatch(login(loginformData));
   };
 
   const handleRegisterChange = (e) => {
     const { value, name } = e.target;
-    setFormData({ ...formData, [name]: value });
+    setRegisterFormData({ ...registerformData, [name]: value });
   };
 
-  const handleLoginChange = (e) => {
+  const handleInputChange = (e) => {
     const { value, name } = e.target;
-    setFormData({ ...formData, [name]: value });
+    setLoginFormData({ ...loginformData, [name]: value });
   };
 
-  const { firstname, lastname, email, password } = formData;
+  if (loading) {
+    return <h1>Loading...</h1>;
+  } else if (error) {
+    return <h1>Error Occurred</h1>;
+  }
+
+  const { title, firstname, lastname, email, password, repassword } =
+    registerformData;
 
   return (
     <>
@@ -76,13 +101,19 @@ const Social = () => {
               <Text display="inline">
                 Please enter the following information to create your account.
               </Text>
-              <form onSubmit={handleSubmit}>
+              <form onSubmit={handleRegisterSubmit}>
                 <FormControl mt="20px">
-                  <RadioGroup defaultValue="Ms." mb={4}>
+                  <RadioGroup defaultValue="Ms." mb={4} name="initials">
                     <HStack spacing="24px">
-                      <Radio value="Ms">Ms.</Radio>
-                      <Radio value="Mr">Mrs.</Radio>
-                      <Radio value="Mss">Mr.</Radio>
+                      <Radio value="Ms" onChange={handleRegisterChange}>
+                        Ms.
+                      </Radio>
+                      <Radio value="Mss" onChange={handleRegisterChange}>
+                        Mrs.
+                      </Radio>
+                      <Radio value="Mr" onChange={handleRegisterChange}>
+                        Mr.
+                      </Radio>
                     </HStack>
                   </RadioGroup>
 
@@ -91,9 +122,12 @@ const Social = () => {
                     borderColor="blackAlpha.500"
                     borderRadius={0}
                     mb={4}
+                    name="title"
+                    value={title}
+                    onChange={handleRegisterChange}
                   >
-                    <option>Dr.</option>
-                    <option>Prof.</option>
+                    <option value="Dr">Dr.</option>
+                    <option value="Prof">Prof.</option>
                   </Select>
 
                   <Input
@@ -149,8 +183,8 @@ const Social = () => {
                     borderRadius={0}
                     type="password"
                     placeholder="Confirm Password *"
-                    name="password"
-                    value={password}
+                    name="repassword"
+                    value={repassword}
                     onChange={handleRegisterChange}
                     mb={4}
                     isRequired
@@ -209,16 +243,17 @@ const Social = () => {
               <Text display="inline">
                 If you have an account with us, please log in.
               </Text>
-              <form onSubmit={handleSubmit}>
+              <form onSubmit={handleInputSubmit}>
                 <FormControl mt="40px">
                   <Input
                     borderColor="blackAlpha.500"
                     borderRadius={0}
                     type="email"
+                    name="email"
                     placeholder="Email address"
-                    value={email}
+                    value={loginformData.email}
                     mb={4}
-                    onChange={handleLoginChange}
+                    onChange={handleInputChange}
                   />
 
                   <Input
@@ -227,8 +262,8 @@ const Social = () => {
                     type="password"
                     placeholder="Password"
                     name="password"
-                    value={password}
-                    onChange={handleLoginChange}
+                    value={loginformData.password}
+                    onChange={handleInputChange}
                   />
                   <Text mt={8} mb={2}>
                     *required fields
@@ -236,13 +271,13 @@ const Social = () => {
                   <Link>Forgot Your Password?</Link>
                   <br />
                   <Input
-                    width="30%"
+                    width={{ base: "40%", sm: "45%", md: "60%" }}
                     mt="30px"
                     color="white"
                     backgroundColor="black"
                     borderRadius={0}
                     type="submit"
-                    value="Login"
+                    value="LOGIN"
                     _hover={{
                       backgroundColor: "white",
                       color: "black",
