@@ -10,27 +10,141 @@ import {
     VStack,
     Text,
     Divider,
+    Flex,
+    Accordion,
+    AccordionItem,
+    AccordionButton,
+    AccordionIcon,
+    AccordionPanel,
+    Checkbox,
   } from '@chakra-ui/react'
   
+ import "../Products.css"
+
   
   
-  const SidebarContent = ({ onClick }) => (
+  const SidebarContent = ({ onClick,show }) => (
+  
+    
+  
+    <Box mt={4} textAlign="left"    fontSize="15px" cursor="pointer">
+        <Flex flexDirection="column" borderTop="1px solid grey" gap={2}>
+          {
+            show=='sidebar' && 
+          
+          <Box lineHeight={8}>
+        <Text >NEW ARRIVALS</Text>
+        <Text fontWeight="bold" fontSize={14} mt={2} mb={2}>Current Week</Text>
+        <Text color="grey" className='hovereffect'>Previous Weeks </Text>
+        <Text color="grey" className='hovereffect'>Essentials</Text>
+        <Text color="grey" className='hovereffect'>Tailoring Edit </Text>
+        <Text color="grey" className='hovereffect'>Loungewear </Text>
+        <Text color="grey" className='hovereffect'>Cold Weather Edit  </Text>
+        <Text color="grey" className='hovereffect'>The Ski Edit </Text>
+        </Box>}
+
+        <Accordion allowToggle  mt={5}>
+  <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as="span"  flex='1' textAlign='left'>
+        Category
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4} >
+      <Flex flexDirection="column">
+    <Checkbox><Text className='hovereffect' color="grey">All</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Joggers</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Shirt</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Jeans</Text></Checkbox>
+    </Flex>
+
+    </AccordionPanel>
+  </AccordionItem>
+
+  <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as="span" flex='1' textAlign='left'>
+          Designers
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+    <Flex flexDirection="column">
+    <Checkbox><Text className='hovereffect' color="grey">Gucci</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Herno</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Kenzo</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Marni</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Tom Ford</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Versace</Text></Checkbox>
+    </Flex>
+    </AccordionPanel>
+  </AccordionItem>
+
+  <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as="span" flex='1' textAlign='left'>
+          Colours
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}  height="240px" overflow="scroll">
+    <Flex flexDirection="column">
+    <Checkbox><Text className='hovereffect' color="grey">Black</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Green</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Maroon</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Pink</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Red</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Golden</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">White</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Yellow</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Multicoloured</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Orange</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Purple</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Grey</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Indigo</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Blue</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Brown</Text></Checkbox>
+    </Flex>
+    </AccordionPanel>
+  </AccordionItem>
 
 
-    <VStack mt={10}>
-      <Button onClick={onClick} w="100%">
-        Home
-      </Button>
-      <Button onClick={onClick} w="100%">
-        About
-      </Button>
-      <Button onClick={onClick} w="100%">
-        Contact
-      </Button>
-    </VStack>
+  <AccordionItem>
+    <h2>
+      <AccordionButton>
+        <Box as="span" flex='1' textAlign='left'>
+          Pattern
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+    <Flex flexDirection="column">
+    <Checkbox><Text className='hovereffect' color="grey">Stripped</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Printed</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Plain</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Patterened</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Embellished</Text></Checkbox>
+    <Checkbox><Text className='hovereffect' color="grey">Checked</Text></Checkbox>
+    </Flex>
+    </AccordionPanel>
+  </AccordionItem>
+</Accordion>
+
+     
+      </Flex>
+    </Box>
   )
   
   const Sidebar = ({ isOpen, variant, onClose }) => {
+
     return variant === 'sidebar' ? (
 
      
@@ -43,12 +157,12 @@ import {
         top={0}
         h="100%"
         borderRight="1px solid black"
-        mt="43px"
+        
       >
-         <Text color="grey" fontSize="11px">Men/New Arrivals/Current Week </Text>
-         <Divider />
+         <Text mt="30px" color="grey" fontSize="11px">Men/New Arrivals/Current Week </Text>
+         {/* <Divider mt="13px"/> */}
 
-        <SidebarContent onClick={onClose} />
+        <SidebarContent onClick={onClose} show={variant} />
       </Box>
       
     ) : (
