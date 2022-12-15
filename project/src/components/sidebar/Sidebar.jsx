@@ -27,7 +27,7 @@ import {
 
   
   
-  const SidebarContent = ({ onClick,show ,dispatch}) => (
+  const SidebarContent = ({ onClick,show ,dispatch,page,sort,order,tognormal,norm}) => (
   
     
   
@@ -59,10 +59,10 @@ import {
     </h2>
     <AccordionPanel pb={4} >
       <Flex flexDirection="column">
-    <Checkbox onChange={()=>{dispatch(getdata(1,"","")); onClick()}}><Text className='hovereffect' color="grey">All</Text></Checkbox>
-    <Checkbox onChange={()=>{dispatch(filterdata("Joggers")); onClick()}}><Text className='hovereffect' color="grey">Joggers</Text></Checkbox>
-    <Checkbox onChange={()=>{dispatch(filterdata("Shirt")); onClick()}}><Text className='hovereffect'  color="grey">Shirt</Text></Checkbox>
-    <Checkbox onChange={()=>{dispatch(filterdata("Jeans")); onClick()}}><Text className='hovereffect' color="grey">Jeans</Text></Checkbox>
+    <Checkbox onChange={()=>{dispatch(getdata(1,"","")); norm(); onClick()}}><Text className='hovereffect' color="grey">All</Text></Checkbox>
+    <Checkbox onChange={()=>{dispatch(filterdata("Joggers",page,sort,order)); tognormal("Joggers"); onClick()}}><Text className='hovereffect' color="grey">Joggers</Text></Checkbox>
+    <Checkbox onChange={()=>{dispatch(filterdata("Shirt",page,sort,order)); tognormal("Shirt"); onClick()}}><Text className='hovereffect'  color="grey">Shirt</Text></Checkbox>
+    <Checkbox onChange={()=>{dispatch(filterdata("Jeans",page,sort,order)); tognormal("Jeans"); onClick()}}><Text className='hovereffect' color="grey">Jeans</Text></Checkbox>
     </Flex>
 
     </AccordionPanel>
@@ -147,7 +147,7 @@ import {
     </Box>
   )
   
-  const Sidebar = ({ isOpen, variant, onClose }) => {
+  const Sidebar = ({ isOpen, variant, onClose ,page,sort,order,tognormal,norm}) => {
 
     const dispatch=useDispatch();
 
@@ -168,7 +168,7 @@ import {
          <Text  color="grey" fontSize="11px">Men/New Arrivals/Current Week </Text>
          {/* <Divider mt="13px"/> */}
 
-        <SidebarContent onClick={onClose} show={variant} dispatch={dispatch} />
+        <SidebarContent onClick={onClose} show={variant} dispatch={dispatch} page={page} sort={sort} order={order} tognormal={tognormal} norm={norm}/>
       </Box>
       
     ) : (
@@ -178,7 +178,7 @@ import {
             <DrawerCloseButton />
             <DrawerHeader>Filter </DrawerHeader>
             <DrawerBody>
-              <SidebarContent onClick={onClose} show={variant} dispatch={dispatch}/>
+              <SidebarContent onClick={onClose} show={variant} dispatch={dispatch} page={page} sort={sort} order={order} tognormal={tognormal} norm={norm}/>
             </DrawerBody>
           </DrawerContent>
         </DrawerOverlay>

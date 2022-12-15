@@ -1,14 +1,15 @@
 import React from 'react'
 import "./Products.css"
 import { useState } from 'react'
-import { Box, Divider, Flex, Grid, GridItem, Image, Progress, Select, Spinner, Text, useBreakpointValue } from '@chakra-ui/react'
+import { Box, Divider, Flex, Grid, GridItem, Heading, Image, Progress, Select, Spinner, Text, useBreakpointValue } from '@chakra-ui/react'
 
 import Header from '../components/sidebar/Header'
 import Sidebar from '../components/sidebar/Sidebar'
 import {useSelector,useDispatch} from "react-redux"
 import { useEffect } from 'react'
-import { getdata } from '../redux/products/Prodaction'
+import { filterdata, getdata } from '../redux/products/Prodaction'
 import { StarIcon } from '@chakra-ui/icons'
+import {useNavigate} from "react-router-dom"
 import Pagination from './Pagination'
 
 const smVariant = { navigation: 'drawer', navigationButton: true }
@@ -22,6 +23,8 @@ const Products = () => {
   const [page,setpage]=useState(1);
   const [sort,setsort]=useState("");
   const [order,setorder]=useState("");
+  const [filtval,setfiltval]=useState("");
+  const [normal,setnormal]=useState(false);
 
   const [isSidebarOpen, setSidebarOpen] = useState(false)
   const variants = useBreakpointValue({ base: smVariant, md: mdVariant })
@@ -31,10 +34,30 @@ const Products = () => {
   const products=useSelector((store)=>store.prodManager);
 
   const dispatch=useDispatch();
+   
+
+  const tognormal=(val)=>{
+    setnormal(true)
+    setfiltval(val);
+  }
+
+  const norm=()=>{
+    setnormal(false);
+  }
+
+
 
   useEffect(()=>{
+      
+    if(normal===false){
+      dispatch(getdata(page,sort,order))
+    }
 
-     dispatch(getdata(page,sort,order))
+   else{
+    dispatch(filterdata(filtval,page,sort,order))
+   }
+     
+
   },[page,sort,order])
 
   const sortorder=(val)=>{
@@ -57,6 +80,13 @@ const Products = () => {
         variant={variants?.navigation}
         isOpen={isSidebarOpen}
         onClose={toggleSidebar}
+
+        page={page}
+        sort="discounted_price"
+        order={order}
+
+        tognormal={tognormal}
+        norm={norm}
       />
       <Box  width="100%">
         <Header
@@ -83,6 +113,12 @@ const Products = () => {
             <Progress size='xs' isIndeterminate />
             </Box>
             }
+               {
+                products.data.length==0 && <Box >
+                  <Image boxSize="400px" m="auto" src='https://upload.wikimedia.org/wikipedia/commons/2/22/Sad.gif'/>
+                 <Heading>Results not found for this page</Heading>  
+                 </Box>
+               }
 
         <Grid p={6} templateColumns={{sm:"repeat(2,1fr)",md:"repeat(2,1fr)",lg:"repeat(3,1fr)"}} gap="20px">
           {

@@ -13,6 +13,7 @@ import { useEffect } from "react";
 
 
 
+
 function App() {
 
 
@@ -32,6 +33,7 @@ function App() {
       <Navbar />
       <AllRoutes />
       <Products />
+      
 
     </div>
   );
