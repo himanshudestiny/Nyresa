@@ -10,6 +10,7 @@ import { useEffect } from 'react'
 import { getdata } from '../redux/products/Prodaction'
 import { StarIcon } from '@chakra-ui/icons'
 import Pagination from './Pagination'
+import {Navigate, useNavigate } from 'react-router-dom'
 
 const smVariant = { navigation: 'drawer', navigationButton: true }
 const mdVariant = { navigation: 'sidebar', navigationButton: false }
@@ -22,6 +23,7 @@ const Products = () => {
   const [page,setpage]=useState(1);
   const [sort,setsort]=useState("");
   const [order,setorder]=useState("");
+  const navigate=useNavigate()
 
   const [isSidebarOpen, setSidebarOpen] = useState(false)
   const variants = useBreakpointValue({ base: smVariant, md: mdVariant })
@@ -46,7 +48,8 @@ const Products = () => {
  const tolocal=(el)=>{
 
   localStorage.setItem("element",JSON.stringify(el));
-  
+  navigate("/ProductDetails")
+  // return <Navigate to="/ProductDetails"/>
  }
 
  

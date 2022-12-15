@@ -1,14 +1,21 @@
 import { Box, Button, Center, color, Flex, Heading, Image, Input, MenuOptionGroup, Popover, PopoverArrow, PopoverBody, PopoverCloseButton, PopoverContent, PopoverHeader, PopoverTrigger, Select, Text, textDecoration } from '@chakra-ui/react'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import '../components_css/ProductDetails.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 // Import Swiper styles
 import 'swiper/css';
 import SizeChart from '../image/SizeChart.jpeg'
+import { useNavigate } from 'react-router-dom';
 let count=0;
 const ProductDetails = () => {
+  const navigate=useNavigate()
   const [flag,setFlag]=useState(false)
+
+let element=JSON.parse(localStorage.getItem("element"))
+  useEffect(()=>
+  {
+    element=JSON.parse(localStorage.getItem("element"))||{}
+  },[element])
   const handleAddtobag=(e)=>
   {
     console.log('click')
@@ -43,17 +50,11 @@ const ProductDetails = () => {
       handlechange(e)
     }
   }
-
-
-
-  const handlePrev=()=>
-  {
-    
+  const handleShopingBag=()=>{
+    localStorage.setItem("listElement",JSON.stringify(element))
+    navigate("/ProductList")
   }
-  const handleNext=()=>
-  {
-    console.log('click')
-  }
+
   const handlechange=(e)=>
   {
     let value=e.target.value
@@ -68,28 +69,37 @@ const ProductDetails = () => {
       count++
     }
   }
+
+  const handlePrev=()=>
+  {
+    console.log('click')
+  }
+  const handleNext=()=>
+  {
+    console.log('click')
+  }
   return (
     <Box  > 
     <Center >
-       <Box className="Product_details_Mega_container" bgColor={'RGBA(0, 0, 0, 0.06)'} >
+       <Box className="Product_details_Mega_container" bgColor={'RGBA(0, 0, 0, 0.06)'} padding='20px'>
       <div className='Product_details_Mega_container_first_child'>
-       <Button boxShadow={'RGBA(0, 0, 0, 0.24) 0px 3px 8px'} pos={'relative'} top={'50%'} left='10%' >{'<'}</Button>
-        <Image borderRadius='10px'  boxShadow={'RGBA(0, 0, 0, 0.24) 0px 3px 8px'} width={'85%'} height={'98%'} margin={'auto'} src='https://media1.popsugar-assets.com/files/thumbor/bS4O6CnmOsNcmTpCOlJHOwU4tv0/fit-in/728xorig/filters:format_auto-!!-:strip_icc-!!-/2022/01/11/289/n/1922564/3706e5e061de6dcb8f7e26.83610660_/i/How-Style-Clothes-You-Already-Have.jpg'
-            alt='Dan Abramov'/> 
-        <Button boxShadow={'RGBA(0, 0, 0, 0.24) 0px 3px 8px'} pos={'relative'} top={'50%'} right='10%' >{'>'}</Button>
+       {/* <Button boxShadow={'RGBA(0, 0, 0, 0.24) 0px 3px 8px'} pos={'relative'} top={'50%'} left='10%' >{'<'}</Button> */}
+        <Image borderRadius='10px'  boxShadow={'RGBA(0, 0, 0, 0.24) 0px 3px 8px'} width={'85%'} height={'98%'} margin={'auto'} src={element.images[element.images.length-1]}  alt='Dan Abramov'/> 
+        {/* <Button boxShadow={'RGBA(0, 0, 0, 0.24) 0px 3px 8px'} pos={'relative'} top={'50%'} right='10%' >{'>'}</Button> */}
       </div>
       <div className='Product_details_Mega_container_second_child' >
-        <Text margin={'20px'} fontSize={'20px'} fontWeight={'bold'}>Title</Text>
-        <Text margin={'20px'}>Discription</Text>
-        <Text margin={'20px'} fontWeight={'bold'}>Price</Text>
-        <Text margin={'20px'} fontSize={'14px'}>Details</Text>
+        <Text margin={'20px'} fontSize={'20px'} fontWeight={'bold'}>{element.title}</Text>
+        <Text margin={'20px'}>{element.subtitle}</Text>
+        <Flex><Text marginLeft={'20px'} fontWeight={'bold'}>$ {element.discounted_price}</Text><Text marginLeft={'20px'} textDecorationLine={'line-through'}>$ {element.strike_price}</Text></Flex>
+        <Text color={'red'} margin={'20px'}>{element.discount}</Text>
+        <Text margin={'20px'} fontSize={'14px'}>Ratings - {element.rating}*</Text>
         <Select className='option' onChange={handlechange} marginLeft={'20px'} placeholder='Choose Size' >
-        <option value='XS'>Xtra Small</option>
-        <option value='S'>Small</option>
-        <option value='M'>Medium</option>
-        <option value='L'>Large</option>
-        <option value='XL'>Xtra Large</option>
-        <option value='XXL'>2*Xtra Large</option>
+        <option value={element.size[0]}>Xtra Small</option>
+        <option value={element.size[1]}>Small</option>
+        <option value={element.size[2]}>Medium</option>
+        <option value={element.size[3]}>Large</option>
+        <option value={element.size[4]}>Xtra Large</option>
+        <option value={element.size[5]}>2*Xtra Large</option>
         </Select>
         <Popover>
         <PopoverTrigger>
@@ -107,9 +117,9 @@ const ProductDetails = () => {
         {
           flag ? <PopoverContent padding={'20px'}>
             <Text>Successfully added in the bag</Text>
-             <Text  fontWeight={'bold'}  >Title</Text>
-             <Text>Price</Text>
-             <Button borderRadius={'none'} color={'white'} bgColor={'black'}>VIEW SHOPPING BAG</Button>
+             <Text marginTop={'10px'} fontWeight={'bold'}  >{element.title}</Text>
+             <Text marginTop={'10px'}>{element.discounted_price}</Text>
+             <Button marginTop={'10px'} borderRadius={'none'} color={'white'} bgColor={'black'} onClick={handleShopingBag}>VIEW SHOPPING BAG</Button>
              <Button marginTop={'10px'}>BACK TO SHOP</Button>
           </PopoverContent>:""
         }
@@ -122,17 +132,17 @@ const ProductDetails = () => {
         {
           flag ? <PopoverContent padding={'20px'}>
           <Text>Successfully added in the Wishlist</Text>
-             <Text  fontWeight={'bold'}  >Title</Text>
-             <Text>Price</Text>
-             <Button backgroundColor={'white'} borderRadius={'none'} color={'white'} bgColor={'black'}>VIEW WISHLIST <svg style={{marginLeft:'5px'}} width={'18px'} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg></Button>
-             <Button marginTop={'10px'}>BACK TO SHOP</Button>
+             <Text marginTop={'10px'} fontWeight={'bold'}  >{element.title}</Text>
+             <Text marginTop={'10px'}>{element.discounted_price}</Text>
+             <Button marginTop={'10px'} backgroundColor={'white'} borderRadius={'none'} color={'white'} bgColor={'black'}>VIEW WISHLIST <svg style={{marginLeft:'5px'}} width={'18px'} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg></Button>
+             <Button marginTop={'10px'} >BACK TO SHOP</Button>
           </PopoverContent>:""
         }
         </Popover>
-        <Text margin={'20px'}>Free Shipping</Text>
+        <Text margin={'20px'}>Free Shipping avaliable</Text>
         <Box marginLeft={'20px'}>
-          <Text >Style details</Text>
-          <Text>Description</Text>
+          <Text >Product Material Details</Text>
+          <Text>Cotton</Text>
         </Box>
       </div>
     </Box>
