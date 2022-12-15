@@ -6,8 +6,6 @@ import AllRoutes from "./pages/AllRoutes";
 import ProductDetails from "./components/ProductDetails";
 
 function App() {
-
-
   return (
     <div className="App">
       <Navbar />
