@@ -9,7 +9,7 @@ import "../Products.css"
 
 const Header = ({ showSidebarButton = true, onShowSidebar,count,page,updateCurrentPage ,sortorder}) => {
 
-  const [val,setval]=useState("");
+ 
 
    const handlechange=(e)=>{
 
@@ -18,10 +18,10 @@ const Header = ({ showSidebarButton = true, onShowSidebar,count,page,updateCurre
     sortorder(e.target.value);
    }
   
-   console.log(val);
+  
 
   return (
-    <Flex  p={3} color="white" >
+    <Flex  p={3}  >
       <Box >
         {showSidebarButton && (
           
@@ -31,12 +31,7 @@ const Header = ({ showSidebarButton = true, onShowSidebar,count,page,updateCurre
               </Flex>
             
           
-          // <IconButton
-          //   icon={<ChevronRightIcon w={8} h={8} />}
-          //   colorScheme="blackAlpha"
-          //   variant="outline"
-          //   onClick={onShowSidebar}
-          // />
+          
         )}
       </Box>
       {/* <Center flex="1" h="40px">
@@ -45,7 +40,7 @@ const Header = ({ showSidebarButton = true, onShowSidebar,count,page,updateCurre
       <Box className='sortsec' >
       <Text color="gray">{108} Products</Text>
       
-      <Select width={{sm:"100px",md:"100px",base:"100px"}} border="none" color="grey" value={val}  onChange={handlechange} placeholder='Sort by' height={6}>
+      <Select width={{sm:"100px",md:"100px",base:"100px"}} border="none" color="grey"   onChange={handlechange} placeholder='Sort by' height={6}>
     <option value='asc'>Price low-to-high</option>
     <option value='desc'>Price high-to-low</option>
     

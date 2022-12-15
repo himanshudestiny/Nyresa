@@ -1,0 +1,27 @@
+.Product_details_Mega_container{
+    width: 80%;
+    height: auto;
+    display: flex;
+}
+.Product_details_Mega_container div{
+    width: 50%;
+}
+.Product_details_Mega_container_second_child{
+  text-align: left;
+}
+.Product_details_Mega_container_first_child{
+    display: flex;
+}
+
+@media screen and (max-width: 800px) {
+    .Product_details_Mega_container
+    {
+        display:grid;
+    }
+    .Product_details_Mega_container div{
+        width: 100%;
+    }
+  }
+  
+
+  

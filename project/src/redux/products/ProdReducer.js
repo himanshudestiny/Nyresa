@@ -1,5 +1,5 @@
 
-import { GET_PRODUCT,Loading } from "./ProdactionTypes";
+import { GET_PRODUCT,Loading,Filter } from "./ProdactionTypes";
 
 const init={
     loading:false,
@@ -21,6 +21,14 @@ export const prodReducer=(state=init,action)=>{
 
             }
         }
+          
+       case Filter:{
+
+        return {
+            ...state,loading:false,data:action.payload
+        }
+       }
+
 
         default:{
             return state;

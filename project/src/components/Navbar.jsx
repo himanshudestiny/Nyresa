@@ -28,7 +28,7 @@ export default function Navbar() {
                 WOMEN
               </Text>
             </Link>
-            <Link to="/">
+            <Link to="/menproduct">
               <Text className="categ" cursor="pointer">
                 MEN
               </Text>
