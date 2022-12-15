@@ -43,6 +43,12 @@ const Products = () => {
     setorder(val);
   }
 
+ const tolocal=(el)=>{
+
+  localStorage.setItem("element",JSON.stringify(el));
+  
+ }
+
  
   return (
     <>
@@ -81,7 +87,7 @@ const Products = () => {
         <Grid p={6} templateColumns={{sm:"repeat(2,1fr)",md:"repeat(2,1fr)",lg:"repeat(3,1fr)"}} gap="20px">
           {
             products.data?.map((el)=>
-            <Box key={el.id} border="1px solid black" textAlign="center">
+            <Box key={el.id} onClick={()=>tolocal(el)} border="1px solid black" textAlign="center">
 
               <Image m="auto" src={el.images[0]} width="240px" height="260px" alt='title' />
               <Text mt={2}>{el.title}</Text>
