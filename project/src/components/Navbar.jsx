@@ -10,7 +10,7 @@ export default function Navbar() {
     <Box>
       <Box mb={7} paddingBottom="1rem">
         <Flex
-          className="Nav1"
+          className="NavOne"
           display={{ lg: "flex", md: "none", sm: "none" }}
           justifyContent="space-between"
           alignItems="center"
@@ -52,9 +52,9 @@ export default function Navbar() {
               <Text cursor="pointer">My account</Text>
             </Link>
 
-            <Link to="/wishlist" id="heart" style={{ display: "flex" }}>
+            <Link to="/wishlist" style={{ display: "flex" }}>
               <Text cursor="pointer">My wishlist </Text>
-              <Box mt={"4px"} pl="3px">
+              <Box id="heart" mt={"4px"} pl="3px">
                 <AiOutlineHeart />
               </Box>
             </Link>

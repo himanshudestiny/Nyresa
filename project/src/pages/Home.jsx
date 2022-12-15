@@ -1,8 +1,11 @@
 import React from "react";
 import { Box, Flex, Heading, Image } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import Carousel from "../components/Carousel";
+import data from "../assets/data/products.json";
 
 const Home = () => {
+  console.log(data);
   return (
     <Box>
       <div
@@ -25,7 +28,6 @@ const Home = () => {
       >
         <Box
           position={"absolute"}
-          color="#f2f2f2"
           lineHeight={"7vw"}
           m="auto"
           display={"flex"}
@@ -39,6 +41,7 @@ const Home = () => {
                 fontWeight={400}
                 fontSize={["xl", "6xl"]}
                 alignItems="center"
+                color="#f2f2f2"
               >
                 Women
               </Heading>
@@ -51,6 +54,7 @@ const Home = () => {
                 fontWeight={400}
                 fontSize={["xl", "6xl"]}
                 alignItems="center"
+                color="#f2f2f2"
               >
                 Men
               </Heading>
@@ -75,7 +79,6 @@ const Home = () => {
         >
           <Box
             position={"absolute"}
-            color="#f2f2f2"
             lineHeight={"7vw"}
             m="auto"
             textAlign={"center"}
@@ -85,6 +88,7 @@ const Home = () => {
               fontWeight={400}
               fontSize={["xl", "6xl"]}
               alignItems="center"
+              color="#f2f2f2"
             >
               Kids
             </Heading>
@@ -108,7 +112,6 @@ const Home = () => {
         >
           <Box
             position={"absolute"}
-            color="#f2f2f2"
             lineHeight={"7vw"}
             m="auto"
             textAlign={"center"}
@@ -118,6 +121,7 @@ const Home = () => {
               fontWeight={400}
               fontSize={["xl", "6xl"]}
               alignItems="center"
+              color="#f2f2f2"
             >
               Life
             </Heading>
@@ -130,6 +134,30 @@ const Home = () => {
           />
         </Flex>
       </Link>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <Carousel link={"/"} title="Men's Collection" data={data.Mens} />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Carousel link={"/"} title="Women's Collection" data={data.Womens} />
+      <br />
+      <br />
+      <br />
+      <br />
+      <Carousel link={"/"} title="Kid's Collection" data={data.Kids} />
+      <br />
+      <br />
+      <br />
+      <br />
     </Box>
   );
 };

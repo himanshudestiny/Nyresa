@@ -1,11 +1,16 @@
-.Nav1 {
+.NavOne {
   font-family: "Arial, Helvetica, sans-serif";
   font-weight: 600;
-  color: rgb(89, 88, 88);
   width: 82%;
   margin: auto;
 }
-.Nav1 p:hover {
+
+.NavOne p {
+  color: rgb(89, 88, 88);
+
+}
+
+.NavOne p:hover {
   color: black;
 }
 .categ {
