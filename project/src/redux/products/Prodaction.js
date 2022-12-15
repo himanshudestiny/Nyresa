@@ -17,11 +17,11 @@ export const getdata=(page=1,sort="discounted_price",order="",cat="Mens")=>async
 }
 
 
-export const filterdata=(val)=>async(dispatch)=>{
+export const filterdata=(val,page,sort="discounted_price",order="")=>async(dispatch)=>{
 
     dispatch({type:Loading})
 
-    let res=await axios.get("http://localhost:8080/Mens");
+    let res=await axios.get(`http://localhost:8080/Mens?_page=${page}&_limit=30&_sort=${sort}&_order=${order}`);
 
     let filtered=res.data.filter((el)=>{
        
