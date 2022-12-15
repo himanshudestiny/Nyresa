@@ -18,7 +18,7 @@ const Pagination = ({count,currentPage,updateCurrentPage}) => {
   )
 }
 
-<button   onClick={()=>updateCurrentPage(currentPage+1)}><ChevronRightIcon boxSize={6}/></button>
+<button disabled={currentPage==count}  onClick={()=>updateCurrentPage(currentPage+1)}><ChevronRightIcon boxSize={6}/></button>
 
     </div>
   )

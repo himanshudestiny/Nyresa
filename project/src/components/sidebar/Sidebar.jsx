@@ -18,12 +18,16 @@ import {
     AccordionPanel,
     Checkbox,
   } from '@chakra-ui/react'
+
+ import { filterdata,getdata } from '../../redux/products/Prodaction'
+
+  import {useDispatch} from "react-redux"
   
  import "../Products.css"
 
   
   
-  const SidebarContent = ({ onClick,show }) => (
+  const SidebarContent = ({ onClick,show ,dispatch}) => (
   
     
   
@@ -55,10 +59,10 @@ import {
     </h2>
     <AccordionPanel pb={4} >
       <Flex flexDirection="column">
-    <Checkbox><Text className='hovereffect' color="grey">All</Text></Checkbox>
-    <Checkbox><Text className='hovereffect' color="grey">Joggers</Text></Checkbox>
-    <Checkbox><Text className='hovereffect' color="grey">Shirt</Text></Checkbox>
-    <Checkbox><Text className='hovereffect' color="grey">Jeans</Text></Checkbox>
+    <Checkbox onChange={()=>{dispatch(getdata(1,"","")); onClick()}}><Text className='hovereffect' color="grey">All</Text></Checkbox>
+    <Checkbox onChange={()=>{dispatch(filterdata("Joggers")); onClick()}}><Text className='hovereffect' color="grey">Joggers</Text></Checkbox>
+    <Checkbox onChange={()=>{dispatch(filterdata("Shirt")); onClick()}}><Text className='hovereffect'  color="grey">Shirt</Text></Checkbox>
+    <Checkbox onChange={()=>{dispatch(filterdata("Jeans")); onClick()}}><Text className='hovereffect' color="grey">Jeans</Text></Checkbox>
     </Flex>
 
     </AccordionPanel>
@@ -145,6 +149,8 @@ import {
   
   const Sidebar = ({ isOpen, variant, onClose }) => {
 
+    const dispatch=useDispatch();
+
     return variant === 'sidebar' ? (
 
      
@@ -153,7 +159,7 @@ import {
         
         left={0}
         p={5}
-        w="330px"
+        w="400px"
         top={0}
         h="100%"
         borderRight="1px solid black"
@@ -162,7 +168,7 @@ import {
          <Text  color="grey" fontSize="11px">Men/New Arrivals/Current Week </Text>
          {/* <Divider mt="13px"/> */}
 
-        <SidebarContent onClick={onClose} show={variant} />
+        <SidebarContent onClick={onClose} show={variant} dispatch={dispatch} />
       </Box>
       
     ) : (
@@ -170,9 +176,9 @@ import {
         <DrawerOverlay>
           <DrawerContent>
             <DrawerCloseButton />
-            <DrawerHeader>Chakra-UI</DrawerHeader>
+            <DrawerHeader>Filter </DrawerHeader>
             <DrawerBody>
-              <SidebarContent onClick={onClose} />
+              <SidebarContent onClick={onClose} show={variant} dispatch={dispatch}/>
             </DrawerBody>
           </DrawerContent>
         </DrawerOverlay>

@@ -1,5 +1,5 @@
 *{
-    color:rgb(0, 0, 0)
+    /* color:rgb(0, 0, 0) */
 }
 
 .hovereffect:hover{
@@ -20,4 +20,23 @@ color: black;
         justify-content: space-around;
     }
     
+}
+
+.subtitle{
+    font-family:'Courier New', Courier, monospace,monospace;
+    font-weight: bold;
+    color: gray;
+}
+
+.subtitle:hover{
+    color: black;
+}
+.price{
+    display:flex;
+    justify-content: space-between;
+    
+    width: 60%;
+    margin: auto;
+    margin-top: 8px;
+
 }
