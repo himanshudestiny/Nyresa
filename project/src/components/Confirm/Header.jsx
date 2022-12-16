@@ -21,10 +21,10 @@ const Header = () => {
             <h1>DELIVERY</h1>
         </GridItem>
         <GridItem w='100%' h='10' >
-            <h1 style={{fontSize:'18px', fontWeight:'bolder', textDecoration:'underline'}}>PAYMENT</h1>
+            <h1>PAYMENT</h1>
         </GridItem>
         <GridItem w='100%' h='10' >
-            <h1>CONFIRM</h1>
+            <h1 style={{fontWeight:'bolder', textDecoration:"underline", fontSize:'18px'}}>CONFIRM</h1>
         </GridItem>
       </Grid>
     </div>

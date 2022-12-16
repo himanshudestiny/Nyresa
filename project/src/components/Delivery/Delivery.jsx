@@ -1,14 +1,33 @@
 import React from 'react'
 
 import Header from "./Header";
-import { MdCall } from "react-icons/md";
+import { useState } from "react";
 
-import { Grid, GridItem, Box, SimpleGrid, Radio, RadioGroup, Stack, Input, Select,Button, ButtonGroup, Checkbox, CheckboxGroup } from '@chakra-ui/react'
+import { Grid, GridItem, Box, SimpleGrid, Radio, RadioGroup, Stack, Input, Select,Button, Checkbox } from '@chakra-ui/react'
 import { Image } from '@chakra-ui/react'
 import Footer from './Footer';
 
 const Delivery = () => {
-    const [value, setValue] = React.useState('1');
+    const [value, setValue] = React.useState('');
+    const [ firstName, setFirstName ] = React.useState('');
+    const [ lastName, setLastName ] = React.useState('');
+    const [ company, setCompany ] = React.useState('');
+    const [ email, setEmail ] = React.useState('');
+    const [ street, setStreet ] = React.useState('');
+    const [ lineTwo, setLineTwo ] = React.useState('');
+    const [ post, setPost ] = React.useState('');
+    const [ city, setCity ] = React.useState('');
+    const [ country, setCountry ] = React.useState('');
+    const [ phone, setPhone ] = React.useState('');
+    const [ dhl, setDhl ] = useState('');
+    const [ mPack, setMPack ] = useState('');
+    const [ ePack, setEPack ] = useState('');
+    const [ bool, setBool ] = useState(false);
+
+    const handleClick = (e) => {
+      e.preventDefault();
+      localStorage.setItem('form', JSON.stringify([value, firstName, lastName, company, email, street, lineTwo, post, city, country, phone, dhl, mPack, ePack]));
+    }
 
 
   return (
@@ -28,26 +47,26 @@ const Delivery = () => {
                 Please enter your shipping address in the form below.
               </Box>
               <Box  height='50px'>
-              <RadioGroup onChange={setValue} value={value}>
+              <RadioGroup onChange={setValue} value={value} onClick={() => setValue(value)}>
                <Stack direction='row'>
-                <Radio value='1' colorScheme='blackAlpha'>Ms.*</Radio>
-                <Radio value='2' colorScheme='blackAlpha'>Mrs.*</Radio>
-                 <Radio value='3' colorScheme='blackAlpha'>Mr.*</Radio>
+                <Radio value='Ms.' colorScheme='blackAlpha'>Ms.*</Radio>
+                <Radio value='Mrs.' colorScheme='blackAlpha'>Mrs.*</Radio>
+                 <Radio value='Mr.' colorScheme='blackAlpha'>Mr.*</Radio>
                  </Stack>
               </RadioGroup>
               </Box>
               <Box  height='50px' align='left'>
                 <form action="">
                 <SimpleGrid columns={1} spacing={3}>
-                <Input placeholder='first name *' border='2px'/>
-                <Input placeholder='last name *' border='2px'/>
-                <Input placeholder='company' border='2px'/>
-                <Input placeholder='Email address *' border='2px'/>
-                <Input placeholder='street *' border='2px'/>
-                <Input placeholder='address line 2' border='2px'/>
-                <Input placeholder='postcode *' border='2px'/>
-                <Input placeholder='city *' border='2px'/>
-                <Select placeholder='country' size='md' border='2px' focusBorderColor = "gray">
+                <Input placeholder='first name *' border='2px' value={firstName} onChange={(e) => setFirstName(e.target.value)}/>
+                <Input placeholder='last name *' border='2px' value={lastName} onChange={(e) =>   setLastName(e.target.value)}/>
+                <Input placeholder='company' border='2px' value={company} onChange={(e) =>   setCompany(e.target.value)}/>
+                <Input placeholder='Email address *' border='2px' value={email} onChange={(e) =>   setEmail(e.target.value)}/>
+                <Input placeholder='street *' border='2px' value={street} onChange={(e) =>   setStreet(e.target.value)}/>
+                <Input placeholder='address line 2' border='2px' value={lineTwo} onChange={(e) =>   setLineTwo(e.target.value)}/>
+                <Input placeholder='postcode *' border='2px' value={post} onChange={(e) =>   setPost(e.target.value)}/>
+                <Input placeholder='city *' border='2px' value={city} onChange={(e) =>   setCity(e.target.value)}/>
+                <Select placeholder='country' size='md' border='2px' focusBorderColor = "gray" value={country} onChange={(e) =>   setCountry(e.target.value)}>
                     <option value="China">China</option>
                     <option value="India">India</option>
                     <option value="USA">USA</option>
@@ -59,10 +78,11 @@ const Delivery = () => {
                     <option value="Maldives">Maldives</option>
                     <option value="Singapore">Singapore</option>
                 </Select>
-                <Input placeholder='mobile phone *' border='2px'/>
+                <Input placeholder='mobile phone *' border='2px' value={phone} onChange={(e) =>   setPhone(e.target.value)}/>
                 <Box  height='50px' align='left'>
                 * required fields
               </Box>
+                <button></button>
               <Box  height='10px' align='left'>
                 
               </Box>
@@ -118,9 +138,9 @@ const Delivery = () => {
   <Box height='40px'>
   <Grid templateColumns='78% 20%' gap={6} mt='-4'>
   <GridItem w='100%' h='10'>
-  <RadioGroup defaultValue='2'>
+  <RadioGroup onChange={setDhl} value={dhl} onClick={() => setDhl(value)}>
   <Stack spacing={5} direction='row' fontWeight='bold'>
-    <Radio colorScheme='blackAlpha' value='2' >
+    <Radio colorScheme='blackAlpha' value='DHL EXPRESS'>
       DHL EXPRESS
     </Radio>
     
@@ -141,18 +161,18 @@ const Delivery = () => {
   </Box>
   <SimpleGrid columns={[1,1,1,2,2,2]} spacing={10} mt='5' borderBottom='1px' borderColor='grey'>
   <Box height={['200','180','140','140','140','140']} w={['100%','100%','100%','100%','100%','100%']}>
-  <RadioGroup onChange={setValue} value={value} fontWeight='bold'>
+  <RadioGroup fontWeight='bold' value={mPack} onChange={setMPack} onClick={() => setMPack(value)}>
       <Stack direction='row'>
-        <Radio value='5' colorScheme='blackAlpha'>Mytheresa packaging</Radio>
+        <Radio value='Mytheresa Packaging' colorScheme='blackAlpha'>Mytheresa packaging</Radio>
       </Stack>
     </RadioGroup>
    <Box ml='6'>Free</Box>
    <Image src='https://www.mytheresa.com/skin/frontend/mytheresa/default/images/package/package_mytheresa_2x.jpg' w='40%' ml={[40,20,10,6,6,6]}/>
   </Box>
   <Box height={['200','180','160','140','140','140']} w={['100%','100%','100%','100%','100%','100%']}>
-  <RadioGroup onChange={setValue} value={value} fontWeight='bold'>
+  <RadioGroup fontWeight='bold' value={ePack} onChange={setEPack} onClick={() => setEPack(value)}>
       <Stack direction='row'>
-        <Radio value='4' colorScheme='blackAlpha'>Eco packaging</Radio>
+        <Radio value='Eco packaging' colorScheme='blackAlpha'>Eco packaging</Radio>
       </Stack>
     </RadioGroup>
    <Box ml='6'>Free</Box>
@@ -172,11 +192,13 @@ const Delivery = () => {
 </Grid>
 </Box>
 <Box h='20' align={['center']} mt={[10,100,220,450,460,460]}>
-<button style={{background:"black", color:"white", padding:"4px 30px", width:"100%, 60%, 40%, 40%, 40%, 40%", }}>PROCEED TO CHECKOUT</button>
+<button style={{background:"black", color:"white", padding:"4px 30px", width:"100%, 60%, 40%, 40%, 40%, 40%", }} onClick={handleClick}>PROCEED TO CHECKOUT</button>
 </Box>
 </SimpleGrid>
   </Box>
+  
                    </SimpleGrid>
+          
                    <hr />
     <Footer />
     <SimpleGrid columns={[1,2,2,2,2,2]} spacing={10} m='auto' mt='10' w='75%' borderTop='1px' borderColor='grey'>
