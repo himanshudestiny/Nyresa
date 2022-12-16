@@ -2,14 +2,14 @@ import React from 'react'
 
 import { SimpleGrid, Box, Grid, GridItem, Image } from '@chakra-ui/react'
 
-const Product = ({title, desc, price, quantity, subTotal, size, itemNo}) => {
+const Product = ({title, desc, price, quantity, subTotal, size, itemNo, image}) => {
   return (
     <div>
     <SimpleGrid columns={[1,1,1,2,2,2]} spacing={0} p='8' borderTop='1px' borderColor='grey' w={['95%','95%','95%','100%','100%','100%']}>
   <Box height={['260px', '260px','260px','180px','180px','180px']} borderTop='1px' borderColor='grey'>
   <Grid templateColumns={['55% 55%','25% 30%','25% 30%','25% 30%','25% 30%','25% 30%',]} gap={2} mt='4'>
   <GridItem w='100%' h='180px' >
-    <Image src='https://img.mytheresa.com/240/240/90/jpeg/catalog/product/a5/P00505633.jpg' alt='product' h='100%' ></Image>
+    <Image src={image} alt='product' h='100%' ></Image>
   </GridItem>
   <GridItem w='100%' h='auto' >
     <Box align='left' mt='6'>{title}</Box>

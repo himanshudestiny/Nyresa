@@ -107,7 +107,7 @@ const Payment = () => {
   <Box height='100px'>
   <SimpleGrid columns={[1,1,2,2,2,2]} spacing={6} mt='16'>
   <Box height='30px' align='left'><Button h='30px' w='240px' colorScheme='gray' color='black'>BACK TO DELIVERY</Button></Box>
-  <Box height='30px' align='right' ><button style={{backgroundColor:'black', color:'white', height:'30px', width:'240px'}} onClick={handleClick}>PROCEED TO CHECKOUT</button></Box>
+  <Box height='30px' align='right'><button style={{backgroundColor:'black', color:'white', height:'30px', width:'240px'}} onClick={handleClick}>PROCEED TO CHECKOUT</button></Box>
 </SimpleGrid>
   </Box>
   <Box h={[100,70,70,70,70,70]} mt={[20,20,10,10,10,10]} w='100%' align='left' opacity='90%' borderBottom='1px' borderColor='grey'> <Box w={['120%','100%','70%','70%','36%','36%']}> Please note: By clicking this button, all data listed on this page will be erased for security reasons.</Box> </Box>
