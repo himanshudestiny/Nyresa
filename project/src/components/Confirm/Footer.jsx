@@ -7,7 +7,7 @@ import { GrMail } from "react-icons/gr";
 
 const Footer = () => {
   return (
-    <SimpleGrid columns={[1,2,2,2,2,2]} spacing={4} m='auto' w={['105%','90%','85%','80%','60%','60%']} mt={[-50,10,10,10,10,10]}>
+    <SimpleGrid columns={[1,2,2,2,2,2]} spacing={4} m='auto' w={['105%','90%','85%','80%','60%','60%']} mt={[10,10,10,10,10,10]}>
   <Box  height='auto' border='1px' borderColor='grey' pb='10' w={['115%','95%', '100%', '100%', '100%', '100%']}>
   <SimpleGrid columns={1} spacing={0}>
   <Box height='40px' align='center' mt='2'>
@@ -38,6 +38,7 @@ const Footer = () => {
   
 </SimpleGrid>
   </Box>
+
      </SimpleGrid>
      
   )
