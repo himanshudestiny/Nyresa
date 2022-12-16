@@ -2,7 +2,7 @@ import React from 'react'
 
 import Logo  from './Logo.png';
 
-import { Grid, GridItem, Box, Image } from '@chakra-ui/react';
+import { Grid, GridItem } from '@chakra-ui/react';
 
 const Header = () => {
   return (
@@ -17,7 +17,7 @@ const Header = () => {
         <GridItem w='100%' h='10' >
             <h1>SIGN IN</h1>
         </GridItem>
-        <GridItem w='100%' h='10' >
+        <GridItem w='100%' h='10' fontWeight='bolder' textDecoration='underline' fontSize='18px'>
             <h1>DELIVERY</h1>
         </GridItem>
         <GridItem w='100%' h='10' >
