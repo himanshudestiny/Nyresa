@@ -7,7 +7,7 @@ import "../Products.css"
 
 
 
-const Header = ({ showSidebarButton = true, onShowSidebar,count,page,updateCurrentPage ,sortorder}) => {
+const Header = ({ showSidebarButton = true, onShowSidebar,count,page,updateCurrentPage ,sortorder,category}) => {
 
  
 
@@ -34,11 +34,9 @@ const Header = ({ showSidebarButton = true, onShowSidebar,count,page,updateCurre
           
         )}
       </Box>
-      {/* <Center flex="1" h="40px">
-        <Text fontSize="xl">Page Title</Text>
-      </Center> */}
+      
       <Box className='sortsec' >
-      <Text color="gray">{108} Products</Text>
+      <Text color="gray">{category=="Mens"?108:category=="Womens"?102:98} Products</Text>
       
       <Select width={{sm:"100px",md:"100px",base:"100px"}} border="none" color="grey"   onChange={handlechange} placeholder='Sort by' height={6}>
     <option value='asc'>Price low-to-high</option>

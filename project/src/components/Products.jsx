@@ -18,7 +18,7 @@ const mdVariant = { navigation: 'sidebar', navigationButton: false }
 
 
 
-const Products = () => {
+const Products = ({category}) => {
 
   const [page,setpage]=useState(1);
   const [sort,setsort]=useState("");
@@ -49,14 +49,14 @@ const Products = () => {
   useEffect(()=>{
 
     if(normal===false){
-      dispatch(getdata(page,sort,order))
+      dispatch(getdata(page,sort,order,category))
     }
 
    else{
-    dispatch(filterdata(filtval,page,sort,order))
+    dispatch(filterdata(filtval,page,sort,order,category))
    }
 
-  },[page,sort,order])
+  },[page,sort,order,category])
 
 
   const sortorder=(val)=>{
@@ -71,11 +71,12 @@ const Products = () => {
   navigate("/ProductDetails")
   // return <Navigate to="/ProductDetails"/>
  }
-
+ 
+ 
  
   return (
     <>
-    <Box display="flex" justifyContent="space-between" border="1px solid black">
+    <Box display="flex" justifyContent="space-between" >
       <Sidebar
         variant={variants?.navigation}
         isOpen={isSidebarOpen}
@@ -87,6 +88,7 @@ const Products = () => {
 
         tognormal={tognormal}
         norm={norm}
+        category={category}
       />
       <Box  width="100%">
         <Header
@@ -98,6 +100,8 @@ const Products = () => {
           updateCurrentPage={(pan)=>setpage(pan)}
 
           sortorder={sortorder}
+
+          category={category}
         />
 
 
@@ -109,12 +113,12 @@ const Products = () => {
            {products.loading &&
             <Box>
 
-            <h1>Loading ....</h1>
+            <Heading>Loading ....</Heading>
             <Progress size='xs' isIndeterminate />
             </Box>
             }
 
-{
+               {
                 products.data.length==0 && <Box >
                   <Image boxSize="400px" m="auto" src='https://upload.wikimedia.org/wikipedia/commons/2/22/Sad.gif'/>
                  <Heading>Results not found for this page</Heading>  
@@ -124,7 +128,7 @@ const Products = () => {
         <Grid p={6} templateColumns={{sm:"repeat(2,1fr)",md:"repeat(2,1fr)",lg:"repeat(3,1fr)"}} gap="20px">
           {
             products.data?.map((el)=>
-            <Box key={el.id} onClick={()=>tolocal(el)} border="1px solid black" textAlign="center">
+            <Box key={el.id} className="eldiv" onClick={()=>tolocal(el)}  textAlign="center">
 
               <Image m="auto" src={el.images[0]} width="240px" height="260px" alt='title' />
               <Text mt={2}>{el.title}</Text>

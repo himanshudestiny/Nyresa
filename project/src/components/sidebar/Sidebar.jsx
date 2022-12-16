@@ -25,13 +25,18 @@ import {
   
  import "../Products.css"
 
+
   
+  const SidebarContent = ({ onClick,show ,dispatch,page,sort,order,tognormal,norm,category}) => {
   
-  const SidebarContent = ({ onClick,show ,dispatch,page,sort,order,tognormal,norm}) => (
+    let val1=category=="Mens"?"Joggers":category=="Womens"?"Kurta":"T-shirt";
+    let val2=category=="Mens"?"Shirt":category=="Womens"?"Jeans":"Sweatshirt";
+    let val3=category=="Mens"?"Jeans":category=="Womens"?"Trousers":"Joggers";
+
   
-    
-  
-    <Box mt={4} textAlign="left" borderTop="1px solid grey"   fontSize="15px" cursor="pointer">
+
+    return <>
+     <Box mt={4} textAlign="left"   fontSize="15px" cursor="pointer">
         <Flex flexDirection="column"  gap={2}>
           {
             show=='sidebar' && 
@@ -59,10 +64,10 @@ import {
     </h2>
     <AccordionPanel pb={4} >
     <Flex flexDirection="column">
-    <Checkbox onChange={()=>{dispatch(getdata(1,"","")); norm(); onClick()}}><Text className='hovereffect' color="grey">All</Text></Checkbox>
-    <Checkbox onChange={()=>{dispatch(filterdata("Joggers",page,sort,order)); tognormal("Joggers"); onClick()}}><Text className='hovereffect' color="grey">Joggers</Text></Checkbox>
-    <Checkbox onChange={()=>{dispatch(filterdata("Shirt",page,sort,order)); tognormal("Shirt"); onClick()}}><Text className='hovereffect'  color="grey">Shirt</Text></Checkbox>
-    <Checkbox onChange={()=>{dispatch(filterdata("Jeans",page,sort,order)); tognormal("Jeans"); onClick()}}><Text className='hovereffect' color="grey">Jeans</Text></Checkbox>
+    <Checkbox onChange={()=>{dispatch(getdata(1,"","",category)); norm(); onClick()}}><Text className='hovereffect' color="grey">All</Text></Checkbox>
+    <Checkbox onChange={()=>{dispatch(filterdata(val1,page,sort,order,category)); tognormal(val1); onClick()}}><Text className='hovereffect' color="grey">{val1}</Text></Checkbox>
+    <Checkbox onChange={()=>{dispatch(filterdata(val2,page,sort,order,category)); tognormal(val2); onClick()}}><Text className='hovereffect'  color="grey">{val2}</Text></Checkbox>
+    <Checkbox onChange={()=>{dispatch(filterdata(val3,page,sort,order,category)); tognormal(val3); onClick()}}><Text className='hovereffect' color="grey">{val3}</Text></Checkbox>
     </Flex>
 
     </AccordionPanel>
@@ -145,9 +150,10 @@ import {
      
       </Flex>
     </Box>
-  )
+    </>
+  }
   
-  const Sidebar = ({ isOpen, variant, onClose,page,sort,order,tognormal,norm }) => {
+  const Sidebar = ({ isOpen, variant, onClose,page,sort,order,tognormal,norm,category }) => {
 
     const dispatch=useDispatch();
 
@@ -162,13 +168,13 @@ import {
         w="400px"
         top={0}
         h="100%"
-        borderRight="1px solid black"
+        
         
       >
-         <Text  color="grey" fontSize="11px">Men/New Arrivals/Current Week </Text>
-         {/* <Divider mt="13px"/> */}
+         <Text  color="grey" fontSize="11px">{category=="Mens"?"Mens":category=="Womens"?"Womens":"Kids"}/New Arrivals/Current Week </Text>
+         <Divider mt="13px"/>
 
-        <SidebarContent onClick={onClose} show={variant} dispatch={dispatch} page={page} sort={sort} order={order} tognormal={tognormal} norm={norm}/>
+        <SidebarContent onClick={onClose} show={variant} dispatch={dispatch} page={page} sort={sort} order={order} tognormal={tognormal} norm={norm} category={category}/>
       </Box>
       
     ) : (
@@ -178,7 +184,7 @@ import {
             <DrawerCloseButton />
             <DrawerHeader>Filter </DrawerHeader>
             <DrawerBody>
-              <SidebarContent onClick={onClose} show={variant} dispatch={dispatch} page={page} sort={sort} order={order} tognormal={tognormal} norm={norm}/>
+              <SidebarContent onClick={onClose} show={variant} dispatch={dispatch} page={page} sort={sort} order={order} tognormal={tognormal} norm={norm} category={category}/>
             </DrawerBody>
           </DrawerContent>
         </DrawerOverlay>

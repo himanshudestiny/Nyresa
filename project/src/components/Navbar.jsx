@@ -23,7 +23,7 @@ export default function Navbar() {
             fontSize={{ base: "10px", lg: "12px", xl: "18px" }}
             display={["none", "flex", "flex"]}
           >
-            <Link to="/">
+            <Link to="/womenproduct">
               <Text className="categ" cursor="pointer">
                 WOMEN
               </Text>
@@ -33,7 +33,7 @@ export default function Navbar() {
                 MEN
               </Text>
             </Link>
-            <Link to="/">
+            <Link to="/kidproduct">
               <Text className="categ" cursor="pointer">
                 KIDS
               </Text>
