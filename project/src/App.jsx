@@ -11,11 +11,10 @@ import Address from "./components/Delivery/Address";
 function App() {
   return (
     <div className="App">
-      {/* <Navbar /> */}
-      {/* <Products /> */}
-      {/* <ProductDetails /> */}
-      {/* <AllRoutes /> */}
-      <Delivery />
+      <Navbar />
+       <Products />
+      <ProductDetails />
+       <AllRoutes />
     </div>
   );
 }

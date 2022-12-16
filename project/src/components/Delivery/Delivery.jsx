@@ -6,6 +6,7 @@ import { useState } from "react";
 import { Grid, GridItem, Box, SimpleGrid, Radio, RadioGroup, Stack, Input, Select,Button, Checkbox } from '@chakra-ui/react'
 import { Image } from '@chakra-ui/react'
 import Footer from './Footer';
+import { Link } from 'react-router-dom';
 
 const Delivery = () => {
     const [value, setValue] = React.useState('');
@@ -191,9 +192,10 @@ const Delivery = () => {
   </GridItem>
 </Grid>
 </Box>
-<Box h='20' align={['center']} mt={[10,100,220,450,460,460]}>
-<button style={{background:"black", color:"white", padding:"4px 30px", width:"100%, 60%, 40%, 40%, 40%, 40%", }} onClick={handleClick}>PROCEED TO CHECKOUT</button>
+ <Box h='20' align={['center']} mt={[10,100,220,450,460,460]}>
+ <Link to='/payment'> <button style={{background:"black", color:"white", padding:"4px 30px", width:"100%, 60%, 40%, 40%, 40%, 40%", }} onClick={handleClick}>PROCEED TO CHECKOUT</button></Link>
 </Box>
+
 </SimpleGrid>
   </Box>
   
