@@ -1,8 +1,9 @@
 import React from "react";
-import { Box, Flex, Heading, Image } from "@chakra-ui/react";
+import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import Carousel from "../components/Carousel";
 import data from "../assets/data/products.json";
+import Footer from "../components/Footer";
 
 const Home = () => {
   console.log(data);
@@ -142,22 +143,114 @@ const Home = () => {
       <br />
       <br />
       <br />
-
-      <Carousel link={"/"} title="Men's Collection" data={data.Mens} />
+      <Carousel link={"/"} title="Men's New Arrivals" data={data.Mens} />
       <br />
       <br />
       <br />
       <br />
-      <Carousel link={"/"} title="Women's Collection" data={data.Womens} />
+      <Carousel link={"/"} title="Women's New Arrivals" data={data.Womens} />
       <br />
       <br />
       <br />
       <br />
-      <Carousel link={"/"} title="Kid's Collection" data={data.Kids} />
+      <Carousel link={"/"} title="Kid's New Arrivals" data={data.Kids} />
       <br />
       <br />
       <br />
       <br />
+      <Carousel link={"/"} title="Life New Arrivals" data={data.Life} />
+      <br />
+      <br />
+      <br />
+      <br />
+      <hr
+        style={{ border: "1px solid #dee0e3", width: "95%", margin: "auto" }}
+      />
+      <br />
+      <br />
+      <br />
+      <hr
+        style={{ border: "1px solid #dee0e3", width: "95%", margin: "auto" }}
+      />{" "}
+      <Box mt={"20px"}>
+        <Heading
+          fontSize={{ base: "15px", md: "19px", lg: "25px" }}
+          fontFamily="Century Gothic"
+          letterSpacing={"0.8px"}
+          fontWeight="400"
+          mt={"50px"}
+        >
+          MYTHERESA – LUXURY FASHION AND DESIGNER SHOPPING
+        </Heading>
+        <Box textAlign={"left"} padding={"20px 120px 20px 120px"}>
+          <Text
+            fontSize={{ base: "11px", md: "15px", lg: "19px" }}
+            letterSpacing="1px"
+            fontWeight={400}
+          >
+            Mytheresa is an online shopping destination for children's, men's,
+            and women’s luxury fashion and lifestyle design. Our edit makes it
+            possible for you to choose from the finest selection of the world’s
+            most sought-after designer brands such as Bottega Veneta, Givenchy,
+            and Burberry. We pride ourselves on creating an easy-to-navigate
+            online shopping platform while maintaining an elevated boutique-like
+            feel.
+            <br />
+            <br />
+            Our expert team of buyers scour the globe each season to bring you
+            the most exquisite selection of fashion straight from the runways of
+            New York, London, Paris and Milan. With our daily New Arrivals, we
+            make it effortless for you to have the most coveted items first.
+            Whether you’re looking to invest in timeless pieces from Gucci,
+            Balenciaga, Christian Louboutin and Saint Laurent, or you want to
+            set trends in Off-White, Acne Studios and Alanui, Mytheresa is the
+            go-to fashion and designer website that can fulfill all your
+            sartorial wishes. In our Life store, you'll find a range of
+            established and emerging designers in home, lifestyle, and more,
+            like Tom Dixon, Vitra and La DoubleJ. Our unique assortment of
+            menswear, womenswear, kidswear and lifestyle design now makes it
+            possible to shop for your loved ones – even your pets – all in one
+            place.
+            <br />
+            <br />
+            Mytheresa has a long and rich fashion heritage that spans more than
+            30 years. What began in the heart of Munich as a contained local
+            boutique offering creations from international designers has now
+            grown to become one of the most innovative luxury e-commerce
+            companies in the world. Whether you’re paying a visit to our
+            Mytheresa Store, browsing from your computer at home, or shopping
+            on-the-go via our mobile app, our goal always remains the same: to
+            provide the perfect space that caters to all your shopping desires.
+          </Text>
+          <Text
+            textAlign={"center"}
+            fontSize={{ base: "11px", md: "15px", lg: "19px" }}
+            mt={"15px"}
+          >
+            <Link>
+              <u>Mytheresa Women</u>
+            </Link>
+            <span>&nbsp;</span> |<span>&nbsp;</span>
+            <Link>
+              <u>Mytheresa Men</u>
+            </Link>
+            <span>&nbsp;</span>|<span>&nbsp;</span>
+            <Link>
+              <u>Mytheresa Kids</u>
+            </Link>
+            <span>&nbsp;</span>|<span>&nbsp;</span>
+            <Link>
+              <u>Mytheresa Life</u>
+            </Link>
+          </Text>
+        </Box>
+        <hr
+          style={{ border: "1px solid #dee0e3", width: "95%", margin: "auto" }}
+        />
+      </Box>
+      <br />
+      <br />
+      <Footer />
     </Box>
   );
 };

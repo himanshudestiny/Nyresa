@@ -887,5 +887,111 @@
             "rating": "4.3",
             "rating_count": "286"
         }
+    ],
+    "Life": [
+        {
+            "id": 21,
+            "discounted_price": 295,
+            "title": "Striped cashmere beanie",
+            "images": [
+                "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/60/P00744701.jpg"
+            ]
+        },
+        {
+            "id": 22,
+            "discounted_price": 609,
+            "title": "Striped cashmere scarf",
+            "images": [
+                "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/67/P00744698.jpg"
+            ]
+        },
+        {
+            "id": 2654,
+            "discounted_price": 255,
+            "title": "Classic aviator sunglasses",
+            "images": [
+                "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/19/P00750071.jpg"
+            ]
+        },
+        {
+            "id": 2324,
+            "discounted_price": 465,
+            "title": "Leather belt",
+            "images": [
+                "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/f6/P00758032.jpg"
+            ]
+        },
+        {
+            "id": 21765,
+            "discounted_price": 505,
+            "title": "Vintage Check reversible cashmere scarf",
+            "images": [
+                "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/91/P00758056.jpg"
+            ]
+        },
+        {
+            "id": 21870,
+            "discounted_price": 505,
+            "title": "Vintage Check bouclé headband",
+            "images": [
+                "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/b4/P00758048.jpg"
+            ]
+        },
+        {
+            "id": 2104903,
+            "discounted_price": 839,
+            "title": "Cassandre leather wallet on chain",
+            "images": [
+                "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/b4/P00737146_b1.jpg"
+            ]
+        },
+        {
+            "id": 3421,
+            "discounted_price": 195,
+            "title": "Striped mohair and wool scarf",
+            "images": [
+                "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/4c/P00691114.jpg"
+            ]
+        },
+        {
+            "id": 22341,
+            "discounted_price": 95,
+            "title": "Frayed cotton bucket hat",
+            "images": [
+                "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/59/P00754284.jpg"
+            ]
+        },
+        {
+            "id": 22311,
+            "discounted_price": 325,
+            "title": "GG Marmont reversible leather belt",
+            "images": [
+                "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/2e/P00752136.jpg"
+            ]
+        },
+        {
+            "id": 1221,
+            "discounted_price": 355,
+            "title": "Grande Unita cashmere scarf",
+            "images": [
+                "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/cd/P00361196_b1.jpg"
+            ]
+        },
+        {
+            "id": 1221,
+            "discounted_price": 659,
+            "title": "Dante cashmere scarf",
+            "images": [
+                "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/5c/P00763618.jpg"
+            ]
+        },
+        {
+            "id": 9221,
+            "discounted_price": 205,
+            "title": "Medusa Biggie rectangular sunglasses",
+            "images": [
+                "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/8c/P00706754.jpg"
+            ]
+        }
     ]
 }
