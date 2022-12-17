@@ -13,9 +13,9 @@ function App() {
     <div className="App">
       <Navbar />
       {/* <Products /> */}
-      {/* <ProductDetails /> */}
+      <ProductDetails />
       <AllRoutes />
-      {/* <Delivery /> */}
+      <Delivery />
     </div>
   );
 }
