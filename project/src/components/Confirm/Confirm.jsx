@@ -2,6 +2,8 @@ import React from 'react'
 import Header from './Header';
 import Product from "./Product";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
+
 
 import { SimpleGrid, Box, Grid, GridItem, Textarea, Checkbox } from '@chakra-ui/react'
 
@@ -12,9 +14,9 @@ const products = [
     desc: 'Shelton velvet blazer',
     size: 'IT- 46 / S',
     itemNo: 'P00505633',
-    price: '2530.00',
-    quantity: '1',
-    subTotal: '2530.00',
+    price: 2530.00,
+    quantity: 1,
+    subTotal: 2530.00,
     image:'https://img.mytheresa.com/240/240/90/jpeg/catalog/product/a5/P00505633.jpg'
 },
 { id : '2',
@@ -22,9 +24,9 @@ title: 'OUR LEGACY',
 desc: 'Wool-blend scarf',
 size: 'One size fits all',
 itemNo: 'P00706095',
-price:' 83.00',
-quantity: '1',
-subTotal: '83.00',
+price: 83.00,
+quantity: 2,
+subTotal: 83.00,
 image:'https://img.mytheresa.com/240/240/90/jpeg/catalog/product/f3/P00706059.jpg'
 },
 { id : '3',
@@ -32,9 +34,9 @@ title: 'ALANUI',
 desc: 'Dancing Light crocheted wool-blend cardigan',
 size: 'S',
 itemNo: 'P00691258',
-price: '619.00',
-quantity: 1,
-subTotal: '619.00',
+price: 619.00,
+quantity: 3,
+subTotal: 619.00,
 image:'https://img.mytheresa.com/240/240/90/jpeg/catalog/product/bd/P00691258.jpg'
 },
 ]
@@ -61,15 +63,20 @@ const Confirm = () => {
 
      const [ form, setForm ] = React.useState([]);
      const [ number, setNumber ] = React.useState([]);
+     let subtotal = 0;
 
+
+     const add = (total) => {
+      subtotal=subtotal+total;
+      console.log(subtotal);
+     }
 
    React.useEffect(() => {
       setForm(getForm());
       setNumber(getNumber());
    },[])
      
-
-    console.log(number[0]%10000);
+    
   return (
     <div>
         <Header />
@@ -93,7 +100,7 @@ Do you agree to these conditions?</Box>  </Box>
   <Box height='230px' align='left' borderTop='1px' borderColor='grey'>
   <Grid templateColumns='75% 24%' gap={1} mt='2'>
   <GridItem w='100%' h='8'  align='left' >SHIPPING ADDRESS</GridItem >
-  <GridItem w='100%' h='8'  align='right' opacity='80%'>    Change </GridItem >
+ <Link to='/delivery'> <GridItem w='100%' h='8'  align='right' opacity='80%'>    Change </GridItem ></Link>
 </Grid>
 <Box opacity='80%'>{form[0]} <span>{form[1]} {form[2]}</span> </Box>
 <Box opacity='80%'></Box>
@@ -106,14 +113,14 @@ Do you agree to these conditions?</Box>  </Box>
   <Box height='100px' align='left' borderTop='1px' borderColor='grey'>
   <Grid templateColumns='75% 24%' gap={1} mt='2'>
   <GridItem w='100%' h='8'  align='left' >SHIPPING METHOD</GridItem >
-  <GridItem w='100%' h='8'  align='right' opacity='80%'>    Change </GridItem >
+ <Link to='/delivery'> <GridItem w='100%' h='8'  align='right' opacity='80%'>    Change </GridItem ></Link>
 </Grid>
 <Box opacity='80%'>{form[11]}  <span>$ 0.00</span>  </Box>
   </Box>
   <Box height='140px' align='left' borderTop='1px' borderColor='grey'>
   <Grid templateColumns='75% 24%' gap={1} mt='2'>
   <GridItem w='100%' h='8'  align='left' >CLIMATE NEUTRAL OPTION</GridItem >
-  <GridItem w='100%' h='8'  align='right' opacity='80%'>    Change </GridItem >
+<Link to='/delivery'>  <GridItem w='100%' h='8'  align='right' opacity='80%'>    Change </GridItem ></Link>
 </Grid>
 <Box bg='gray.100' align='center' h={[12,8,8,12,8,8]} opacity='80%'>Change your settings now to help offset the CO2 emissions of your order</Box>
 <Box opacity='80%'>CO2 offsetting € 0.00</Box>
@@ -126,7 +133,7 @@ Do you agree to these conditions?</Box>  </Box>
   <Box height='230px' align='left' borderTop='1px' borderColor='grey'>
   <Grid templateColumns='75% 24%' gap={1} mt='2'>
   <GridItem w='100%' h='8'  align='left' >BILLING ADDRESS</GridItem >
-  <GridItem w='100%' h='8'  align='right' opacity='80%'>    Change </GridItem >
+<Link to='/delivery'>  <GridItem w='100%' h='8'  align='right' opacity='80%'>    Change </GridItem ></Link>
 </Grid>
 <Box opacity='80%'>{form[0]} <span>{form[1]} {form[2]}</span> </Box>
 <Box opacity='80%'>{form[5]}</Box>
@@ -139,14 +146,14 @@ Do you agree to these conditions?</Box>  </Box>
   <Box height='100px' align='left' borderTop='1px' borderColor='grey'>
   <Grid templateColumns='75% 24%' gap={1} mt='2'>
   <GridItem w='100%' h='8'  align='left' >PACKAGING OPTIONS</GridItem >
-  <GridItem w='100%' h='8'  align='right' opacity='80%'> Change</GridItem >
+ <Link to='/delivery'> <GridItem w='100%' h='8'  align='right' opacity='80%'> Change</GridItem ></Link>
 </Grid>
-<Box opacity='80%'>{form[13]}</Box>
+<Box opacity='80%'>{form[13] || form[12]}</Box>
   </Box>
   <Box height='140px' align='left' borderTop='1px' borderColor='grey'>
   <Grid templateColumns='75% 24%' gap={1} mt='2'>
   <GridItem w='100%' h='8'  align='left' >PAYMENT METHOD</GridItem >
-  <GridItem w='100%' h='8'  align='right' opacity='80%'>    Change </GridItem >
+ <Link to='/payment'> <GridItem w='100%' h='8'  align='right' opacity='80%'>    Change </GridItem ></Link>
 </Grid>
 <Box align='left' h='8' opacity='80%'>card type:</Box>
 <Box opacity='80%'>Card number: xxxx-<span>{number[0]%10000}</span> </Box>
@@ -165,16 +172,17 @@ Do you agree to these conditions?</Box>  </Box>
         products.map((product) => (
           
           <div key={product.id}>
-            <Product key={product.id} title={product.title} desc={product.desc} size={product.size} itemNo={product.itemNo} quantity={product.quantity} price={product.price} subTotal={product.subTotal} image={product.image}/>
-            </div>
+            <Product key={product.id} title={product.title} desc={product.desc} size={product.size} itemNo={product.itemNo} quantity={product.quantity} price={product.price} subTotal={product.subTotal} image={product.image} subtotal={subtotal+ product.subTotal} />
+          { add(product.subTotal) }
+             </div>
         ))
     }
   </Box> 
 <Box h='auto' align='right' >
 
-    <Box opacity='80%' h='8' mt='2'>Subtotal <span>$2,530.00</span> </Box>
+    <Box opacity='80%' h='8' mt='2'>Subtotal $<span>{subtotal}</span> </Box>
     <Box opacity='80%' h='8'>Shipping (DHL Express)  <span>$ 0.00</span> </Box>
-    <Box h='12' > <span style={{fontWeight:'bolder'}}>Grand Total</span> <span>$2,530.00</span> </Box>
+    <Box h='12' > <span style={{fontWeight:'bolder'}}>Grand Total $</span><span>{subtotal}</span> </Box>
     <Box opacity='80%' h='8'>VAT exception. VAT not included </Box>
     <Box h='8'> <button style={{backgroundColor:"black", width:"240px", color:'white', fontSize:'14px', height:'40px', alignItems:"center", justifyContent:'center'}}>COMPLETE PURCHASE</button> </Box>
    
