@@ -143,17 +143,29 @@ const Home = () => {
       <br />
       <br />
       <br />
-      <Carousel link={"/"} title="Men's New Arrivals" data={data.Mens} />
+      <Carousel
+        link={"/menproduct"}
+        title="Men's New Arrivals"
+        data={data.Mens}
+      />
       <br />
       <br />
       <br />
       <br />
-      <Carousel link={"/"} title="Women's New Arrivals" data={data.Womens} />
+      <Carousel
+        link={"/womenproduct"}
+        title="Women's New Arrivals"
+        data={data.Womens}
+      />
       <br />
       <br />
       <br />
       <br />
-      <Carousel link={"/"} title="Kid's New Arrivals" data={data.Kids} />
+      <Carousel
+        link={"/kidproduct"}
+        title="Kid's New Arrivals"
+        data={data.Kids}
+      />
       <br />
       <br />
       <br />
