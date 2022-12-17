@@ -7,10 +7,10 @@ import 'swiper/css';
 import SizeChart from '../image/SizeChart.jpeg'
 import { useNavigate } from 'react-router-dom';
 let count=0;
-let recent_data=JSON.parse(localStorage.getItem("listElement"))||[];
 const ProductDetails = () => {
   const navigate=useNavigate()
   const [flag,setFlag]=useState(false)
+ 
 
 let element=JSON.parse(localStorage.getItem("element"))
   useEffect(()=>
@@ -29,8 +29,7 @@ let element=JSON.parse(localStorage.getItem("element"))
     }
     else if(count<=1)
     {
-      handlechange(e)
-      
+      handlechangesize(e)
     }
   }
   console.log(flag)
@@ -49,18 +48,26 @@ let element=JSON.parse(localStorage.getItem("element"))
     }
     else if(count<=1)
     {
-      handlechange(e)
+      handlechangesize(e)
     }
   }
   const handleShopingBag=(el)=>{
-    recent_data.push(el) 
-    localStorage.setItem("listElement",JSON.stringify(recent_data))
+    console.log()
+    fetch(' http://localhost:8080/productlist',{
+      method:'POST',
+      headers:{
+        'Content-Type':'application/json'
+      },
+      body:JSON.stringify(el)
+    }).then((res)=>res.json())
+
     navigate("/ProductList")
   }
-
-  const handlechange=(e)=>
+  const handlechangesize=(e)=>
   {
     let value=e.target.value
+    localStorage.setItem("ElementSize",JSON.stringify(value))
+    console.log(value)
     if(!value)
     {
       alert('please Select size')
@@ -96,7 +103,7 @@ let element=JSON.parse(localStorage.getItem("element"))
         <Flex><Text marginLeft={'20px'} fontWeight={'bold'}>$ {element.discounted_price}</Text><Text marginLeft={'20px'} textDecorationLine={'line-through'}>$ {element.strike_price}</Text></Flex>
         <Text color={'red'} margin={'20px'}>{element.discount}</Text>
         <Text margin={'20px'} fontSize={'14px'}>Ratings - {element.rating}*</Text>
-        <Select className='option' onChange={handlechange} marginLeft={'20px'} placeholder='Choose Size' >
+        <Select className='option' onChange={handlechangesize} marginLeft={'20px'} placeholder='Choose Size' >
         <option value={element.size[0]}>{element.size[0]}</option>
         <option value={element.size[1]}>{element.size[1]}</option>
         <option value={element.size[2]}>{element.size[2]}</option>
