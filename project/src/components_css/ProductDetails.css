@@ -23,5 +23,19 @@
     }
   }
   
-
+.checkoutDiv{
+    padding: '10px';
+    display: flex;
+    justify-content: space-around;
+}
   
+@media screen and (max-width: 800px)
+{
+    .checkoutDiv{
+        display: grid;
+    }
+    .checkoutDiv_button
+    {
+        margin-top: 10px;
+    }
+}
