@@ -6,6 +6,9 @@ import PrivateRoute from "../components/PrivateRoute";
 import ProductDetails from "../components/ProductDetails";
 import Products from "../components/Products";
 import ProductList from "../components/ProductList";
+import Payment from './../components/Payment/Payment';
+import Delivery from './../components/Delivery/Delivery';
+import Confirm from './../components/Confirm/Confirm';
 
 const AllRoutes = () => {
   return (
@@ -19,6 +22,9 @@ const AllRoutes = () => {
         <Route path="/kidproduct" element={<Products category="Kids"/>}/>
         <Route path="/ProductDetails" element={<ProductDetails />} />
         <Route path='/ProductList' element={<ProductList />} />
+        <Route path='/delivery' element={<Delivery />} />
+        <Route path='/payment' element={<Payment />} />
+        <Route path='/confirm' element={<Confirm />} />
       </Routes>
     </div>
   );

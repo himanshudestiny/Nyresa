@@ -12,27 +12,30 @@ const products = [
     desc: 'Shelton velvet blazer',
     size: 'IT- 46 / S',
     itemNo: 'P00505633',
-    price: '$ 2,530.00',
+    price: '2530.00',
     quantity: '1',
-    subTotal: '$ 2,530.00'
+    subTotal: '2530.00',
+    image:'https://img.mytheresa.com/240/240/90/jpeg/catalog/product/a5/P00505633.jpg'
 },
 { id : '2',
-title: 'TOM FORD',
-desc: 'Shelton velvet blazer',
-size: 'IT- 46 / S',
-itemNo: 'P00505633',
-price: '$ 2,530.00',
+title: 'OUR LEGACY',
+desc: 'Wool-blend scarf',
+size: 'One size fits all',
+itemNo: 'P00706095',
+price:' 83.00',
 quantity: '1',
-subTotal: '$ 2,530.00'
+subTotal: '83.00',
+image:'https://img.mytheresa.com/240/240/90/jpeg/catalog/product/f3/P00706059.jpg'
 },
 { id : '3',
-title: 'TOM FORD',
-desc: 'Shelton velvet blazer',
-size: 'IT- 46 / S',
-itemNo: 'P00505633',
-price: '$ 2,530.00',
-quantity: '1',
-subTotal: '$ 2,530.00'
+title: 'ALANUI',
+desc: 'Dancing Light crocheted wool-blend cardigan',
+size: 'S',
+itemNo: 'P00691258',
+price: '619.00',
+quantity: 1,
+subTotal: '619.00',
+image:'https://img.mytheresa.com/240/240/90/jpeg/catalog/product/bd/P00691258.jpg'
 },
 ]
 
@@ -58,6 +61,7 @@ const Confirm = () => {
 
      const [ form, setForm ] = React.useState([]);
      const [ number, setNumber ] = React.useState([]);
+
 
    React.useEffect(() => {
       setForm(getForm());
@@ -159,7 +163,10 @@ Do you agree to these conditions?</Box>  </Box>
 
     {
         products.map((product) => (
-            <Product key={product.id} title={product.title} desc={product.desc} size={product.size} itemNo={product.itemNo} quantity={product.quantity} price={product.price} subTotal={product.subTotal}/>
+          
+          <div key={product.id}>
+            <Product key={product.id} title={product.title} desc={product.desc} size={product.size} itemNo={product.itemNo} quantity={product.quantity} price={product.price} subTotal={product.subTotal} image={product.image}/>
+            </div>
         ))
     }
   </Box> 
