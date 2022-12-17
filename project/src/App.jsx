@@ -12,8 +12,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <Products />
-      <ProductDetails /> */}
       <AllRoutes />
     </div>
   );
