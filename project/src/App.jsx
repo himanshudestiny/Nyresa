@@ -12,8 +12,8 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Products />
-      <ProductDetails />
+      {/* <Products />
+      <ProductDetails /> */}
       <AllRoutes />
     </div>
   );
