@@ -7,7 +7,7 @@ import 'swiper/css';
 import SizeChart from '../image/SizeChart.jpeg'
 import { useNavigate } from 'react-router-dom';
 let count=0;
-let recent_data=JSON.parse(localStorage.getItem("listElement"))||[];
+// let recent_data=JSON.parse(localStorage.getItem("listElement"))||[];
 const ProductDetails = () => {
   const navigate=useNavigate()
   const [flag,setFlag]=useState(false)
@@ -17,6 +17,7 @@ let element=JSON.parse(localStorage.getItem("element"))
   {
     element=JSON.parse(localStorage.getItem("element"))||{}
   },[element])
+
   const handleAddtobag=(e)=>
   {
     console.log('click')
@@ -53,8 +54,16 @@ let element=JSON.parse(localStorage.getItem("element"))
     }
   }
   const handleShopingBag=(el)=>{
-    recent_data.push(el) 
-    localStorage.setItem("listElement",JSON.stringify(recent_data))
+    // recent_data.push(el) 
+    // localStorage.setItem("listElement",JSON.stringify(recent_data))
+    el.preventDefault()
+    fetch("http://localhost:8080/productlist",{
+      method:"POST",
+      headers:{
+        "Content-Type":"application/json"
+      },
+      body:JSON.stringify()
+    })
     navigate("/ProductList")
   }
 

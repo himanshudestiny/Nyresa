@@ -7,11 +7,12 @@ const ProductList = () => {
   const [quantity,setQuantity]=useState(1)
   let array=JSON.parse(localStorage.getItem('listElement'))||[]
 
-  const handleDelete=(index)=>
+  const handleDelete=(e,index)=>
   {
     console.log(index)
     array.splice(index,1)
     localStorage.setItem('listElement',JSON.stringify(array))
+    e.preventDefault()
   }
  
   console.log(array)
