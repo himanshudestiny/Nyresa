@@ -30,9 +30,18 @@
   color: black;
 }
 
-#cart{
+#cart {
   color: rgb(89, 88, 88);
 }
-#cart:hover{
-  color: black
+#cart:hover {
+  color: black;
+}
+.stickyNav {
+  color: #9f2943;
+  text-align: center;
+  position: -webkit-sticky;
+  
+  background-color: #f2f2f2;
+  position: sticky;
+  top: 0;
 }
