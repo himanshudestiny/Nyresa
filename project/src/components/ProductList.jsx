@@ -94,7 +94,7 @@ if(error)
           {product.map((el)=>{
             console.log(total+=Number(el.discounted_price))
           })}
-          <Text fontWeight={'bold'} align={'right'}>Total:- ${total}</Text>\
+          <Text fontWeight={'bold'} align={'right'}>Total:- ${total}</Text>
           <br />
           <Button  className='checkoutDiv_button'  borderRadius={'none'} color={'white'} bgColor={'black'} onClick={handleCheckout}>PROCEED TO CHECKOUT</Button>
         </Box>
