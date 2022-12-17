@@ -1,8 +1,6 @@
-import { Box, Button, Center, Flex, Heading, Image, List, Text } from '@chakra-ui/react'
+import { Box, Button, Center, Text } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
-import { SimpleGrid, Grid, GridItem } from '@chakra-ui/react'
 import { useNavigate } from 'react-router-dom'
-import Product from './Confirm/Product'
 import ListChild from './ListChild'
 
 const getData=()=>{
