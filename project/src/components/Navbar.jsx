@@ -41,6 +41,7 @@ export default function Navbar() {
       alert("Logged out successfully! Redirecting back to Login Page");
     }
   };
+
   let abc = () => (
     <Box>
       {mytext
@@ -190,7 +191,7 @@ export default function Navbar() {
                 </MenuItem>
                 <MenuDivider />
                 <MenuItem _hover={{ bg: "#f3f3f3" }} transition="1s">
-                  <Link to="/">
+                  <Link to="/wishlist">
                     <Text letterSpacing={1} cursor="pointer">
                       My Wishlist
                     </Text>
@@ -203,7 +204,7 @@ export default function Navbar() {
           {/* ================================================================ */}
 
           <Box
-            w={{ base: "26%", sm: "30%", md: "32%", lg: "38%", xl: "48%" }}
+            w={{ base: "24%", sm: "27%", md: "30%", lg: "35%", xl: "45%" }}
             p={{ base: "0px 0", lg: "20px 0" }}
             display="flex"
             alignItems="center"
@@ -211,11 +212,11 @@ export default function Navbar() {
             border={"0px solid red"}
             margin={{
               base: "auto auto auto auto",
-              sm: "auto 11.5% auto auto",
-              md: "auto 18% auto auto",
-              lg: "auto 16% auto auto",
-              xl: "auto 11% auto auto",
-              "2xl": "auto 15% auto auto",
+              sm: "auto 14% auto auto",
+              md: "auto 18.5% auto auto",
+              lg: "auto 19.3% auto auto",
+              xl: "auto 12% auto auto",
+              "2xl": "auto 14.5% auto auto",
             }}
           >
             <Link to={"/"}>
