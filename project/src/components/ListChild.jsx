@@ -2,9 +2,9 @@ import { SimpleGrid, Box, Grid, GridItem, Image, Button } from '@chakra-ui/react
 import React, { useEffect, useState } from 'react'
 import ProductList from './ProductList'
 
-const ListChild = ({title,desc,id,price,image}) => {
+const ListChild = ({title,desc,id,price,image,quant}) => {
     const [quantity,setQuantity]=useState(1)
-
+let subtotal=Number(price)*(Number(quant))
     const handleInc=(id)=>
     {
         console.log(id)
@@ -57,9 +57,9 @@ const ListChild = ({title,desc,id,price,image}) => {
 <Grid templateColumns='repeat(5, 1fr)' gap={6} >
   <GridItem w='100%' h='10' align='center' opacity='80%' >${price}</GridItem>
   <button style={{backgroundColor:'rgb(240, 240, 240)'}}  disabled={quantity==1} onClick={()=>handleDec(id)}>-</button>
-  <GridItem w='100%' h='10' align='center'>{quantity}</GridItem>
+  <GridItem w='100%' h='10' align='center'>{quant}</GridItem>
   <button style={{backgroundColor:'rgb(240, 240, 240)'}} onClick={()=>handleInc(id)}>+</button>
-  <GridItem w='100%' h='10' align='center' opacity='80%' >{Number(price)*quantity}</GridItem>
+  <GridItem w='100%' h='10' align='center' opacity='80%' >{subtotal}</GridItem>
 </Grid>
      </Box>
   </Box>

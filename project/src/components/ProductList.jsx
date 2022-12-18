@@ -80,7 +80,7 @@ if(error)
         {
           product.map((el) => (
             <div style={{borderBottom:'1px solid gray',padding:"1rem"}} key={el.id}>
-              <ListChild key={el.id} title={el.title} id={el.id} desc={el.subtitle} price={el.discounted_price} image={el.images[el.images.length-1]} />
+              <ListChild key={el.id} title={el.title} id={el.id} desc={el.subtitle} price={el.discounted_price} image={el.images[el.images.length-1] } quant={el.quantity} />
               <div className='checkoutDiv'>
               <Button  bgColor={'red'} color={'white'} onClick={()=>handleDelete(el.id)}>X Remove</Button>
               <Button className='checkoutDiv_button'>Add To Wishlist</Button>

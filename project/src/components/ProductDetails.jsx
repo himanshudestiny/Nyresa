@@ -51,8 +51,9 @@ let element=JSON.parse(localStorage.getItem("element"))
       handlechangesize(e)
     }
   }
+  
   const handleShopingBag=(el)=>{
-    console.log()
+    console.log(el)
     fetch(' http://localhost:8080/productlist',{
       method:'POST',
       headers:{
@@ -60,7 +61,6 @@ let element=JSON.parse(localStorage.getItem("element"))
       },
       body:JSON.stringify(el)
     }).then((res)=>res.json())
-
     navigate("/ProductList")
   }
   const handlechangesize=(e)=>
@@ -129,7 +129,7 @@ let element=JSON.parse(localStorage.getItem("element"))
             <Text>Successfully added in the bag</Text>
              <Text marginTop={'10px'} fontWeight={'bold'}  >{element.title}</Text>
              <Text marginTop={'10px'}>{element.discounted_price}</Text>
-             <Button marginTop={'10px'} borderRadius={'none'} color={'white'} bgColor={'black'} onClick={()=>handleShopingBag(element)}>VIEW SHOPPING BAG</Button>
+             <Button marginTop={'10px'} borderRadius={'none'} color={'white'} bgColor={'black'} onClick={()=>handleShopingBag(element,element.id)}>VIEW SHOPPING BAG</Button>
              <Button marginTop={'10px'} onClick={()=>setFlag(false)}>BACK TO SHOP</Button>
           </PopoverContent>:""
         }
