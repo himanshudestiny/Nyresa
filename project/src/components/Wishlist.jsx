@@ -36,20 +36,24 @@ const Wishlist = () => {
 
    let res=await axios.post("http://localhost:8080/productlist",{
     ...elem
-   });
+   })
+   
+   if(res.data){
 
+   
    remove(res.data.id);
    
    toast({
-    title: 'Account created.',
-    description: "We've created your account for you.",
+    title: 'ITEM MOVED TO BAG SUCCESSFULLY',
+    position: 'top',
+    description: "Happy shopping",
     status: 'success',
-    duration: 9000,
+    duration: 3000,
     isClosable: true,
   })
   
      
-   
+}
 
   }
 
