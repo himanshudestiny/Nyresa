@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Box,
   Container,
@@ -16,6 +16,7 @@ import {
   Alert,
   AlertIcon,
   AlertTitle,
+  Heading,
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -39,6 +40,16 @@ const Social = () => {
   const dispatch = useDispatch();
   const [registerformData, setRegisterFormData] = useState(initState);
   const [loginformData, setLoginFormData] = useState([]);
+  const { isAuth } = useSelector((store) => store.authManager.data);
+
+  useEffect(() => {
+    if (isAuth) {
+      navigate("/");
+      alert("Login Successfull, Redirecting to Home Page");
+    } else {
+      navigate("/login");
+    }
+  }, [isAuth, navigate]);
 
   const handleRegisterSubmit = (e) => {
     e.preventDefault();
@@ -49,8 +60,6 @@ const Social = () => {
   const handleInputSubmit = (e) => {
     e.preventDefault();
     dispatch(login(loginformData));
-    alert("Login Successfull! Redirecting to Home Page now!");
-    navigate("/");
   };
 
   const handleRegisterChange = (e) => {
@@ -64,14 +73,9 @@ const Social = () => {
   };
 
   if (loading) {
-    return <h1>Loading...</h1>;
+    return <Heading size="2xl">Loading...</Heading>;
   } else if (error) {
-    return (
-      <Alert status="error">
-        <AlertIcon />
-        <AlertTitle>Some Error Occurred, Please Refresh!</AlertTitle>
-      </Alert>
-    );
+    return alert("Wrong Credentials, Please Refresh and Try Again!");
   }
 
   const { title, firstname, lastname, email, password, repassword } =
