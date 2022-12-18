@@ -73,7 +73,7 @@ export default function Carousel({ data, title, link }) {
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       />
       <Heading
-        fontSize={{ base: "20px", sm: "24px", md: "33px", lg: "36px" }}
+        fontSize={{ base: "20px", sm: "24px", md: "28px", lg: "32px" }}
         fontFamily="Century Gothic"
         letterSpacing="0.8px"
         fontWeight={300}
@@ -121,7 +121,7 @@ export default function Carousel({ data, title, link }) {
           <Slider {...settings} ref={(slider) => setSlider(slider)}>
             {data.map((ele) => (
               <Link key={ele.id} to="">
-                <Box p="1rem" h="70vh">
+                <Box p="1rem" h="55vh">
                   <Box textAlign="center" h="100%" w="100%">
                     <Image w="100%" h="80%" src={ele.images[0]} />
                     <Text color={"#9e9d9d"} p="1rem">
