@@ -57,7 +57,10 @@ export default function Carousel({ data, title, link }) {
   const [slider, setSlider] = useState(null);
 
   return (
-    <Box m="auto">
+    <Box
+      m="auto"
+      width={{ base: "100%", sm: "95%", md: "90%", lg: "85%", xl: "80%" }}
+    >
       <link
         rel="stylesheet"
         type="text/css"

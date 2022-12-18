@@ -194,7 +194,16 @@ const Home = () => {
         >
           MYTHERESA – LUXURY FASHION AND DESIGNER SHOPPING
         </Heading>
-        <Box textAlign={"left"} padding={"20px 120px 20px 120px"}>
+        <Box
+          textAlign={"left"}
+          padding={{
+            base: "20px 40px 20px 40px",
+            sm: "20px 50px 20px 50px",
+            md: "20px 80px 20px 80px",
+            lg: "20px 100px 20px 100px",
+            xl: "20px 120px 20px 120px",
+          }}
+        >
           <Text
             fontSize={{ base: "11px", md: "15px", lg: "19px" }}
             letterSpacing="1px"
