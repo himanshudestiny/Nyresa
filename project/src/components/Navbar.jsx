@@ -20,21 +20,22 @@ import "./Navbar.css";
 
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../redux/auth/auth.actions";
+
+export default function Navbar() {
+  const { isAuth } = useSelector((store) => store.authManager.data);
+  const dispatch = useDispatch();
+
+  const handleLogout = () => {
+    if (isAuth) {
+      dispatch(logout());
+      alert("Logged out successfully! Redirecting back to Login Page");
+    }
+  };
+
+=======
 import axios from "axios";
 
-// export default function Navbar() {
-//   const { isAuth } = useSelector((store) => store.authManager.data);
-//   const dispatch = useDispatch();
-
-//   const handleLogout = () => {
-//     if (isAuth) {
-//       dispatch(logout());
-//       alert("Logged out successfully! Redirecting back to Login Page");
-//     }
-//   };
-
-
- export default function Navbar() {
+export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   let [mytext, setMytext] = useState(true);
   let [cart, setCart] = useState([]);
@@ -46,10 +47,10 @@ import axios from "axios";
   }, 5000);
 
   let abc = () => (
-    <Box >
+    <Box>
       {mytext
-        ?   "FREE SHIPPING on orders over $800"
-        :   "FREE RETURNS within 30 days"}
+        ? "FREE SHIPPING on orders over $800"
+        : "FREE RETURNS within 30 days"}
     </Box>
   );
 
@@ -61,6 +62,7 @@ import axios from "axios";
 
   useEffect(() => {
     abc();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mytext]);
   useEffect(() => {
     console.log(getCart());
