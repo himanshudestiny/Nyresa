@@ -2,7 +2,6 @@ import {
   Box,
   chakra,
   Container,
-  Link,
   SimpleGrid,
   Stack,
   Text,
@@ -14,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { BiMailSend } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const SocialButton = ({ children, label, href }) => {
   return (
@@ -62,9 +62,14 @@ export default function LargeWithNewsletter() {
           spacing={8}
         >
           <Stack spacing={6}>
-            <Box border="0px solid black">
-              <Image w={"inherit"} src={"https://i.ibb.co/gjhDhWZ/Logo.png"} />
-            </Box>
+            <Link to="/">
+              <Box border="0px solid black">
+                <Image
+                  w={"inherit"}
+                  src={"https://i.ibb.co/gjhDhWZ/Logo.png"}
+                />
+              </Box>
+            </Link>
             <Text fontSize={"sm"}>© 2022 NYRESA.com. All rights reserved</Text>
             <Stack direction={"row"} spacing={6}>
               <SocialButton label={"Twitter"} href={"#"}>
@@ -92,7 +97,7 @@ export default function LargeWithNewsletter() {
             <Link href={"#"}>Terms of Service</Link>
             <Link href={"#"}>Legal</Link>
             <Link href={"#"}>Privacy Policy</Link>
-            <Link href={"#"}>Satus</Link>
+            <Link href={"#"}>Status</Link>
           </Stack>
           <Stack align={"flex-start"}>
             <ListHeader>Stay up to date</ListHeader>
@@ -121,4 +126,3 @@ export default function LargeWithNewsletter() {
     </Box>
   );
 }
-
