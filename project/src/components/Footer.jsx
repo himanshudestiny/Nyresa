@@ -50,8 +50,11 @@ const ListHeader = ({ children }) => {
 export default function LargeWithNewsletter() {
   return (
     <Box
-      bg={useColorModeValue("gray.50", "gray.900")}
+      bg="#DCDCDC"
       color={useColorModeValue("gray.700", "gray.200")}
+      mt="4%"
+      pt="2%"
+      pb="2%"
     >
       <Container as={Stack} maxW={"6xl"} py={10}>
         <SimpleGrid
@@ -60,7 +63,7 @@ export default function LargeWithNewsletter() {
         >
           <Stack spacing={6}>
             <Box border="0px solid black">
-              <Image src={"https://i.ibb.co/gjhDhWZ/Logo.png"} />
+              <Image w={"inherit"} src={"https://i.ibb.co/gjhDhWZ/Logo.png"} />
             </Box>
             <Text fontSize={"sm"}>© 2022 NYRESA.com. All rights reserved</Text>
             <Stack direction={"row"} spacing={6}>
@@ -118,3 +121,4 @@ export default function LargeWithNewsletter() {
     </Box>
   );
 }
+

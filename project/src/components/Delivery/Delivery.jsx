@@ -1,12 +1,14 @@
 import React from 'react'
 
-import Header from "./Header";
-import { useState } from "react";
 
-import { Grid, GridItem, Box, SimpleGrid, Radio, RadioGroup, Stack, Input, Select,Button, Checkbox } from '@chakra-ui/react'
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Image } from '@chakra-ui/react'
+import { Grid, GridItem, Box, SimpleGrid, Radio, RadioGroup, Stack, Input, Select,Button, Checkbox } from '@chakra-ui/react'
+
+import Header from "./Header";
 import Footer from './Footer';
-import { Link } from 'react-router-dom';
+
 
 const Delivery = () => {
     const [value, setValue] = React.useState('');
@@ -23,13 +25,33 @@ const Delivery = () => {
     const [ dhl, setDhl ] = useState('');
     const [ mPack, setMPack ] = useState('');
     const [ ePack, setEPack ] = useState('');
-    const [ bool, setBool ] = useState(false);
+    const navigate = useNavigate();
 
     const handleClick = (e) => {
       e.preventDefault();
       localStorage.setItem('form', JSON.stringify([value, firstName, lastName, company, email, street, lineTwo, post, city, country, phone, dhl, mPack, ePack]));
+        
+      if( value === "" || firstName === "" || lastName === "" || email === "" || street === "" || post === "" || country === "" || city === "" || phone === "") {
+        alert('Prease fill in required* details');
+      }
+      else if(dhl === "") {
+        alert('Plaese select DHL as shipping method')
+      }
+      else if(mPack === "" && ePack === "") {
+        alert('Please select a packaging option');
+      }
+      else if(phone.length !== 10) {
+        alert('Please enter correct phone number');
+      }
+         else {
+          navigate('/payment');
+         }
+       
+    
+      
     }
 
+     console.log(phone.length);
 
   return (
     <div>
@@ -59,13 +81,13 @@ const Delivery = () => {
               <Box  height='50px' align='left'>
                 <form action="">
                 <SimpleGrid columns={1} spacing={3}>
-                <Input placeholder='first name *' border='2px' value={firstName} onChange={(e) => setFirstName(e.target.value)}/>
+                <Input type='string' placeholder='first name *' border='2px' value={firstName} onChange={(e) => setFirstName(e.target.value)}/>
                 <Input placeholder='last name *' border='2px' value={lastName} onChange={(e) =>   setLastName(e.target.value)}/>
                 <Input placeholder='company' border='2px' value={company} onChange={(e) =>   setCompany(e.target.value)}/>
                 <Input placeholder='Email address *' border='2px' value={email} onChange={(e) =>   setEmail(e.target.value)}/>
                 <Input placeholder='street *' border='2px' value={street} onChange={(e) =>   setStreet(e.target.value)}/>
                 <Input placeholder='address line 2' border='2px' value={lineTwo} onChange={(e) =>   setLineTwo(e.target.value)}/>
-                <Input placeholder='postcode *' border='2px' value={post} onChange={(e) =>   setPost(e.target.value)}/>
+                <Input type='number' placeholder='postcode *' border='2px' value={post} onChange={(e) =>   setPost(e.target.value)}/>
                 <Input placeholder='city *' border='2px' value={city} onChange={(e) =>   setCity(e.target.value)}/>
                 <Select placeholder='country' size='md' border='2px' focusBorderColor = "gray" value={country} onChange={(e) =>   setCountry(e.target.value)}>
                     <option value="China">China</option>
@@ -78,8 +100,26 @@ const Delivery = () => {
                     <option value="Canada">Canada</option>
                     <option value="Maldives">Maldives</option>
                     <option value="Singapore">Singapore</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Germany">Germany</option>
+                    <option value="France">France</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="Bhutan">Bhutan</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Seychelles">Seychelles</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Madagascar">Madagascar</option>
+                    <option value="Ireland">Ireland</option>
+                    <option value="Switzerland">Switzerland</option>
+                    <option value="Ukraine">Ukraine</option>
+                    <option value="Belarus">Belarus</option>
+                    <option value="Hon Kong">Hon Kong</option>
+                    <option value="South Korea">South Korea</option>
                 </Select>
-                <Input placeholder='mobile phone *' border='2px' value={phone} onChange={(e) =>   setPhone(e.target.value)}/>
+                <Input type='number' maxLength='10' placeholder='mobile phone *' border='2px' value={phone} onChange={(e) =>   setPhone(e.target.value)} />
                 <Box  height='50px' align='left'>
                 * required fields
               </Box>
@@ -117,7 +157,7 @@ const Delivery = () => {
 
 
 
-  <Box height='1100px' borderLeft={['0px','0px','1px','1px','1px','1px']} borderColor='grey'>
+  <Box height='1100px' borderLeft={['0px','0px','1px','1px','1px','1px']} borderColor='gray.200'>
   <SimpleGrid columns={1} spacing={1} align='left' w={['118%','95%', '75%', '80%', '70%', '70%']} ml={[3,5,70,70,70,70]}>
   <Box height='50px'>
     SHIPPING METHOD
@@ -126,7 +166,7 @@ const Delivery = () => {
   <Box height='30px'>
     
   </Box>
-  <Box height='50px' borderTop='1px' borderColor='grey'>
+  <Box height='50px' borderTop='1px' borderColor='gray.300'>
   <Grid templateColumns='78% 20%' gap={6}>
   <GridItem w='100%' h='10' mt='1'>
     DHL
@@ -156,11 +196,11 @@ const Delivery = () => {
   <Box mt='-8'>
   2-4 business days delivery time
   </Box>
-  <Box height='10' borderBottom='1px' borderColor='grey' mt='-10'></Box>
+  <Box height='10' borderBottom='1px' borderColor='gray.300' mt='-10'></Box>
   <Box mt='5'>
   PACKAGING OPTIONS
   </Box>
-  <SimpleGrid columns={[1,1,1,2,2,2]} spacing={10} mt='5' borderBottom='1px' borderColor='grey'>
+  <SimpleGrid columns={[1,1,1,2,2,2]} spacing={10} mt='5' borderBottom='1px' borderColor='gray.300'>
   <Box height={['200','180','140','140','140','140']} w={['100%','100%','100%','100%','100%','100%']}>
   <RadioGroup fontWeight='bold' value={mPack} onChange={setMPack} onClick={() => setMPack(value)}>
       <Stack direction='row'>
@@ -182,7 +222,7 @@ const Delivery = () => {
   
 </SimpleGrid>
 <Box>CLIMATE NEUTRAL OPTION</Box>
-<Box h={[70,90,70,70,50,50]} borderBottom='1px' borderColor='grey'>
+<Box h={[70,90,70,70,50,50]} borderBottom='1px' borderColor='gray.300'>
 <Grid templateColumns='78% 20%' gap={6}>
   <GridItem w='100%' h='10' fontWeight='bold'>
   <Checkbox defaultChecked>Help offset the CO2 emissions of your order</Checkbox>
@@ -193,7 +233,7 @@ const Delivery = () => {
 </Grid>
 </Box>
  <Box h='20' align={['center']} mt={[10,100,220,450,460,460]}>
- <Link to='/payment'> <button style={{background:"black", color:"white", padding:"4px 30px", width:"100%, 60%, 40%, 40%, 40%, 40%", }} onClick={handleClick}>PROCEED TO CHECKOUT</button></Link>
+ <button style={{background:"black", color:"white", padding:"4px 30px", width:"100%, 60%, 40%, 40%, 40%, 40%", }} onClick={handleClick}>PROCEED TO CHECKOUT</button>
 </Box>
 
 </SimpleGrid>

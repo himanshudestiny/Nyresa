@@ -37,7 +37,7 @@ const Home = () => {
           w="100%"
         >
           <Box w="50%">
-            <Link to="/">
+            <Link to="/womenproduct">
               <Heading
                 fontWeight={400}
                 fontSize={["xl", "6xl"]}
@@ -48,9 +48,8 @@ const Home = () => {
               </Heading>
             </Link>
           </Box>
-
           <Box w="50%" display={"flex"} justifyContent="center">
-            <Link to="/">
+            <Link to="/menproduct">
               <Heading
                 fontWeight={400}
                 fontSize={["xl", "6xl"]}
@@ -62,14 +61,15 @@ const Home = () => {
             </Link>
           </Box>
         </Box>
+
         <Image
           w="100%"
           h="100%"
-          zIndex={-1}
+          zIndex={-2}
           src="https://img.mytheresa.com/media/static/raw/cms/l/Gate_page_upload_September_2022/Gatepage_Sep22_DSK_2x_20220908102600.jpg?imwidth=1180&imdensity=1"
         />
       </Flex>
-      <Link to="/">
+      <Link to="/kidproduct">
         <Flex
           m="auto"
           mt="3%"
@@ -143,17 +143,29 @@ const Home = () => {
       <br />
       <br />
       <br />
-      <Carousel link={"/"} title="Men's New Arrivals" data={data.Mens} />
+      <Carousel
+        link={"/menproduct"}
+        title="Men's New Arrivals"
+        data={data.Mens}
+      />
       <br />
       <br />
       <br />
       <br />
-      <Carousel link={"/"} title="Women's New Arrivals" data={data.Womens} />
+      <Carousel
+        link={"/womenproduct"}
+        title="Women's New Arrivals"
+        data={data.Womens}
+      />
       <br />
       <br />
       <br />
       <br />
-      <Carousel link={"/"} title="Kid's New Arrivals" data={data.Kids} />
+      <Carousel
+        link={"/kidproduct"}
+        title="Kid's New Arrivals"
+        data={data.Kids}
+      />
       <br />
       <br />
       <br />
@@ -182,7 +194,16 @@ const Home = () => {
         >
           MYTHERESA – LUXURY FASHION AND DESIGNER SHOPPING
         </Heading>
-        <Box textAlign={"left"} padding={"20px 120px 20px 120px"}>
+        <Box
+          textAlign={"left"}
+          padding={{
+            base: "20px 40px 20px 40px",
+            sm: "20px 50px 20px 50px",
+            md: "20px 80px 20px 80px",
+            lg: "20px 100px 20px 100px",
+            xl: "20px 120px 20px 120px",
+          }}
+        >
           <Text
             fontSize={{ base: "11px", md: "15px", lg: "19px" }}
             letterSpacing="1px"

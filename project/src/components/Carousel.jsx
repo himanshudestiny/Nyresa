@@ -6,6 +6,7 @@ import {
   Button,
   Image,
   Text,
+  Flex,
 } from "@chakra-ui/react";
 import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons";
 import Slider from "react-slick";
@@ -56,7 +57,10 @@ export default function Carousel({ data, title, link }) {
   const [slider, setSlider] = useState(null);
 
   return (
-    <Box>
+    <Box
+      m="auto"
+      width={{ base: "100%", sm: "95%", md: "90%", lg: "85%", xl: "80%" }}
+    >
       <link
         rel="stylesheet"
         type="text/css"
@@ -69,10 +73,10 @@ export default function Carousel({ data, title, link }) {
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       />
       <Heading
-        fontSize={{ base: "20px", sm: "26px", md: "38px", lg: "42px" }}
+        fontSize={{ base: "20px", sm: "24px", md: "28px", lg: "32px" }}
         fontFamily="Century Gothic"
         letterSpacing="0.8px"
-        fontWeight={400}
+        fontWeight={300}
       >
         {title}
       </Heading>
@@ -86,55 +90,85 @@ export default function Carousel({ data, title, link }) {
         }}
         padding="0px 30px 0px 30px"
       >
-        <IconButton
-          aria-label="leftButton"
-          border="0px solid blue"
-          mt={["15%"]}
-          _hover={{ bg: "white" }}
-          bg={"transparent"}
-          zIndex={2}
-          onClick={() => slider?.slickPrev()}
+        <Flex
+          paddingBottom={"80px"}
+          justifyContent={"center"}
+          alignItems="center"
         >
-          <ChevronLeftIcon
-            fontSize={"5rem"}
+          <IconButton
+            aria-label="leftButton"
+            border="0px solid blue"
+            // mt={{ base: "26%", sm: "22%", md: "20%", lg: "16%", xl: "14%" }}
+            bg={"transparent"}
+            zIndex={2}
             onClick={() => slider?.slickPrev()}
-          />
-        </IconButton>
+            _hover={{ bg: "none" }}
+          >
+            <ChevronLeftIcon
+              fontSize={{
+                base: "2rem",
+                sm: "3rem",
+                md: "3rem",
+                lg: "4rem",
+                xl: "5rem",
+              }}
+              onClick={() => slider?.slickPrev()}
+            />
+          </IconButton>
+        </Flex>
         <Box
           position={"relative"}
           width={"85%"}
           m="auto"
+          mt="40px"
           overflow={"hidden"}
           textAlign={"center"}
           border="0px solid red"
         >
           <Slider {...settings} ref={(slider) => setSlider(slider)}>
             {data.map((ele) => (
-              <Box key={ele.id} p="1rem" h="70vh">
-                <Box textAlign="center" h="100%" w="100%">
-                  <Image w="100%" h="80%" src={ele.images[0]} />
-                  <Text color={"#9e9d9d"} p="1rem">
-                    {ele.title}
-                  </Text>
-                  <span style={{ fontWeight: 800 }}>
-                    $ {ele.discounted_price}
-                  </span>
+              <Link key={ele.id} to="">
+                <Box p="1rem" h="55vh">
+                  <Box textAlign="center" h="100%" w="100%">
+                    <Image w="100%" h="80%" src={ele.images[0]} />
+                    <Text color={"#9e9d9d"} p="1rem">
+                      {ele.title}
+                    </Text>
+                    <Text>{ele.subtitle}</Text>
+                    <span style={{ fontWeight: 800 }}>
+                      $ {ele.discounted_price}
+                    </span>
+                  </Box>
                 </Box>
-              </Box>
+              </Link>
             ))}
           </Slider>
         </Box>
-        <IconButton
-          aria-label="rightButton"
-          border="0px solid blue"
-          mt="15%"
-          _hover={{ bg: "none" }}
-          bg={"transparent"}
-          zIndex={2}
-          onClick={() => slider?.slickNext()}
+        <Flex
+          paddingBottom={"80px"}
+          justifyContent={"center"}
+          alignItems="center"
         >
-          <ChevronRightIcon color="#111" fontSize={"5rem"} />
-        </IconButton>
+          <IconButton
+            aria-label="rightButton"
+            border="0px solid blue"
+            _hover={{ bg: "none" }}
+            bg={"transparent"}
+            zIndex={2}
+            onClick={() => slider?.slickNext()}
+          >
+            <ChevronRightIcon
+              color="#111"
+              fontSize={{
+                base: "2rem",
+                sm: "3rem",
+                md: "3rem",
+                lg: "4rem",
+                xl: "5rem",
+              }}
+            />
+          </IconButton>
+        </Flex>
       </Box>
       <Box
         m="auto"

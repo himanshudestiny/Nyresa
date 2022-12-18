@@ -33,7 +33,7 @@ const Footer = () => {
      <GrMail size='40' />
   </Box>
   <Box height='50px' fontSize='20'>MAIL US</Box>
-  <Box height='30px' opacity='70%' fontDecoration='underline'>customercare@mytheresa.com</Box>
+  <Box height='30px' opacity='70%' textDecoration='underline'>customercare@mytheresa.com</Box>
   <Box  height='auto' m='auto' w='70%' >Please note that due to a high amount of requests, we might take a few days to get back to you. We apologize for any inconvenience this may cause.</Box>
   
 </SimpleGrid>

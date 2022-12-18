@@ -12,6 +12,7 @@ import { ImCreditCard } from "react-icons/im";
 
 import { Box, SimpleGrid, Radio, RadioGroup, Stack, Grid, GridItem, Image, Input, Button  } from '@chakra-ui/react'
 import Footer from './Footer';
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -21,11 +22,27 @@ import Footer from './Footer';
 const Payment = () => {
     const [value, setValue ] = React.useState('1');
     const [ number, setNumber]  = React.useState('');
+    const [ name, setName ] = React.useState('');
+    const [ date, setDate ] = React.useState('');
+    const [ cvv, setCvv ] = React.useState('');
+    const navigate = useNavigate();
 
     const handleClick = (e) => {
           e.preventDefault();
           localStorage.setItem('number', JSON.stringify([number]));
+          if( name === "" || number === "" || date === "" || cvv === "") {
+            alert('Please fill in required* details');
+          }
+          else if(number.length !== 12 ) {
+            alert('Please enter proper card details');
+          }
+          else {
+            navigate('/confirm');
+          }
+          
     }
+
+    console.log(name, date, number, cvv);
 
     return (
         <div>
@@ -67,7 +84,7 @@ const Payment = () => {
    <GridItem w='100%' h='10' ><Image h='8' src={unionPay}></Image></GridItem>
  </Grid></Box>
   <Box height='40px'>Name on card *</Box>
-  <Box height='40px'><Input></Input></Box>
+  <Box height='40px'><Input value={name} onChange={(e) => setName(e.target.value)}></Input></Box>
   <Box height='40px'>Credit card number *</Box>
   <Box height='40px'><Input placeholder='1111 2222 3333' value={number} onChange={(e) => setNumber(e.target.value)}></Input></Box>
   <Box height='40px'>
@@ -78,8 +95,8 @@ const Payment = () => {
   </Box>
   <Box height='40px'>
   <Grid templateColumns={['50% 35% 40%','30% 25% 30%','45% 30% 40%','35% 30% 30%','25% 20% 20%','25% 20% 20%',]} gap={6}>
-  <GridItem w='100%' h='10' ><Input placeholder='MM/YY'></Input></GridItem>
-  <GridItem w='100%' h='10' ><Input placeholder='123'></Input></GridItem>
+  <GridItem w='100%' h='10' ><Input placeholder='MM/YY' value={date} onChange={(e) => setDate(e.target.value)}></Input></GridItem>
+  <GridItem w='100%' h='10' ><Input placeholder='123' value={cvv} onChange={(e) => setCvv(e.target.value)}></Input></GridItem>
   <GridItem w='100%' h='10' mt='2' >What is this?</GridItem>
 </Grid>
   </Box>
@@ -106,7 +123,7 @@ const Payment = () => {
   </Box>
   <Box height='100px'>
   <SimpleGrid columns={[1,1,2,2,2,2]} spacing={6} mt='16'>
-  <Box height='30px' align='left'><Button h='30px' w='240px' colorScheme='gray' color='black'>BACK TO DELIVERY</Button></Box>
+  <Box height='30px' align='left'><Button h='30px' w='240px' colorScheme='gray' color='black' onClick={() => navigate('/delivery')}>BACK TO DELIVERY</Button></Box>
   <Box height='30px' align='right'><button style={{backgroundColor:'black', color:'white', height:'30px', width:'240px'}} onClick={handleClick}>PROCEED TO CHECKOUT</button></Box>
 </SimpleGrid>
   </Box>

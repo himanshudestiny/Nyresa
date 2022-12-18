@@ -6,6 +6,7 @@
       "title": "HRX by Hrithik Roshan",
       "subtitle": "Men Rapid Dry Running Joggers",
       "discounted_price": "664",
+      "price": 664,
       "strike_price": "1899",
       "discount": "(65% OFF)",
       "images": [
@@ -27,7 +28,8 @@
         "XXL"
       ],
       "rating": "3.7",
-      "rating_count": "13.8k"
+      "rating_count": "13.8k",
+      "quantity": 1
     },
     {
       "id": 388,
@@ -35,6 +37,7 @@
       "title": "Roadster",
       "subtitle": "Printed Casual Shirt",
       "discounted_price": "599",
+      "price": 559,
       "strike_price": "1499",
       "discount": "(60% OFF)",
       "images": [
@@ -57,7 +60,8 @@
         "XXXL"
       ],
       "rating": "4.1",
-      "rating_count": "25.9k"
+      "rating_count": "25.9k",
+      "quantity": 1
     },
     {
       "id": 389,
@@ -65,6 +69,7 @@
       "title": "The Indian Garage Co",
       "subtitle": "Men Slim Fit Casual Shirt",
       "discounted_price": "626",
+      "price": 626,
       "strike_price": "1649",
       "discount": "(62% OFF)",
       "images": [
@@ -85,7 +90,8 @@
         "46"
       ],
       "rating": "4.1",
-      "rating_count": "8.2k"
+      "rating_count": "8.2k",
+      "quantity": 1
     },
     {
       "id": 390,
@@ -93,6 +99,7 @@
       "title": "Roadster",
       "subtitle": "Men Time Travlr Slim Fit Chinos",
       "discounted_price": "859",
+      "price": 859,
       "strike_price": "1999",
       "discount": "(57% OFF)",
       "images": [
@@ -115,7 +122,8 @@
         "40"
       ],
       "rating": "4.2",
-      "rating_count": "5.8k"
+      "rating_count": "5.8k",
+      "quantity": 1
     },
     {
       "id": 2,
@@ -123,6 +131,7 @@
       "title": "HIGHLANDER",
       "subtitle": "Men Tapered Fit Chinos",
       "discounted_price": "743",
+      "price": 743,
       "strike_price": "1549",
       "discount": "(52% OFF)",
       "images": [
@@ -142,7 +151,8 @@
         "36"
       ],
       "rating": "4.1",
-      "rating_count": "12.7k"
+      "rating_count": "12.7k",
+      "quantity": 1
     },
     {
       "id": 3,
@@ -150,6 +160,7 @@
       "title": "Roadster",
       "subtitle": "Men Slim Fit Jeans",
       "discounted_price": "719",
+      "price": 719,
       "strike_price": "1499",
       "discount": "(52% OFF)",
       "images": [
@@ -172,7 +183,8 @@
         "40"
       ],
       "rating": "3.8",
-      "rating_count": "6.6k"
+      "rating_count": "6.6k",
+      "quantity": 1
     },
     {
       "id": 4,
@@ -180,6 +192,7 @@
       "title": "HIGHLANDER",
       "subtitle": "Men Slim Fit Jeans",
       "discounted_price": "558",
+      "price": 558,
       "strike_price": "1299",
       "discount": "(57% OFF)",
       "images": [
@@ -200,7 +213,8 @@
         "38"
       ],
       "rating": "3.8",
-      "rating_count": "9k"
+      "rating_count": "9k",
+      "quantity": 1
     },
     {
       "id": 5,
@@ -208,6 +222,7 @@
       "title": "LOCOMOTIVE",
       "subtitle": "Men Slim Fit Casual Shirt",
       "discounted_price": "577",
+      "price": 577,
       "strike_price": "1649",
       "discount": "(65% OFF)",
       "images": [
@@ -227,7 +242,8 @@
         "44"
       ],
       "rating": "4.1",
-      "rating_count": "5.7k"
+      "rating_count": "5.7k",
+      "quantity": 1
     },
     {
       "id": 6,
@@ -235,6 +251,7 @@
       "title": "Dennis Lingo",
       "subtitle": "Men Slim Fit Casual Shirt",
       "discounted_price": "628",
+      "price": 628,
       "strike_price": "1849",
       "discount": "(66% OFF)",
       "images": [
@@ -255,7 +272,8 @@
         "46"
       ],
       "rating": "4.1",
-      "rating_count": "13.1k"
+      "rating_count": "13.1k",
+      "quantity": 1
     },
     {
       "id": 7,
@@ -263,6 +281,7 @@
       "title": "Roadster",
       "subtitle": "Men Pure Cotton Casual Shirt",
       "discounted_price": "494",
+      "price": 494,
       "strike_price": "1499",
       "discount": "(67% OFF)",
       "images": [
@@ -284,7 +303,8 @@
         "48"
       ],
       "rating": "4.3",
-      "rating_count": "34.3k"
+      "rating_count": "34.3k",
+      "quantity": 1
     },
     {
       "id": 8,
@@ -292,6 +312,7 @@
       "title": "United Colors of Benetton",
       "subtitle": "Men Printed  Joggers",
       "discounted_price": "824",
+      "price": 824,
       "strike_price": "1649",
       "discount": "(50% OFF)",
       "images": [
@@ -311,7 +332,8 @@
         "XL"
       ],
       "rating": "4.7",
-      "rating_count": "55"
+      "rating_count": "55",
+      "quantity": 1
     },
     {
       "id": 9,
@@ -319,6 +341,7 @@
       "title": "IVOC",
       "subtitle": "Men Slim Fit Cargos Trousers",
       "discounted_price": "1055",
+      "price": 1055,
       "strike_price": "2399",
       "discount": "(56% OFF)",
       "images": [
@@ -339,16 +362,18 @@
         "36"
       ],
       "rating": "3.9",
-      "rating_count": "700"
+      "rating_count": "700",
+      "quantity": 1
     },
     {
       "id": 10,
       "category": "Mens",
       "title": "H&M",
       "subtitle": "Men Blue Regular Jeans",
-      "discounted_price": null,
+      "discounted_price": "1499",
       "strike_price": "1499",
-      "discount": null,
+      "price": 1499,
+      "discount": "(30% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15193854/2021/8/19/c31b2cd1-fdba-4cd2-8ab9-3cc1186498c21629350915270RegularJeans1.jpg",
         "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15193854/2021/8/19/c31b2cd1-fdba-4cd2-8ab9-3cc1186498c21629350915270RegularJeans1.jpg",
@@ -372,7 +397,8 @@
         "40"
       ],
       "rating": "4.3",
-      "rating_count": "563"
+      "rating_count": "563",
+      "quantity": 1
     },
     {
       "id": 11,
@@ -380,6 +406,7 @@
       "title": "Mast & Harbour",
       "subtitle": "Men Slim Tapered Crop Jeans",
       "discounted_price": "839",
+      "price": 839,
       "strike_price": "2099",
       "discount": "(60% OFF)",
       "images": [
@@ -400,7 +427,8 @@
         "36"
       ],
       "rating": "3",
-      "rating_count": "1.3k"
+      "rating_count": "1.3k",
+      "quantity": 1
     },
     {
       "id": 12,
@@ -408,6 +436,7 @@
       "title": "Roadster",
       "subtitle": "Solid Round Neck Pure Cotton T-shirt",
       "discounted_price": "189",
+      "price": 189,
       "strike_price": "499",
       "discount": "(62% OFF)",
       "images": [
@@ -431,16 +460,18 @@
         "4XL"
       ],
       "rating": "4.2",
-      "rating_count": "7.2k"
+      "rating_count": "7.2k",
+      "quantity": 1
     },
     {
       "id": 13,
       "category": "Mens",
       "title": "H&M",
       "subtitle": "Men Relaxed Fit Sweatshirt",
-      "discounted_price": null,
+      "discounted_price": "799",
       "strike_price": "799",
-      "discount": null,
+      "price": 799,
+      "discount": "( 41 % OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14927328/2021/7/26/8fb6fbe5-3c11-4362-9c03-39c7347ac22e1627273135845RelaxedFitSweatshirt1.jpg",
         "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14927328/2021/7/26/8fb6fbe5-3c11-4362-9c03-39c7347ac22e1627273135845RelaxedFitSweatshirt1.jpg",
@@ -460,7 +491,8 @@
         "XXL"
       ],
       "rating": "4.2",
-      "rating_count": "3k"
+      "rating_count": "3k",
+      "quantity": 1
     },
     {
       "id": 14,
@@ -468,6 +500,7 @@
       "title": "Roadster",
       "subtitle": "Men Super Skinny Fit Jeans",
       "discounted_price": "594",
+      "price": 594,
       "strike_price": "1699",
       "discount": "(65% OFF)",
       "images": [
@@ -490,16 +523,18 @@
         "40"
       ],
       "rating": "3.6",
-      "rating_count": "6.7k"
+      "rating_count": "6.7k",
+      "quantity": 1
     },
     {
       "id": 15,
       "category": "Mens",
       "title": "Lee",
       "subtitle": "Men Skinny Fit Jeans",
-      "discounted_price": null,
+      "discounted_price": "1999",
+      "price": 1999,
       "strike_price": "1999",
-      "discount": null,
+      "discount": "(28% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19597502/2022/8/22/1ddc25a7-9076-438f-b294-226be72fbc341661157159538LeeMenBruceLightBlueSkinnyJeans1.jpg",
         "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/19597502/2022/8/22/1ddc25a7-9076-438f-b294-226be72fbc341661157159538LeeMenBruceLightBlueSkinnyJeans1.jpg",
@@ -518,7 +553,8 @@
         "38"
       ],
       "rating": "4.1",
-      "rating_count": "10"
+      "rating_count": "10",
+      "quantity": 1
     },
     {
       "id": 16,
@@ -526,6 +562,7 @@
       "title": "HIGHLANDER",
       "subtitle": "Men Slim Fit Casual Shirt",
       "discounted_price": "516",
+      "price": 516,
       "strike_price": "1099",
       "discount": "(53% OFF)",
       "images": [
@@ -545,7 +582,8 @@
         "44"
       ],
       "rating": "4.2",
-      "rating_count": "6.3k"
+      "rating_count": "6.3k",
+      "quantity": 1
     },
     {
       "id": 17,
@@ -553,6 +591,7 @@
       "title": "Dennis Lingo",
       "subtitle": "Men Slim Fit Casual Shirt",
       "discounted_price": "628",
+      "price": 628,
       "strike_price": "1849",
       "discount": "(66% OFF)",
       "images": [
@@ -573,7 +612,8 @@
         "46"
       ],
       "rating": "4.2",
-      "rating_count": "8.1k"
+      "rating_count": "8.1k",
+      "quantity": 1
     },
     {
       "id": 18,
@@ -581,6 +621,7 @@
       "title": "DENNISON",
       "subtitle": "Men Tapered Fit Trousers",
       "discounted_price": "883",
+      "price": 883,
       "strike_price": "2599",
       "discount": "(66% OFF)",
       "images": [
@@ -603,7 +644,8 @@
         "40"
       ],
       "rating": "3.7",
-      "rating_count": "2.8k"
+      "rating_count": "2.8k",
+      "quantity": 1
     },
     {
       "id": 19,
@@ -611,6 +653,7 @@
       "title": "Roadster",
       "subtitle": "Solid Hooded Sweatshirt",
       "discounted_price": "569",
+      "price": 569,
       "strike_price": "1499",
       "discount": "(62% OFF)",
       "images": [
@@ -632,7 +675,8 @@
         "XXL"
       ],
       "rating": "4.4",
-      "rating_count": "1.2k"
+      "rating_count": "1.2k",
+      "quantity": 1
     },
     {
       "id": 20,
@@ -640,6 +684,7 @@
       "title": "Roadster",
       "subtitle": "Men Casual Shirt",
       "discounted_price": "730",
+      "price": 730,
       "strike_price": "1699",
       "discount": "(57% OFF)",
       "images": [
@@ -661,7 +706,8 @@
         "48"
       ],
       "rating": "4.2",
-      "rating_count": "2.4k"
+      "rating_count": "2.4k",
+      "quantity": 1
     },
     {
       "id": 21,
@@ -669,6 +715,7 @@
       "title": "HIGHLANDER",
       "subtitle": "Men Tapered Fit Jeans",
       "discounted_price": "623",
+      "price": 623,
       "strike_price": "1299",
       "discount": "(52% OFF)",
       "images": [
@@ -689,7 +736,8 @@
         "38"
       ],
       "rating": "3.9",
-      "rating_count": "11k"
+      "rating_count": "11k",
+      "quantity": 1
     },
     {
       "id": 22,
@@ -697,6 +745,7 @@
       "title": "Roadster",
       "subtitle": "Men Skinny Fit Jeans",
       "discounted_price": "659",
+      "price": 659,
       "strike_price": "1999",
       "discount": "(67% OFF)",
       "images": [
@@ -719,7 +768,8 @@
         "40"
       ],
       "rating": "3.8",
-      "rating_count": "2.6k"
+      "rating_count": "2.6k",
+      "quantity": 1
     },
     {
       "id": 23,
@@ -727,6 +777,7 @@
       "title": "HERE&NOW",
       "subtitle": "Men Cotton Casual Shirt",
       "discounted_price": "739",
+      "price": 739,
       "strike_price": "1999",
       "discount": "( 63 % OFF)",
       "images": [
@@ -747,7 +798,8 @@
         "46"
       ],
       "rating": "4.4",
-      "rating_count": "5.6k"
+      "rating_count": "5.6k",
+      "quantity": 1
     },
     {
       "id": 24,
@@ -755,6 +807,7 @@
       "title": "Roadster",
       "subtitle": "Men Cotton Cargo Trousers",
       "discounted_price": "791",
+      "price": 791,
       "strike_price": "2399",
       "discount": "(67% OFF)",
       "images": [
@@ -777,7 +830,8 @@
         "40"
       ],
       "rating": "3.8",
-      "rating_count": "5.1k"
+      "rating_count": "5.1k",
+      "quantity": 1
     },
     {
       "id": 25,
@@ -785,6 +839,7 @@
       "title": "Levis",
       "subtitle": "Men 512 Slim Tapered Fit Jeans",
       "discounted_price": "2239",
+      "price": 2239,
       "strike_price": "3199",
       "discount": "(30% OFF)",
       "images": [
@@ -806,7 +861,8 @@
         "38"
       ],
       "rating": "4.3",
-      "rating_count": "80"
+      "rating_count": "80",
+      "quantity": 1
     },
     {
       "id": 26,
@@ -814,6 +870,7 @@
       "title": "WROGN",
       "subtitle": "Bomber Jacket",
       "discounted_price": "2989",
+      "price": 2989,
       "strike_price": "4599",
       "discount": "(35% OFF)",
       "images": [
@@ -833,7 +890,8 @@
         "XXL"
       ],
       "rating": "4",
-      "rating_count": "1.6k"
+      "rating_count": "1.6k",
+      "quantity": 1
     },
     {
       "id": 27,
@@ -841,6 +899,7 @@
       "title": "HIGHLANDER",
       "subtitle": "Men Hooded Sweatshirt",
       "discounted_price": "899",
+      "price": 899,
       "strike_price": "1799",
       "discount": "(50% OFF)",
       "images": [
@@ -860,7 +919,8 @@
         "XL"
       ],
       "rating": "4.9",
-      "rating_count": "23"
+      "rating_count": "23",
+      "quantity": 1
     },
     {
       "id": 28,
@@ -868,6 +928,7 @@
       "title": "Urbano Fashion",
       "subtitle": "Slim Tropical Printed Pure Cotton T-shirt",
       "discounted_price": "439",
+      "price": 439,
       "strike_price": "1099",
       "discount": "(60% OFF)",
       "images": [
@@ -887,7 +948,8 @@
         "XL"
       ],
       "rating": "4",
-      "rating_count": "7.3k"
+      "rating_count": "7.3k",
+      "quantity": 1
     },
     {
       "id": 29,
@@ -895,6 +957,7 @@
       "title": "WROGN",
       "subtitle": "Slim Fit Casual Shirt",
       "discounted_price": "1025",
+      "price": 1025,
       "strike_price": "2699",
       "discount": "(62% OFF)",
       "images": [
@@ -915,7 +978,8 @@
         "46"
       ],
       "rating": "4.2",
-      "rating_count": "2.2k"
+      "rating_count": "2.2k",
+      "quantity": 1
     },
     {
       "id": 30,
@@ -923,6 +987,7 @@
       "title": "High Star",
       "subtitle": "Men Solid Denim Jacket",
       "discounted_price": "1379",
+      "price": 1379,
       "strike_price": "2299",
       "discount": "(Rs. 920 OFF)",
       "images": [
@@ -942,7 +1007,8 @@
         "XL"
       ],
       "rating": "4.3",
-      "rating_count": "4.4k"
+      "rating_count": "4.4k",
+      "quantity": 1
     },
     {
       "id": 31,
@@ -950,6 +1016,7 @@
       "title": "Roadster",
       "subtitle": "Men Skinny Fit Jeans",
       "discounted_price": "949",
+      "price": 949,
       "strike_price": "2499",
       "discount": "(62% OFF)",
       "images": [
@@ -972,7 +1039,8 @@
         "40"
       ],
       "rating": "4",
-      "rating_count": "2k"
+      "rating_count": "2k",
+      "quantity": 1
     },
     {
       "id": 32,
@@ -980,6 +1048,7 @@
       "title": "HIGHLANDER",
       "subtitle": "Men Slim Fit Jeans",
       "discounted_price": "649",
+      "price": 649,
       "strike_price": "1299",
       "discount": "(50% OFF)",
       "images": [
@@ -1000,7 +1069,8 @@
         "38"
       ],
       "rating": "3.9",
-      "rating_count": "9.4k"
+      "rating_count": "9.4k",
+      "quantity": "1"
     },
     {
       "id": 33,
@@ -1008,6 +1078,7 @@
       "title": "KRA",
       "subtitle": "Men Slim Fit Cargos Trousers",
       "discounted_price": "2211",
+      "price": 2211,
       "strike_price": "2799",
       "discount": "(21% OFF)",
       "images": [
@@ -1027,7 +1098,8 @@
         "36"
       ],
       "rating": "4.2",
-      "rating_count": "9"
+      "rating_count": "9",
+      "quantity": "1"
     },
     {
       "id": 34,
@@ -1035,6 +1107,7 @@
       "title": "HIGHLANDER",
       "subtitle": "Men Slim-Fit Track Pants",
       "discounted_price": "379",
+      "price": 379,
       "strike_price": "999",
       "discount": "(62% OFF)",
       "images": [
@@ -1054,7 +1127,8 @@
         "XL"
       ],
       "rating": "4",
-      "rating_count": "10k"
+      "rating_count": "10k",
+      "quantity": "1"
     },
     {
       "id": 35,
@@ -1062,6 +1136,7 @@
       "title": "Blackberrys",
       "subtitle": "Slim Fit Casual Shirt",
       "discounted_price": "1317",
+      "price": 1317,
       "strike_price": "2195",
       "discount": "(40% OFF)",
       "images": [
@@ -1083,7 +1158,8 @@
         "46"
       ],
       "rating": "3.3",
-      "rating_count": "3"
+      "rating_count": "3",
+      "quantity": "1"
     },
     {
       "id": 36,
@@ -1091,6 +1167,7 @@
       "title": "Roadster",
       "subtitle": "Men Pack Of 2 Shirts",
       "discounted_price": "1289",
+      "price": 1289,
       "strike_price": "2999",
       "discount": "(57% OFF)",
       "images": [
@@ -1112,7 +1189,8 @@
         "48"
       ],
       "rating": "4.2",
-      "rating_count": "4.4k"
+      "rating_count": "4.4k",
+      "quantity": "1"
     },
     {
       "id": 37,
@@ -1120,6 +1198,7 @@
       "title": "WROGN",
       "subtitle": "Men Slim Fit Jeans",
       "discounted_price": "1139",
+      "price": 1139,
       "strike_price": "2999",
       "discount": "(62% OFF)",
       "images": [
@@ -1141,7 +1220,8 @@
         "38"
       ],
       "rating": "3.6",
-      "rating_count": "1.5k"
+      "rating_count": "1.5k",
+      "quantity": "1"
     },
     {
       "id": 38,
@@ -1149,6 +1229,7 @@
       "title": "HERE&NOW",
       "subtitle": "Men Cotton Casual Shirt",
       "discounted_price": "799",
+      "price": 799,
       "strike_price": "1999",
       "discount": "(Rs. 1200 OFF)",
       "images": [
@@ -1169,7 +1250,8 @@
         "46"
       ],
       "rating": "4.3",
-      "rating_count": "13.5k"
+      "rating_count": "13.5k",
+      "quantity": "1"
     },
     {
       "id": 39,
@@ -1177,6 +1259,7 @@
       "title": "HIGHLANDER",
       "subtitle": "Slim Fit Casual Shirt",
       "discounted_price": "469",
+      "price": 469,
       "strike_price": "999",
       "discount": "(53% OFF)",
       "images": [
@@ -1197,7 +1280,8 @@
         "46"
       ],
       "rating": "4.3",
-      "rating_count": "15.8k"
+      "rating_count": "15.8k",
+      "quantity": "1"
     },
     {
       "id": 40,
@@ -1205,6 +1289,7 @@
       "title": "Roadster",
       "subtitle": "Solid Round Neck T-shirt",
       "discounted_price": "179",
+      "price": 179,
       "strike_price": "399",
       "discount": "(55% OFF)",
       "images": [
@@ -1228,7 +1313,8 @@
         "4XL"
       ],
       "rating": "4.1",
-      "rating_count": "8.7k"
+      "rating_count": "8.7k",
+      "quantity": "1"
     },
     {
       "id": 41,
@@ -1236,6 +1322,7 @@
       "title": "Roadster",
       "subtitle": "Men Time Travlr Slim Fit Jeans",
       "discounted_price": "623",
+      "price": 623,
       "strike_price": "1299",
       "discount": "(52% OFF)",
       "images": [
@@ -1258,16 +1345,18 @@
         "40"
       ],
       "rating": "3.8",
-      "rating_count": "4.9k"
+      "rating_count": "4.9k",
+      "quantity": "1"
     },
     {
       "id": 42,
       "category": "Mens",
       "title": "H&M",
       "subtitle": "Men Relaxed Fit Sweatshirt",
-      "discounted_price": null,
+      "discounted_price": "799",
+      "price": 799,
       "strike_price": "799",
-      "discount": null,
+      "discount": "(60% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15611412/2021/9/29/9b684f64-c8a6-4808-952e-604516fa5a001632884361405HMMenGreyRelaxedFitSweatshirt1.jpg",
         "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/15611412/2021/9/29/9b684f64-c8a6-4808-952e-604516fa5a001632884361405HMMenGreyRelaxedFitSweatshirt1.jpg",
@@ -1287,7 +1376,8 @@
         "XXL"
       ],
       "rating": "4.4",
-      "rating_count": "2.7k"
+      "rating_count": "2.7k",
+      "quantity": "1"
     },
     {
       "id": 43,
@@ -1295,6 +1385,7 @@
       "title": "HIGHLANDER",
       "subtitle": "Men Tapered Fit Jeans",
       "discounted_price": "623",
+      "price": 623,
       "strike_price": "1299",
       "discount": "(52% OFF)",
       "images": [
@@ -1315,7 +1406,8 @@
         "38"
       ],
       "rating": "3.8",
-      "rating_count": "7.4k"
+      "rating_count": "7.4k",
+      "quantity": "1"
     },
     {
       "id": 44,
@@ -1323,6 +1415,7 @@
       "title": "Mast & Harbour",
       "subtitle": "Men Cotton Casual Shirt",
       "discounted_price": "939",
+      "price": 939,
       "strike_price": "1999",
       "discount": "(53% OFF)",
       "images": [
@@ -1342,7 +1435,8 @@
         "44"
       ],
       "rating": "4.3",
-      "rating_count": "1.4k"
+      "rating_count": "1.4k",
+      "quantity": "1"
     },
     {
       "id": 45,
@@ -1350,6 +1444,7 @@
       "title": "LOCOMOTIVE",
       "subtitle": "Men Tapered Fit Jeans",
       "discounted_price": "749",
+      "price": 749,
       "strike_price": "2499",
       "discount": "(70% OFF)",
       "images": [
@@ -1369,7 +1464,8 @@
         "36"
       ],
       "rating": "3.9",
-      "rating_count": "2k"
+      "rating_count": "2k",
+      "quantity": "1"
     },
     {
       "id": 46,
@@ -1377,6 +1473,7 @@
       "title": "Roadster",
       "subtitle": "Men Cotton Casual Shirt",
       "discounted_price": "689",
+      "price": 689,
       "strike_price": "2299",
       "discount": "(70% OFF)",
       "images": [
@@ -1398,7 +1495,8 @@
         "48"
       ],
       "rating": "4",
-      "rating_count": "3k"
+      "rating_count": "3k",
+      "quantity": "1"
     },
     {
       "id": 47,
@@ -1406,6 +1504,7 @@
       "title": "HRX by Hrithik Roshan",
       "subtitle": "Men Regular Training Joggers",
       "discounted_price": "944",
+      "price": 944,
       "strike_price": "2699",
       "discount": "(65% OFF)",
       "images": [
@@ -1426,6 +1525,7 @@
         "XXL"
       ],
       "rating": "3.9",
+<<<<<<< HEAD
       "rating_count": "2.4k"
     },
     {
@@ -1502,6 +1602,10 @@
       "size": [],
       "rating": null,
       "rating_count": null
+=======
+      "rating_count": "2.4k",
+      "quantity": "1"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
     },
     {
       "id": 53,
@@ -1509,6 +1613,7 @@
       "title": "HRX by Hrithik Roshan",
       "subtitle": "Men Regular Training Joggers",
       "discounted_price": "944",
+      "price": 944,
       "strike_price": "2699",
       "discount": "(65% OFF)",
       "images": [
@@ -1530,7 +1635,8 @@
         "XXL"
       ],
       "rating": "3.9",
-      "rating_count": "2.4k"
+      "rating_count": "2.4k",
+      "quantity": "1"
     },
     {
       "id": 54,
@@ -1538,6 +1644,7 @@
       "title": "HIGHLANDER",
       "subtitle": "Men Tapered Fit Jeans",
       "discounted_price": "645",
+      "price": 645,
       "strike_price": "1699",
       "discount": "(62% OFF)",
       "images": [
@@ -1559,7 +1666,8 @@
         "38"
       ],
       "rating": "3.8",
-      "rating_count": "5.9k"
+      "rating_count": "5.9k",
+      "quantity": "1"
     },
     {
       "id": 55,
@@ -1567,6 +1675,7 @@
       "title": "Roadster",
       "subtitle": "Men Skinny Fit Jeans",
       "discounted_price": "759",
+      "price": 759,
       "strike_price": "1999",
       "discount": "(62% OFF)",
       "images": [
@@ -1590,7 +1699,8 @@
         "40"
       ],
       "rating": "3.8",
-      "rating_count": "2.1k"
+      "rating_count": "2.1k",
+      "quantity": "1"
     },
     {
       "id": 56,
@@ -1598,6 +1708,7 @@
       "title": "HIGHLANDER",
       "subtitle": "Slim Fit Casual Shirt",
       "discounted_price": "419",
+      "price": 419,
       "strike_price": "1049",
       "discount": "(60% OFF)",
       "images": [
@@ -1618,7 +1729,8 @@
         "44"
       ],
       "rating": "4.3",
-      "rating_count": "4.9k"
+      "rating_count": "4.9k",
+      "quantity": "1"
     },
     {
       "id": 57,
@@ -1626,6 +1738,7 @@
       "title": "Roadster",
       "subtitle": "Washed Casual Shirt",
       "discounted_price": "719",
+      "price": 719,
       "strike_price": "1799",
       "discount": "(60% OFF)",
       "images": [
@@ -1648,7 +1761,8 @@
         "48"
       ],
       "rating": "4.2",
-      "rating_count": "2.6k"
+      "rating_count": "2.6k",
+      "quantity": "1"
     },
     {
       "id": 58,
@@ -1656,98 +1770,12 @@
       "title": "WROGN",
       "subtitle": "Men Slim Fit Casual Shirt",
       "discounted_price": "1259",
+      "price": 1259,
       "strike_price": "2799",
       "discount": "(55% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/0ce54d77-9b6c-4fd9-a973-955901158e111561011505531-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/0ce54d77-9b6c-4fd9-a973-955901158e111561011505531-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/0ce54d77-9b6c-4fd9-a973-955901158e111561011505531-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/0ce54d77-9b6c-4fd9-a973-955901158e111561011505531-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/0ce54d77-9b6c-4fd9-a973-955901158e111561011505531-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/0ce54d77-9b6c-4fd9-a973-955901158e111561011505531-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/0ce54d77-9b6c-4fd9-a973-955901158e111561011505531-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/0ce54d77-9b6c-4fd9-a973-955901158e111561011505531-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/45a40973-e30e-483f-8665-850855cb969d1561011505546-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-5.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/45a40973-e30e-483f-8665-850855cb969d1561011505546-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-5.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/45a40973-e30e-483f-8665-850855cb969d1561011505546-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-5.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/45a40973-e30e-483f-8665-850855cb969d1561011505546-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-5.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/45a40973-e30e-483f-8665-850855cb969d1561011505546-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-5.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/45a40973-e30e-483f-8665-850855cb969d1561011505546-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-5.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/45a40973-e30e-483f-8665-850855cb969d1561011505546-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-5.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/45a40973-e30e-483f-8665-850855cb969d1561011505546-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-5.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/bf8e1ce6-62ac-49a9-b863-39d08510c5101561011505601-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-3.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/bf8e1ce6-62ac-49a9-b863-39d08510c5101561011505601-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-3.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/bf8e1ce6-62ac-49a9-b863-39d08510c5101561011505601-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-3.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/bf8e1ce6-62ac-49a9-b863-39d08510c5101561011505601-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-3.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/bf8e1ce6-62ac-49a9-b863-39d08510c5101561011505601-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-3.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/bf8e1ce6-62ac-49a9-b863-39d08510c5101561011505601-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-3.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/bf8e1ce6-62ac-49a9-b863-39d08510c5101561011505601-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-3.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/bf8e1ce6-62ac-49a9-b863-39d08510c5101561011505601-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-3.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/209901aa-9400-4e2d-b619-0311eb17654d1561011505623-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-2.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/209901aa-9400-4e2d-b619-0311eb17654d1561011505623-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-2.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/209901aa-9400-4e2d-b619-0311eb17654d1561011505623-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-2.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/209901aa-9400-4e2d-b619-0311eb17654d1561011505623-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-2.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/209901aa-9400-4e2d-b619-0311eb17654d1561011505623-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-2.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/209901aa-9400-4e2d-b619-0311eb17654d1561011505623-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-2.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/209901aa-9400-4e2d-b619-0311eb17654d1561011505623-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-2.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/209901aa-9400-4e2d-b619-0311eb17654d1561011505623-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-2.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/09f6841c-683f-4213-9756-f02def715bfa1561011505569-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-4.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/09f6841c-683f-4213-9756-f02def715bfa1561011505569-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-4.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/09f6841c-683f-4213-9756-f02def715bfa1561011505569-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-4.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/09f6841c-683f-4213-9756-f02def715bfa1561011505569-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-4.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/09f6841c-683f-4213-9756-f02def715bfa1561011505569-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-4.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/09f6841c-683f-4213-9756-f02def715bfa1561011505569-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-4.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/09f6841c-683f-4213-9756-f02def715bfa1561011505569-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-4.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/09f6841c-683f-4213-9756-f02def715bfa1561011505569-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-4.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/0ce54d77-9b6c-4fd9-a973-955901158e111561011505531-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/0ce54d77-9b6c-4fd9-a973-955901158e111561011505531-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/0ce54d77-9b6c-4fd9-a973-955901158e111561011505531-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/0ce54d77-9b6c-4fd9-a973-955901158e111561011505531-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/0ce54d77-9b6c-4fd9-a973-955901158e111561011505531-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/0ce54d77-9b6c-4fd9-a973-955901158e111561011505531-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/0ce54d77-9b6c-4fd9-a973-955901158e111561011505531-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/0ce54d77-9b6c-4fd9-a973-955901158e111561011505531-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/fb075493-21ab-46ec-a99c-02226b877bbe1561011505646-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-1.jpg",
-        "https://assets.myntassets.com/dpr_2,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/0ce54d77-9b6c-4fd9-a973-955901158e111561011505531-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-6.jpg"
+        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/6832694/2019/6/20/0ce54d77-9b6c-4fd9-a973-955901158e111561011505531-WROGN-Men-Blue-Slim-Fit-Faded-Casual-Shirt-6921561011503453-6.jpg"
       ],
       "size": [
         "39",
@@ -1756,8 +1784,19 @@
         "44",
         "46"
       ],
+<<<<<<< HEAD
+      "size": [
+        "39",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+=======
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating": "4.1",
-      "rating_count": "2.2k"
+      "rating_count": "2.2k",
+      "quantity": "1"
     },
     {
       "id": 59,
@@ -1765,6 +1804,7 @@
       "title": "HRX by Hrithik Roshan",
       "subtitle": "Ultralyte Men Running T-shirt",
       "discounted_price": "584",
+      "price": 584,
       "strike_price": "899",
       "discount": "(35% OFF)",
       "images": [
@@ -1786,16 +1826,18 @@
         "XXL"
       ],
       "rating": "4.4",
-      "rating_count": "11.3k"
+      "rating_count": "11.3k",
+      "quantity": "1"
     },
     {
       "id": 60,
       "category": "Mens",
       "title": "H&M",
       "subtitle": "Men Loose Jeans",
-      "discounted_price": null,
+      "discounted_price": 1999,
+      "price": 1999,
       "strike_price": "1999",
-      "discount": null,
+      "discount": "(83% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16849036/2022/1/21/577a40e4-335d-4608-8050-254409713b951642750442776LooseJeans1.jpg",
         "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16849036/2022/1/21/577a40e4-335d-4608-8050-254409713b951642750442776LooseJeans1.jpg",
@@ -1820,7 +1862,8 @@
         "40"
       ],
       "rating": "4.2",
-      "rating_count": "130"
+      "rating_count": "130",
+      "quantity": "1"
     },
     {
       "id": 61,
@@ -1828,6 +1871,7 @@
       "title": "HIGHLANDER",
       "subtitle": "Slim Casual Shirt",
       "discounted_price": "529",
+      "price": 529,
       "strike_price": "999",
       "discount": "(47% OFF)",
       "images": [
@@ -1849,7 +1893,8 @@
         "46"
       ],
       "rating": "4.2",
-      "rating_count": "9.6k"
+      "rating_count": "9.6k",
+      "quantity": "1"
     },
     {
       "id": 62,
@@ -1857,6 +1902,7 @@
       "title": "HIGHLANDER",
       "subtitle": "Men Casual Trousers",
       "discounted_price": "679",
+      "price": 679,
       "strike_price": "999",
       "discount": "(32% OFF)",
       "images": [
@@ -1878,7 +1924,8 @@
         "38"
       ],
       "rating": "4.2",
-      "rating_count": "2.9k"
+      "rating_count": "2.9k",
+      "quantity": "1"
     },
     {
       "id": 63,
@@ -1886,6 +1933,7 @@
       "title": "HERE&NOW",
       "subtitle": "Solid Round Neck T-shirt",
       "discounted_price": "244",
+      "price": 244,
       "strike_price": "699",
       "discount": "(65% OFF)",
       "images": [
@@ -1906,7 +1954,8 @@
         "XL"
       ],
       "rating": "4.2",
-      "rating_count": "1.8k"
+      "rating_count": "1.8k",
+      "quantity": "1"
     },
     {
       "id": 64,
@@ -1914,6 +1963,7 @@
       "title": "Roadster",
       "subtitle": "Men Skinny Fit Jeans",
       "discounted_price": "1049",
+      "price": 1049,
       "strike_price": "2999",
       "discount": "(65% OFF)",
       "images": [
@@ -1937,7 +1987,8 @@
         "40"
       ],
       "rating": "3.6",
-      "rating_count": "1.7k"
+      "rating_count": "1.7k",
+      "quantity": "1"
     },
     {
       "id": 65,
@@ -1945,6 +1996,7 @@
       "title": "Roadster",
       "subtitle": "Men Regular Fit Regular Shorts",
       "discounted_price": "493",
+      "price": 493,
       "strike_price": "1299",
       "discount": "(62% OFF)",
       "images": [
@@ -1966,7 +2018,8 @@
         "36"
       ],
       "rating": "4.1",
-      "rating_count": "4.8k"
+      "rating_count": "4.8k",
+      "quantity": "1"
     },
     {
       "id": 66,
@@ -1974,6 +2027,7 @@
       "title": "Roadster",
       "subtitle": "Men Solid Sweatshirt",
       "discounted_price": "688",
+      "price": 688,
       "strike_price": "1299",
       "discount": "(47% OFF)",
       "images": [
@@ -1997,7 +2051,8 @@
         "3XL"
       ],
       "rating": "4.4",
-      "rating_count": "5.1k"
+      "rating_count": "5.1k",
+      "quantity": "1"
     },
     {
       "id": 67,
@@ -2005,6 +2060,7 @@
       "title": "WROGN",
       "subtitle": "Men Slim Fit Casual Shirt",
       "discounted_price": "1324",
+      "price": 1324,
       "strike_price": "2499",
       "discount": "(47% OFF)",
       "images": [
@@ -2026,7 +2082,8 @@
         "46"
       ],
       "rating": "4.2",
-      "rating_count": "2.8k"
+      "rating_count": "2.8k",
+      "quantity": "1"
     },
     {
       "id": 68,
@@ -2034,6 +2091,7 @@
       "title": "Artengo By Decathlon",
       "subtitle": "Men Regular Fit Sports Shorts",
       "discounted_price": "359",
+      "price": 359,
       "strike_price": "499",
       "discount": "(28% OFF)",
       "images": [
@@ -2055,7 +2113,8 @@
         "41"
       ],
       "rating": "4.3",
-      "rating_count": "4.2k"
+      "rating_count": "4.2k",
+      "quantity": "1"
     },
     {
       "id": 69,
@@ -2063,6 +2122,7 @@
       "title": "Roadster",
       "subtitle": "Men Slim Fit Jeans",
       "discounted_price": "645",
+      "price": 645,
       "strike_price": "1699",
       "discount": "(62% OFF)",
       "images": [
@@ -2086,7 +2146,8 @@
         "40"
       ],
       "rating": "3.3",
-      "rating_count": "1.2k"
+      "rating_count": "1.2k",
+      "quantity": "1"
     },
     {
       "id": 70,
@@ -2094,6 +2155,7 @@
       "title": "FITINC",
       "subtitle": "Men Solid Slim-Fit Track Pants",
       "discounted_price": "699",
+      "price": 699,
       "strike_price": "1499",
       "discount": "(Rs. 800 OFF)",
       "images": [
@@ -2116,7 +2178,8 @@
         "3XL"
       ],
       "rating": "4.3",
-      "rating_count": "7"
+      "rating_count": "7",
+      "quantity": "1"
     },
     {
       "id": 71,
@@ -2124,6 +2187,7 @@
       "title": "HERE&NOW",
       "subtitle": "Slim Fit Striped Casual Shirt",
       "discounted_price": "799",
+      "price": 799,
       "strike_price": "1899",
       "discount": "(Rs. 1100 OFF)",
       "images": [
@@ -2145,7 +2209,8 @@
         "46"
       ],
       "rating": "4.4",
-      "rating_count": "2k"
+      "rating_count": "2k",
+      "quantity": "1"
     },
     {
       "id": 72,
@@ -2153,6 +2218,7 @@
       "title": "Puma",
       "subtitle": "Men Slim Fit Track Suit",
       "discounted_price": "2949",
+      "price": 2949,
       "strike_price": "4999",
       "discount": "( 41 % OFF)",
       "images": [
@@ -2176,7 +2242,8 @@
         "XXL"
       ],
       "rating": "4.4",
-      "rating_count": "109"
+      "rating_count": "109",
+      "quantity": "1"
     },
     {
       "id": 74,
@@ -2184,6 +2251,7 @@
       "title": "Roadster",
       "subtitle": "Typography Cotton T-shirt",
       "discounted_price": "257",
+      "price": 257,
       "strike_price": "599",
       "discount": "(57% OFF)",
       "images": [
@@ -2208,7 +2276,8 @@
         "4XL"
       ],
       "rating": "4",
-      "rating_count": "21.2k"
+      "rating_count": "21.2k",
+      "quantity": "1"
     },
     {
       "id": 75,
@@ -2216,6 +2285,7 @@
       "title": "DILLINGER",
       "subtitle": "Striped Cotton Pure Cotton T-shirt",
       "discounted_price": "491",
+      "price": 491,
       "strike_price": "1199",
       "discount": "(59% OFF)",
       "images": [
@@ -2237,7 +2307,8 @@
         "XXL"
       ],
       "rating": "4.3",
-      "rating_count": "11.1k"
+      "rating_count": "11.1k",
+      "quantity": "1"
     },
     {
       "id": 76,
@@ -2245,6 +2316,7 @@
       "title": "HIGHLANDER",
       "subtitle": "Men Slim Fit Casual Shirt",
       "discounted_price": "399",
+      "price": 399,
       "strike_price": "999",
       "discount": "(60% OFF)",
       "images": [
@@ -2265,7 +2337,8 @@
         "44"
       ],
       "rating": "4.1",
-      "rating_count": "1.9k"
+      "rating_count": "1.9k",
+      "quantity": "1"
     },
     {
       "id": 77,
@@ -2273,6 +2346,7 @@
       "title": "HIGHLANDER",
       "subtitle": "Men Sweatshirt",
       "discounted_price": "699",
+      "price": 699,
       "strike_price": "1749",
       "discount": "(60% OFF)",
       "images": [
@@ -2293,7 +2367,8 @@
         "XL"
       ],
       "rating": "4.7",
-      "rating_count": "17"
+      "rating_count": "17",
+      "quantity": "1"
     },
     {
       "id": 78,
@@ -2301,6 +2376,7 @@
       "title": "HERE&NOW",
       "subtitle": "Slim Fit Casual Shirt",
       "discounted_price": "699",
+      "price": 699,
       "strike_price": "1999",
       "discount": "(65% OFF)",
       "images": [
@@ -2322,7 +2398,8 @@
         "46"
       ],
       "rating": "4.2",
-      "rating_count": "90"
+      "rating_count": "90",
+      "quantity": "1"
     },
     {
       "id": 79,
@@ -2330,6 +2407,7 @@
       "title": "Roadster",
       "subtitle": "Men Solid Bomber Jacket",
       "discounted_price": "987",
+      "price": 987,
       "strike_price": "2599",
       "discount": "(62% OFF)",
       "images": [
@@ -2353,7 +2431,8 @@
         "3XL"
       ],
       "rating": "4.4",
-      "rating_count": "1.8k"
+      "rating_count": "1.8k",
+      "quantity": "1"
     },
     {
       "id": 80,
@@ -2361,6 +2440,7 @@
       "title": "Roadster",
       "subtitle": "Men Regular Fit Casual Shirt",
       "discounted_price": "873",
+      "price": 873,
       "strike_price": "2299",
       "discount": "(62% OFF)",
       "images": [
@@ -2381,7 +2461,8 @@
         "44"
       ],
       "rating": "4",
-      "rating_count": "616"
+      "rating_count": "616",
+      "quantity": "1"
     },
     {
       "id": 81,
@@ -2389,6 +2470,7 @@
       "title": "HRX by Hrithik Roshan",
       "subtitle": "Men Solid Joggers",
       "discounted_price": "594",
+      "price": 594,
       "strike_price": "1699",
       "discount": "(65% OFF)",
       "images": [
@@ -2410,7 +2492,8 @@
         "XXL"
       ],
       "rating": "4.1",
-      "rating_count": "11k"
+      "rating_count": "11k",
+      "quantity": "1"
     },
     {
       "id": 82,
@@ -2418,6 +2501,7 @@
       "title": "Nike",
       "subtitle": "Men AS DNA Woven Track Pants",
       "discounted_price": "2271",
+      "price": 2271,
       "strike_price": "3495",
       "discount": "(35% OFF)",
       "images": [
@@ -2439,7 +2523,8 @@
         "XXL"
       ],
       "rating": "4.1",
-      "rating_count": "214"
+      "rating_count": "214",
+      "quantity": "1"
     },
     {
       "id": 83,
@@ -2447,6 +2532,7 @@
       "title": "Roadster",
       "subtitle": "Solid Round Neck Pure Cotton T-shirt",
       "discounted_price": "399",
+      "price": 399,
       "strike_price": "999",
       "discount": "(Rs. 600 OFF)",
       "images": [
@@ -2471,16 +2557,18 @@
         "4XL"
       ],
       "rating": "4",
-      "rating_count": "6.5k"
+      "rating_count": "6.5k",
+      "quantity": "1"
     },
     {
       "id": 84,
       "category": "Mens",
       "title": "H&M",
       "subtitle": "Men Relaxed Fit Hoodie",
-      "discounted_price": null,
+      "discounted_price": "1499",
+      "price": 1499,
       "strike_price": "1499",
-      "discount": null,
+      "discount": "(84% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16057202/2021/11/10/e3541adf-3a1e-4ccc-bedd-644c2e0f29221636560314413RelaxedFitHoodie1.jpg",
         "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16057202/2021/11/10/e3541adf-3a1e-4ccc-bedd-644c2e0f29221636560314413RelaxedFitHoodie1.jpg",
@@ -2501,7 +2589,8 @@
         "XXL"
       ],
       "rating": "4.5",
-      "rating_count": "1.1k"
+      "rating_count": "1.1k",
+      "quantity": "1"
     },
     {
       "id": 85,
@@ -2509,6 +2598,7 @@
       "title": "Levis",
       "subtitle": "Men Tapered Fit Jeans",
       "discounted_price": "2239",
+      "price": 2239,
       "strike_price": "3199",
       "discount": "(30% OFF)",
       "images": [
@@ -2531,7 +2621,8 @@
         "38"
       ],
       "rating": "4.4",
-      "rating_count": "53"
+      "rating_count": "53",
+      "quantity": "1"
     },
     {
       "id": 86,
@@ -2539,6 +2630,7 @@
       "title": "PUMA Motorsport",
       "subtitle": "Brand Logo Sporty Track Jacket",
       "discounted_price": "3199",
+      "price": 3199,
       "strike_price": "7999",
       "discount": "(60% OFF)",
       "images": [
@@ -2561,7 +2653,8 @@
         "XXL"
       ],
       "rating": "4.5",
-      "rating_count": "182"
+      "rating_count": "182",
+      "quantity": "1"
     },
     {
       "id": 87,
@@ -2569,6 +2662,7 @@
       "title": "Moda Rapido",
       "subtitle": "Printed Cotton Pure Cotton T-shirt",
       "discounted_price": "399",
+      "price": 399,
       "strike_price": "799",
       "discount": "(Rs. 400 OFF)",
       "images": [
@@ -2590,7 +2684,8 @@
         "XXL"
       ],
       "rating": "3.7",
-      "rating_count": "23.8k"
+      "rating_count": "23.8k",
+      "quantity": "1"
     },
     {
       "id": 88,
@@ -2598,6 +2693,7 @@
       "title": "WROGN",
       "subtitle": "Men Slim Fit Jeans",
       "discounted_price": "1214",
+      "price": 1214,
       "strike_price": "2699",
       "discount": "(55% OFF)",
       "images": [
@@ -2620,7 +2716,8 @@
         "38"
       ],
       "rating": "4",
-      "rating_count": "1.3k"
+      "rating_count": "1.3k",
+      "quantity": "1"
     },
     {
       "id": 89,
@@ -2628,6 +2725,7 @@
       "title": "HERE&NOW",
       "subtitle": "Printed Pullover Sweatshirt",
       "discounted_price": "489",
+      "price": 489,
       "strike_price": "1399",
       "discount": "(65% OFF)",
       "images": [
@@ -2649,7 +2747,8 @@
         "XXL"
       ],
       "rating": "4.4",
-      "rating_count": "1.1k"
+      "rating_count": "1.1k",
+      "quantity": "1"
     },
     {
       "id": 90,
@@ -2657,6 +2756,7 @@
       "title": "Puma",
       "subtitle": "Men Colourblocked Joggers",
       "discounted_price": "1484",
+      "price": 1483,
       "strike_price": "3299",
       "discount": "(55% OFF)",
       "images": [
@@ -2679,7 +2779,8 @@
         "XXL"
       ],
       "rating": "4.7",
-      "rating_count": "32"
+      "rating_count": "32",
+      "quantity": "1"
     },
     {
       "id": 91,
@@ -2687,6 +2788,7 @@
       "title": "Roadster",
       "subtitle": "Men Slim Fit Jeans",
       "discounted_price": "539",
+      "price": 539,
       "strike_price": "1999",
       "discount": "(73% OFF)",
       "images": [
@@ -2708,7 +2810,8 @@
         "36"
       ],
       "rating": "3.8",
-      "rating_count": "670"
+      "rating_count": "670",
+      "quantity": "1"
     },
     {
       "id": 92,
@@ -2716,6 +2819,7 @@
       "title": "HIGHLANDER",
       "subtitle": "Slim Cotton Linen Casual Shirt",
       "discounted_price": "554",
+      "price": 554,
       "strike_price": "1499",
       "discount": "(63% OFF)",
       "images": [
@@ -2736,7 +2840,8 @@
         "44"
       ],
       "rating": "4.3",
-      "rating_count": "1.5k"
+      "rating_count": "1.5k",
+      "quantity": "1"
     },
     {
       "id": 93,
@@ -2744,6 +2849,7 @@
       "title": "Allen Solly Sport",
       "subtitle": "White And Blue Casual Shirt",
       "discounted_price": "1241",
+      "price": 1241,
       "strike_price": "1799",
       "discount": "(31% OFF)",
       "images": [
@@ -2764,7 +2870,8 @@
         "42"
       ],
       "rating": "4.8",
-      "rating_count": "5"
+      "rating_count": "5",
+      "quantity": "1"
     },
     {
       "id": 94,
@@ -2772,6 +2879,7 @@
       "title": "Roadster",
       "subtitle": "Printed Henley T-shirt",
       "discounted_price": "399",
+      "price": 399,
       "strike_price": "799",
       "discount": "(Rs. 400 OFF)",
       "images": [
@@ -2796,7 +2904,8 @@
         "4XL"
       ],
       "rating": "4.2",
-      "rating_count": "5.6k"
+      "rating_count": "5.6k",
+      "quantity": "1"
     },
     {
       "id": 95,
@@ -2804,6 +2913,7 @@
       "title": "HIGHLANDER",
       "subtitle": "Solid Denim Jacket",
       "discounted_price": "692",
+      "price": 692,
       "strike_price": "2099",
       "discount": "(67% OFF)",
       "images": [
@@ -2824,7 +2934,8 @@
         "XL"
       ],
       "rating": "4.2",
-      "rating_count": "1.3k"
+      "rating_count": "1.3k",
+      "quantity": "1"
     },
     {
       "id": 96,
@@ -2832,6 +2943,7 @@
       "title": "Roadster",
       "subtitle": "Men Skinny Fit Jeans",
       "discounted_price": "759",
+      "price": 759,
       "strike_price": "1999",
       "discount": "(62% OFF)",
       "images": [
@@ -2855,7 +2967,8 @@
         "40"
       ],
       "rating": "3.7",
-      "rating_count": "405"
+      "rating_count": "405",
+      "quantity": "1"
     },
     {
       "id": 97,
@@ -2863,6 +2976,7 @@
       "title": "LOCOMOTIVE",
       "subtitle": "Men Slim Fit Jeans",
       "discounted_price": "749",
+      "price": 749,
       "strike_price": "2499",
       "discount": "(70% OFF)",
       "images": [
@@ -2883,7 +2997,8 @@
         "36"
       ],
       "rating": "3.9",
-      "rating_count": "1.4k"
+      "rating_count": "1.4k",
+      "quantity": "1"
     },
     {
       "id": 98,
@@ -2891,6 +3006,7 @@
       "title": "Roadster",
       "subtitle": "Men Cotton Casual Shirt",
       "discounted_price": "519",
+      "price": 519,
       "strike_price": "1299",
       "discount": "(60% OFF)",
       "images": [
@@ -2911,7 +3027,8 @@
         "44"
       ],
       "rating": "3.9",
-      "rating_count": "340"
+      "rating_count": "340",
+      "quantity": "1"
     },
     {
       "id": 99,
@@ -2919,6 +3036,7 @@
       "title": "Roadster",
       "subtitle": "Men Solid Sweatshirt",
       "discounted_price": "741",
+      "price": 741,
       "strike_price": "1399",
       "discount": "(47% OFF)",
       "images": [
@@ -2941,7 +3059,8 @@
         "XXL"
       ],
       "rating": "4",
-      "rating_count": "8.1k"
+      "rating_count": "8.1k",
+      "quantity": "1"
     },
     {
       "id": 100,
@@ -2949,6 +3068,7 @@
       "title": "Mast & Harbour",
       "subtitle": "Men Casual Shirt",
       "discounted_price": "626",
+      "price": 626,
       "strike_price": "1899",
       "discount": "(67% OFF)",
       "images": [
@@ -2969,7 +3089,8 @@
         "44"
       ],
       "rating": "3.9",
-      "rating_count": "1.5k"
+      "rating_count": "1.5k",
+      "quantity": "1"
     },
     {
       "id": 101,
@@ -2977,6 +3098,7 @@
       "title": "HIGHLANDER",
       "subtitle": "Slim Fit Casual Shirt",
       "discounted_price": "469",
+      "price": 469,
       "strike_price": "999",
       "discount": "(53% OFF)",
       "images": [
@@ -2998,7 +3120,8 @@
         "46"
       ],
       "rating": "4.3",
-      "rating_count": "10.2k"
+      "rating_count": "10.2k",
+      "quantity": "1"
     },
     {
       "id": 102,
@@ -3006,6 +3129,7 @@
       "title": "Levis",
       "subtitle": "Men 511 Slim Fit Jeans",
       "discounted_price": "2239",
+      "price": 2239,
       "strike_price": "3199",
       "discount": "(30% OFF)",
       "images": [
@@ -3028,7 +3152,8 @@
         "38"
       ],
       "rating": "4.2",
-      "rating_count": "33"
+      "rating_count": "33",
+      "quantity": "1"
     },
     {
       "id": 103,
@@ -3036,6 +3161,7 @@
       "title": "Campus Sutra",
       "subtitle": "Colourblocked Cotton Pure Cotton T-shirt",
       "discounted_price": "399",
+      "price": 399,
       "strike_price": "949",
       "discount": "(Rs. 550 OFF)",
       "images": [
@@ -3056,6 +3182,7 @@
         "XL"
       ],
       "rating": "3.7",
+<<<<<<< HEAD
       "rating_count": "17k"
     },
     {
@@ -3132,6 +3259,10 @@
       "size": [],
       "rating": null,
       "rating_count": null
+=======
+      "rating_count": "17k",
+      "quantity": "1"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
     }
   ],
   "Womens": [
@@ -3141,6 +3272,7 @@
       "title": "KALINI",
       "subtitle": "Women Yoke Design Kurta Set",
       "discounted_price": "887",
+      "price": 887,
       "strike_price": "3699",
       "discount": "(76% OFF)",
       "images": [
@@ -3161,7 +3293,8 @@
         "XXL"
       ],
       "rating": "4.1",
-      "rating_count": "1.9k"
+      "rating_count": "1.9k",
+      "quantity": 1
     },
     {
       "id": 110,
@@ -3169,6 +3302,7 @@
       "title": "Khushal K",
       "subtitle": "Women Kurta Set With Dupatta",
       "discounted_price": "1529",
+      "price": 1529,
       "strike_price": "5099",
       "discount": "(70% OFF)",
       "images": [
@@ -3189,7 +3323,8 @@
         "XXL"
       ],
       "rating": "4.4",
-      "rating_count": "5.9k"
+      "rating_count": "5.9k",
+      "quantity": 1
     },
     {
       "id": 111,
@@ -3197,6 +3332,7 @@
       "title": "Anouk",
       "subtitle": "Kurta with Palazzos & Dupatta",
       "discounted_price": "1329",
+      "price": 1329,
       "strike_price": "3799",
       "discount": "(65% OFF)",
       "images": [
@@ -3220,7 +3356,8 @@
         "4XL"
       ],
       "rating": "4.2",
-      "rating_count": "1.7k"
+      "rating_count": "1.7k",
+      "quantity": 1
     },
     {
       "id": 112,
@@ -3228,6 +3365,7 @@
       "title": "Indo Era",
       "subtitle": "Zari Embroidered Kurta set",
       "discounted_price": "1399",
+      "price": 1399,
       "strike_price": "6999",
       "discount": "(80% OFF)",
       "images": [
@@ -3249,7 +3387,8 @@
         "XXL"
       ],
       "rating": "4.3",
-      "rating_count": "3.4k"
+      "rating_count": "3.4k",
+      "quantity": 1
     },
     {
       "id": 113,
@@ -3257,6 +3396,7 @@
       "title": "KALINI",
       "subtitle": "Women Kurta with Palazzos With Dupatta",
       "discounted_price": "799",
+      "price": 799,
       "strike_price": "3635",
       "discount": "(78% OFF)",
       "images": [
@@ -3280,7 +3420,8 @@
         "5XL"
       ],
       "rating": "4.2",
-      "rating_count": "865"
+      "rating_count": "865",
+      "quantity": 1
     },
     {
       "id": 114,
@@ -3288,6 +3429,7 @@
       "title": "Khushal K",
       "subtitle": "Women Yoke Design Kurta with Palazzos With Dupatta",
       "discounted_price": "1529",
+      "price": 1529,
       "strike_price": "5099",
       "discount": "(70% OFF)",
       "images": [
@@ -3308,7 +3450,8 @@
         "XXL"
       ],
       "rating": "4.4",
-      "rating_count": "1.3k"
+      "rating_count": "1.3k",
+      "quantity": 1
     },
     {
       "id": 115,
@@ -3316,6 +3459,7 @@
       "title": "Anubhutee",
       "subtitle": "Women Embroidered Kurta with Trousers With Dupatta",
       "discounted_price": "1469",
+      "price": 1469,
       "strike_price": "4899",
       "discount": "(70% OFF)",
       "images": [
@@ -3336,7 +3480,8 @@
         "XXL"
       ],
       "rating": "4.1",
-      "rating_count": "2.6k"
+      "rating_count": "2.6k",
+      "quantity": 1
     },
     {
       "id": 116,
@@ -3344,6 +3489,7 @@
       "title": "Anouk",
       "subtitle": "Yoke Design Kurta with Trousers & Dupatta",
       "discounted_price": "979",
+      "price": 979,
       "strike_price": "2799",
       "discount": "(65% OFF)",
       "images": [
@@ -3367,7 +3513,8 @@
         "4XL"
       ],
       "rating": "4.3",
-      "rating_count": "7.7k"
+      "rating_count": "7.7k",
+      "quantity": 1
     },
     {
       "id": 117,
@@ -3375,6 +3522,7 @@
       "title": "KALINI",
       "subtitle": "Women Printed Kurta with Trousers",
       "discounted_price": "767",
+      "price": 767,
       "strike_price": "3199",
       "discount": "(76% OFF)",
       "images": [
@@ -3398,7 +3546,8 @@
         "5XL"
       ],
       "rating": "4",
-      "rating_count": "229"
+      "rating_count": "229",
+      "quantity": 1
     },
     {
       "id": 118,
@@ -3406,6 +3555,7 @@
       "title": "FASHOR",
       "subtitle": "Women Geometric Striped Georgette Kurta",
       "discounted_price": "1350",
+      "price": 1350,
       "strike_price": "3399",
       "discount": "(Rs. 2049 OFF)",
       "images": [
@@ -3426,7 +3576,8 @@
         "XXL"
       ],
       "rating": null,
-      "rating_count": null
+      "rating_count": null,
+      "quantity": 1
     },
     {
       "id": 119,
@@ -3434,6 +3585,7 @@
       "title": "Ahalyaa",
       "subtitle": "Women Printed Kurta with Palazzos With Dupatta",
       "discounted_price": "1560",
+      "price": 1560,
       "strike_price": "6000",
       "discount": "(74% OFF)",
       "images": [
@@ -3455,7 +3607,8 @@
         "XXL"
       ],
       "rating": "3.6",
-      "rating_count": "2.4k"
+      "rating_count": "2.4k",
+      "quantity": 1
     },
     {
       "id": 120,
@@ -3463,6 +3616,7 @@
       "title": "KALINI",
       "subtitle": "Women Printed Kurta with Trousers With Dupatta",
       "discounted_price": "874",
+      "price": 874,
       "strike_price": "3499",
       "discount": "(75% OFF)",
       "images": [
@@ -3483,7 +3637,8 @@
         "XXL"
       ],
       "rating": "4",
-      "rating_count": "1.1k"
+      "rating_count": "1.1k",
+      "quantity": 1
     },
     {
       "id": 121,
@@ -3491,6 +3646,7 @@
       "title": "Anouk",
       "subtitle": "Printed Kurta with Palazzos",
       "discounted_price": "879",
+      "price": 879,
       "strike_price": "2199",
       "discount": "(60% OFF)",
       "images": [
@@ -3514,7 +3670,8 @@
         "4XL"
       ],
       "rating": "4.3",
-      "rating_count": "8k"
+      "rating_count": "8k",
+      "quantity": 1
     },
     {
       "id": 122,
@@ -3522,6 +3679,7 @@
       "title": "Nayo",
       "subtitle": "Women Kurta With Trouser",
       "discounted_price": "1368",
+      "price": 1368,
       "strike_price": "3699",
       "discount": "(63% OFF)",
       "images": [
@@ -3543,7 +3701,8 @@
         "3XL"
       ],
       "rating": "4.1",
-      "rating_count": "5.3k"
+      "rating_count": "5.3k",
+      "quantity": 1
     },
     {
       "id": 123,
@@ -3551,6 +3710,7 @@
       "title": "Varanga",
       "subtitle": "Chanderi Yoke Design Kurta Set",
       "discounted_price": "1499",
+      "price": 1499,
       "strike_price": "5999",
       "discount": "(Rs. 4500 OFF)",
       "images": [
@@ -3572,14 +3732,16 @@
         "XXL"
       ],
       "rating": "4.3",
-      "rating_count": "4.8k"
+      "rating_count": "4.8k",
+      "quantity": 1
     },
     {
       "id": 124,
       "category": "Womens",
       "title": "H&M",
       "subtitle": "Wide twill trousers",
-      "discounted_price": null,
+      "discounted_price": "1299",
+      "price": 1299,
       "strike_price": "1299",
       "discount": null,
       "images": [
@@ -3603,7 +3765,8 @@
         "34"
       ],
       "rating": "4.4",
-      "rating_count": "2k"
+      "rating_count": "2k",
+      "quantity": 1
     },
     {
       "id": 125,
@@ -3611,6 +3774,7 @@
       "title": "KALINI",
       "subtitle": "Women Yoke Design Kurta with Palazzos With Dupatta",
       "discounted_price": "887",
+      "price": 887,
       "strike_price": "3699",
       "discount": "(76% OFF)",
       "images": [
@@ -3631,7 +3795,8 @@
         "XXL"
       ],
       "rating": "4.2",
-      "rating_count": "3.6k"
+      "rating_count": "3.6k",
+      "quantity": 1
     },
     {
       "id": 126,
@@ -3639,6 +3804,7 @@
       "title": "Khushal K",
       "subtitle": "Women Pure Cotton Kurta Set",
       "discounted_price": "1589",
+      "price": 1589,
       "strike_price": "5299",
       "discount": "(70% OFF)",
       "images": [
@@ -3659,7 +3825,8 @@
         "XXL"
       ],
       "rating": "4.3",
-      "rating_count": "2.2k"
+      "rating_count": "2.2k",
+      "quantity": 1
     },
     {
       "id": 127,
@@ -3667,6 +3834,7 @@
       "title": "Anouk",
       "subtitle": "Embroidered Kurta with Palazzos",
       "discounted_price": "999",
+      "price": 999,
       "strike_price": "2499",
       "discount": "(60% OFF)",
       "images": [
@@ -3690,7 +3858,8 @@
         "4XL"
       ],
       "rating": "4.4",
-      "rating_count": "12.2k"
+      "rating_count": "12.2k",
+      "quantity": 1
     },
     {
       "id": 128,
@@ -3698,6 +3867,7 @@
       "title": "Varanga",
       "subtitle": "Embroidered Kurta with Trousers & Dupatta",
       "discounted_price": "1199",
+      "price": 1199,
       "strike_price": "3999",
       "discount": "(Rs. 2800 OFF)",
       "images": [
@@ -3718,7 +3888,8 @@
         "XXL"
       ],
       "rating": "4.1",
-      "rating_count": "4.1k"
+      "rating_count": "4.1k",
+      "quantity": 1
     },
     {
       "id": 129,
@@ -3726,6 +3897,7 @@
       "title": "KALINI",
       "subtitle": "Women Printed Kurta with Trousers With Dupatta",
       "discounted_price": "872",
+      "price": 872,
       "strike_price": "3635",
       "discount": "(76% OFF)",
       "images": [
@@ -3746,7 +3918,8 @@
         "XXL"
       ],
       "rating": "3.9",
-      "rating_count": "527"
+      "rating_count": "527",
+      "quantity": 1
     },
     {
       "id": 130,
@@ -3754,6 +3927,7 @@
       "title": "AHIKA",
       "subtitle": "Printed Straight Kurta",
       "discounted_price": "513",
+      "price": 513,
       "strike_price": "1350",
       "discount": "(62% OFF)",
       "images": [
@@ -3777,7 +3951,8 @@
         "4XL"
       ],
       "rating": "4",
-      "rating_count": "23.2k"
+      "rating_count": "23.2k",
+      "quantity": 1
     },
     {
       "id": 131,
@@ -3785,6 +3960,7 @@
       "title": "Roadster",
       "subtitle": "Women Mid-Rise Skinny Jeans",
       "discounted_price": "919",
+      "price": 919,
       "strike_price": "2299",
       "discount": "(60% OFF)",
       "images": [
@@ -3806,7 +3982,8 @@
         "36"
       ],
       "rating": "4",
-      "rating_count": "13.6k"
+      "rating_count": "13.6k",
+      "quantity": 1
     },
     {
       "id": 132,
@@ -3814,6 +3991,7 @@
       "title": "Varanga",
       "subtitle": "Women Printed Cotton Kurta",
       "discounted_price": "749",
+      "price": 749,
       "strike_price": "2799",
       "discount": "(Rs. 2050 OFF)",
       "images": [
@@ -3834,7 +4012,8 @@
         "XXL"
       ],
       "rating": "4.3",
-      "rating_count": "6.2k"
+      "rating_count": "6.2k",
+      "quantity": 1
     },
     {
       "id": 133,
@@ -3842,6 +4021,7 @@
       "title": "Anouk",
       "subtitle": "Printed Straight Kurta",
       "discounted_price": "629",
+      "price": 629,
       "strike_price": "1799",
       "discount": "(65% OFF)",
       "images": [
@@ -3865,7 +4045,8 @@
         "4XL"
       ],
       "rating": "3.9",
-      "rating_count": "20.4k"
+      "rating_count": "20.4k",
+      "quantity": 1
     },
     {
       "id": 134,
@@ -3873,6 +4054,7 @@
       "title": "JAIPURI BUNAAI",
       "subtitle": "Women Kurta with Trousers With Dupatta",
       "discounted_price": "999",
+      "price": 999,
       "strike_price": "3999",
       "discount": "(75% OFF)",
       "images": [
@@ -3893,7 +4075,8 @@
         "XXL"
       ],
       "rating": "4.3",
-      "rating_count": "604"
+      "rating_count": "604",
+      "quantity": 1
     },
     {
       "id": 135,
@@ -3901,6 +4084,7 @@
       "title": "Indo Era",
       "subtitle": "Women Yoke Design Kurta with Palazzos With Dupatta",
       "discounted_price": "1199",
+      "price": 1199,
       "strike_price": "3999",
       "discount": "(70% OFF)",
       "images": [
@@ -3922,7 +4106,8 @@
         "XXL"
       ],
       "rating": "4.4",
-      "rating_count": "900"
+      "rating_count": "900",
+      "quantity": 1
     },
     {
       "id": 136,
@@ -3930,6 +4115,7 @@
       "title": "KASSUALLY",
       "subtitle": "Women Trousers",
       "discounted_price": "671",
+      "price": 671,
       "strike_price": "1599",
       "discount": "(58% OFF)",
       "images": [
@@ -3951,7 +4137,8 @@
         "36"
       ],
       "rating": "4",
-      "rating_count": "3.8k"
+      "rating_count": "3.8k",
+      "quantity": 1
     },
     {
       "id": 137,
@@ -3959,6 +4146,7 @@
       "title": "InWeave",
       "subtitle": "Women Kurta with Palazzos With Dupatta",
       "discounted_price": "1592",
+      "price": 1592,
       "strike_price": "5899",
       "discount": "(73% OFF)",
       "images": [
@@ -3981,7 +4169,8 @@
         "XXL"
       ],
       "rating": "4.2",
-      "rating_count": "1.8k"
+      "rating_count": "1.8k",
+      "quantity": 1
     },
     {
       "id": 138,
@@ -3989,6 +4178,7 @@
       "title": "Mitera",
       "subtitle": "Woven Design Bandhani Saree",
       "discounted_price": "1112",
+      "price": 1112,
       "strike_price": "5299",
       "discount": "(79% OFF)",
       "images": [
@@ -4005,7 +4195,8 @@
         "Onesize"
       ],
       "rating": "4",
-      "rating_count": "1.9k"
+      "rating_count": "1.9k",
+      "quantity": 1
     },
     {
       "id": 139,
@@ -4013,6 +4204,7 @@
       "title": "Antheaa",
       "subtitle": "Floral Print Fit & Flare Dress",
       "discounted_price": "983",
+      "price": 983,
       "strike_price": "2459",
       "discount": "(60% OFF)",
       "images": [
@@ -4034,7 +4226,8 @@
         "XXL"
       ],
       "rating": "4.3",
-      "rating_count": "8.2k"
+      "rating_count": "8.2k",
+      "quantity": 1
     },
     {
       "id": 140,
@@ -4042,6 +4235,7 @@
       "title": "Anouk",
       "subtitle": "Women Floral Embellished Kurta",
       "discounted_price": "594",
+      "price": 594,
       "strike_price": "1699",
       "discount": "(65% OFF)",
       "images": [
@@ -4065,7 +4259,8 @@
         "4XL"
       ],
       "rating": "4.3",
-      "rating_count": "1.7k"
+      "rating_count": "1.7k",
+      "quantity": 1
     },
     {
       "id": 141,
@@ -4073,6 +4268,7 @@
       "title": "Berrylush",
       "subtitle": "Floral Ruched Dress",
       "discounted_price": "896",
+      "price": 896,
       "strike_price": "2299",
       "discount": "(61% OFF)",
       "images": [
@@ -4092,7 +4288,8 @@
         "XL"
       ],
       "rating": "4.2",
-      "rating_count": "761"
+      "rating_count": "761",
+      "quantity": 1
     },
     {
       "id": 142,
@@ -4100,6 +4297,7 @@
       "title": "Indo Era",
       "subtitle": "Women Yoke Design Kurta with Palazzos With Dupatta",
       "discounted_price": "1791",
+      "price": 1791,
       "strike_price": "6399",
       "discount": "(72% OFF)",
       "images": [
@@ -4121,7 +4319,8 @@
         "XXL"
       ],
       "rating": "4.1",
-      "rating_count": "810"
+      "rating_count": "810",
+      "quantity": 1
     },
     {
       "id": 143,
@@ -4129,6 +4328,7 @@
       "title": "KALINI",
       "subtitle": "Women Kurta Set With Dupatta",
       "discounted_price": "887",
+      "price": 887,
       "strike_price": "3699",
       "discount": "(76% OFF)",
       "images": [
@@ -4149,7 +4349,8 @@
         "XXL"
       ],
       "rating": "4.1",
-      "rating_count": "2.5k"
+      "rating_count": "2.5k",
+      "quantity": 1
     },
     {
       "id": 144,
@@ -4157,6 +4358,7 @@
       "title": "Chemistry",
       "subtitle": "Women Solid Parka",
       "discounted_price": "2999",
+      "price": 2999,
       "strike_price": "5999",
       "discount": "(50% OFF)",
       "images": [
@@ -4176,7 +4378,8 @@
         "XL"
       ],
       "rating": "4.4",
-      "rating_count": "453"
+      "rating_count": "453",
+      "quantity": 1
     },
     {
       "id": 145,
@@ -4184,6 +4387,7 @@
       "title": "SASSAFRAS",
       "subtitle": "Women Relaxed Fit Jeans",
       "discounted_price": "739",
+      "price": 739,
       "strike_price": "1999",
       "discount": "(63% OFF)",
       "images": [
@@ -4205,7 +4409,8 @@
         "36"
       ],
       "rating": "4.2",
-      "rating_count": "6.9k"
+      "rating_count": "6.9k",
+      "quantity": 1
     },
     {
       "id": 146,
@@ -4213,6 +4418,7 @@
       "title": "Varanga",
       "subtitle": "Women Floral Printed Kurta",
       "discounted_price": "749",
+      "price": 749,
       "strike_price": "2799",
       "discount": "(Rs. 2050 OFF)",
       "images": [
@@ -4233,7 +4439,8 @@
         "XXL"
       ],
       "rating": "4.1",
-      "rating_count": "2.4k"
+      "rating_count": "2.4k",
+      "quantity": 1
     },
     {
       "id": 147,
@@ -4241,6 +4448,7 @@
       "title": "KALINI",
       "subtitle": "Women Printed Kurta with Trousers With Dupatta",
       "discounted_price": "813",
+      "price": 813,
       "strike_price": "3699",
       "discount": "(78% OFF)",
       "images": [
@@ -4261,7 +4469,8 @@
         "XXL"
       ],
       "rating": "4",
-      "rating_count": "194"
+      "rating_count": "194",
+      "quantity": 1
     },
     {
       "id": 148,
@@ -4269,6 +4478,7 @@
       "title": "Yufta",
       "subtitle": "Women Printed Kurta with Palazzos With Dupatta",
       "discounted_price": "1451",
+      "price": 1451,
       "strike_price": "3299",
       "discount": "(56% OFF)",
       "images": [
@@ -4289,7 +4499,8 @@
         "XXL"
       ],
       "rating": "4.4",
-      "rating_count": "544"
+      "rating_count": "544",
+      "quantity": 1
     },
     {
       "id": 149,
@@ -4297,6 +4508,7 @@
       "title": "SASSAFRAS",
       "subtitle": "Women Regular Wide Track Pants",
       "discounted_price": "614",
+      "price": 614,
       "strike_price": "1499",
       "discount": "(59% OFF)",
       "images": [
@@ -4318,7 +4530,8 @@
         "XXL"
       ],
       "rating": "4.4",
-      "rating_count": "17.8k"
+      "rating_count": "17.8k",
+      "quantity": 1
     },
     {
       "id": 150,
@@ -4326,6 +4539,7 @@
       "title": "Varanga",
       "subtitle": "Calm Blue and Beige Ethnic Motifs Print Kurta",
       "discounted_price": "749",
+      "price": 749,
       "strike_price": "2999",
       "discount": "(Rs. 2250 OFF)",
       "images": [
@@ -4346,7 +4560,8 @@
         "XXL"
       ],
       "rating": "4.2",
-      "rating_count": "2.6k"
+      "rating_count": "2.6k",
+      "quantity": 1
     },
     {
       "id": 151,
@@ -4354,6 +4569,7 @@
       "title": "Roadster",
       "subtitle": "Pure Cotton T-shirt",
       "discounted_price": "179",
+      "price": 179,
       "strike_price": "599",
       "discount": "(70% OFF)",
       "images": [
@@ -4374,7 +4590,8 @@
         "XL"
       ],
       "rating": "4.2",
-      "rating_count": "10.7k"
+      "rating_count": "10.7k",
+      "quantity": 1
     },
     {
       "id": 152,
@@ -4382,6 +4599,7 @@
       "title": "Anouk",
       "subtitle": "Women Printed Kurta with Palazzos",
       "discounted_price": "874",
+      "price": 874,
       "strike_price": "2499",
       "discount": "(65% OFF)",
       "images": [
@@ -4405,7 +4623,8 @@
         "4XL"
       ],
       "rating": "4.2",
-      "rating_count": "2.5k"
+      "rating_count": "2.5k",
+      "quantity": 1
     },
     {
       "id": 153,
@@ -4413,6 +4632,7 @@
       "title": "Anouk",
       "subtitle": "Ready to Wear Lehenga Blouse With Dupatta",
       "discounted_price": "1749",
+      "price": 1749,
       "strike_price": "4999",
       "discount": "(65% OFF)",
       "images": [
@@ -4434,7 +4654,8 @@
         "XXL"
       ],
       "rating": "4.3",
-      "rating_count": "120"
+      "rating_count": "120",
+      "quantity": 1
     },
     {
       "id": 154,
@@ -4442,6 +4663,7 @@
       "title": "Roadster",
       "subtitle": "Washed Denim Trucker Jacket",
       "discounted_price": "799",
+      "price": 799,
       "strike_price": "1599",
       "discount": "(50% OFF)",
       "images": [
@@ -4463,14 +4685,16 @@
         "XXL"
       ],
       "rating": "4.5",
-      "rating_count": "1k"
+      "rating_count": "1k",
+      "quantity": 1
     },
     {
       "id": 155,
       "category": "Womens",
       "title": "MOKSHA DESIGNS",
       "subtitle": "Kanjeevaram Pure Silk Saree",
-      "discounted_price": null,
+      "discounted_price": 7890,
+      "price": 7890,
       "strike_price": "7890",
       "discount": null,
       "images": [
@@ -4487,7 +4711,8 @@
         "Onesize"
       ],
       "rating": null,
-      "rating_count": null
+      "rating_count": null,
+      "quantity": 1
     },
     {
       "id": 156,
@@ -4495,6 +4720,7 @@
       "title": "Khushal K",
       "subtitle": "Women Yoke Design Kurta Set",
       "discounted_price": "1424",
+      "price": 1424,
       "strike_price": "4749",
       "discount": "(70% OFF)",
       "images": [
@@ -4515,7 +4741,8 @@
         "XXL"
       ],
       "rating": "4.4",
-      "rating_count": "3.9k"
+      "rating_count": "3.9k",
+      "quantity": 1
     },
     {
       "id": 157,
@@ -4523,6 +4750,7 @@
       "title": "DOLCE CRUDO",
       "subtitle": "Women Skinny Fit Jeans",
       "discounted_price": "959",
+      "price": 959,
       "strike_price": "2399",
       "discount": "(60% OFF)",
       "images": [
@@ -4543,7 +4771,8 @@
         "34"
       ],
       "rating": "4.1",
-      "rating_count": "3.4k"
+      "rating_count": "3.4k",
+      "quantity": 1
     },
     {
       "id": 158,
@@ -4551,6 +4780,7 @@
       "title": "Varanga",
       "subtitle": "Women Ethnic Motifs Printed Kurta",
       "discounted_price": "699",
+      "price": 699,
       "strike_price": "3299",
       "discount": "(Rs. 2600 OFF)",
       "images": [
@@ -4571,6 +4801,7 @@
         "XXL"
       ],
       "rating": "4.2",
+<<<<<<< HEAD
       "rating_count": "2.4k"
     },
     {
@@ -4647,6 +4878,10 @@
       "size": [],
       "rating": null,
       "rating_count": null
+=======
+      "rating_count": "2.4k",
+      "quantity": 1
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
     },
     {
       "id": 164,
@@ -4654,6 +4889,7 @@
       "title": "Varanga",
       "subtitle": "Women Ethnic Motifs Printed Kurta",
       "discounted_price": "699",
+      "price": 699,
       "strike_price": "3299",
       "discount": "(Rs. 2600 OFF)",
       "images": [
@@ -4675,7 +4911,8 @@
         "XXL"
       ],
       "rating": "4.2",
-      "rating_count": "2.4k"
+      "rating_count": "2.4k",
+      "quantity": 1
     },
     {
       "id": 165,
@@ -4683,6 +4920,7 @@
       "title": "Libas",
       "subtitle": "Kurta with Sharara & Dupatta",
       "discounted_price": "1799",
+      "price": 1799,
       "strike_price": "4999",
       "discount": "(64% OFF)",
       "images": [
@@ -4705,7 +4943,8 @@
         "XXL"
       ],
       "rating": "4.5",
-      "rating_count": "244"
+      "rating_count": "244",
+      "quantity": 1
     },
     {
       "id": 166,
@@ -4713,6 +4952,7 @@
       "title": "Anouk",
       "subtitle": "Women Embroidered Kurta with Trousers",
       "discounted_price": "1154",
+      "price": 1154,
       "strike_price": "3299",
       "discount": "(65% OFF)",
       "images": [
@@ -4735,7 +4975,8 @@
         "XXL"
       ],
       "rating": "4.2",
-      "rating_count": "767"
+      "rating_count": "767",
+      "quantity": 1
     },
     {
       "id": 167,
@@ -4743,6 +4984,7 @@
       "title": "Libas",
       "subtitle": "Floral Cotton Kurta Set",
       "discounted_price": "899",
+      "price": 899,
       "strike_price": "2499",
       "discount": "(64% OFF)",
       "images": [
@@ -4766,7 +5008,8 @@
         "3XL"
       ],
       "rating": "4",
-      "rating_count": "13.4k"
+      "rating_count": "13.4k",
+      "quantity": 1
     },
     {
       "id": 168,
@@ -4774,6 +5017,7 @@
       "title": "Tokyo Talkies",
       "subtitle": "Women Printed Sweatshirt",
       "discounted_price": "284",
+      "price": 284,
       "strike_price": "1499",
       "discount": "(81% OFF)",
       "images": [
@@ -4794,7 +5038,8 @@
         "XL"
       ],
       "rating": "4.4",
-      "rating_count": "672"
+      "rating_count": "672",
+      "quantity": 1
     },
     {
       "id": 169,
@@ -4802,6 +5047,7 @@
       "title": "ADDYVERO",
       "subtitle": "Women High-Rise Trousers",
       "discounted_price": "543",
+      "price": 543,
       "strike_price": "1699",
       "discount": "(68% OFF)",
       "images": [
@@ -4823,7 +5069,8 @@
         "36"
       ],
       "rating": "4.3",
-      "rating_count": "650"
+      "rating_count": "650",
+      "quantity": 1
     },
     {
       "id": 170,
@@ -4831,6 +5078,7 @@
       "title": "Indo Era",
       "subtitle": "Floral Screen Print Kurta Set",
       "discounted_price": "1249",
+      "price": 1249,
       "strike_price": "4999",
       "discount": "(75% OFF)",
       "images": [
@@ -4853,7 +5101,8 @@
         "XXL"
       ],
       "rating": "4.2",
-      "rating_count": "7.4k"
+      "rating_count": "7.4k",
+      "quantity": 1
     },
     {
       "id": 171,
@@ -4861,6 +5110,7 @@
       "title": "heemara",
       "subtitle": "Women Embroidered Kurta with Trousers With Dupatta",
       "discounted_price": "1399",
+      "price": 1399,
       "strike_price": "6999",
       "discount": "(80% OFF)",
       "images": [
@@ -4883,7 +5133,8 @@
         "3XL"
       ],
       "rating": "3.7",
-      "rating_count": "539"
+      "rating_count": "539",
+      "quantity": 1
     },
     {
       "id": 172,
@@ -4891,6 +5142,7 @@
       "title": "Anouk",
       "subtitle": "Women Embroidered Kurta with Trousers With Dupatta",
       "discounted_price": "1559",
+      "price": 1559,
       "strike_price": "3899",
       "discount": "(60% OFF)",
       "images": [
@@ -4915,7 +5167,8 @@
         "4XL"
       ],
       "rating": "4.1",
-      "rating_count": "515"
+      "rating_count": "515",
+      "quantity": 1
     },
     {
       "id": 173,
@@ -4923,6 +5176,7 @@
       "title": "Libas",
       "subtitle": "Cotton Printed Kurta Set",
       "discounted_price": "1349",
+      "price": 1349,
       "strike_price": "2999",
       "discount": "(55% OFF)",
       "images": [
@@ -4945,7 +5199,8 @@
         "XXL"
       ],
       "rating": "4.4",
-      "rating_count": "454"
+      "rating_count": "454",
+      "quantity": 1
     },
     {
       "id": 174,
@@ -4953,6 +5208,7 @@
       "title": "Varanga",
       "subtitle": "Women Printed Kurta",
       "discounted_price": "703",
+      "price": 703,
       "strike_price": "2199",
       "discount": "(68% OFF)",
       "images": [
@@ -4974,7 +5230,8 @@
         "XXL"
       ],
       "rating": "4.2",
-      "rating_count": "1.8k"
+      "rating_count": "1.8k",
+      "quantity": 1
     },
     {
       "id": 175,
@@ -4982,6 +5239,7 @@
       "title": "Difference of Opinion",
       "subtitle": "Printed Cotton T-shirt",
       "discounted_price": "475",
+      "price": 475,
       "strike_price": "1399",
       "discount": "(66% OFF)",
       "images": [
@@ -5003,16 +5261,18 @@
         "XL"
       ],
       "rating": "4.3",
-      "rating_count": "407"
+      "rating_count": "407",
+      "quantity": 1
     },
     {
       "id": 176,
       "category": "Womens",
       "title": "H&M",
       "subtitle": "Cigarette trousers",
-      "discounted_price": null,
+      "discounted_price": "1499",
+      "price": 1499,
       "strike_price": "1499",
-      "discount": null,
+      "discount": "(25% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/8/11/77b35c02-855a-451a-8167-efda7e7351d21565468587932-1.jpg",
         "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/8/11/77b35c02-855a-451a-8167-efda7e7351d21565468587932-1.jpg",
@@ -5035,7 +5295,8 @@
         "34"
       ],
       "rating": "4.5",
-      "rating_count": "1.6k"
+      "rating_count": "1.6k",
+      "quantity": 1
     },
     {
       "id": 177,
@@ -5043,6 +5304,7 @@
       "title": "Kotty",
       "subtitle": "Women Flared Jeans",
       "discounted_price": "639",
+      "price": 639,
       "strike_price": "1999",
       "discount": "(68% OFF)",
       "images": [
@@ -5064,7 +5326,8 @@
         "34"
       ],
       "rating": "4.1",
-      "rating_count": "3.3k"
+      "rating_count": "3.3k",
+      "quantity": 1
     },
     {
       "id": 178,
@@ -5072,6 +5335,7 @@
       "title": "Anubhutee",
       "subtitle": "Ethnic Embroidered Kurta Set",
       "discounted_price": "986",
+      "price": 986,
       "strike_price": "2989",
       "discount": "(67% OFF)",
       "images": [
@@ -5093,6 +5357,7 @@
         "XXL"
       ],
       "rating": "4.4",
+      "quantity": 1,
       "rating_count": "21.4k"
     },
     {
@@ -5101,10 +5366,15 @@
       "title": "ZNX Clothing",
       "subtitle": "Tropical Print Crepe Wrap Top",
       "discounted_price": "599",
+      "price": 599,
       "strike_price": "1499",
       "discount": "(60% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5114,7 +5384,8 @@
         "XL"
       ],
       "rating": "4",
-      "rating_count": "242"
+      "rating_count": "242",
+      "quantity": 1
     },
     {
       "id": 180,
@@ -5122,10 +5393,15 @@
       "title": "Libas",
       "subtitle": "Women Kurta with Palazzos With Dupatta",
       "discounted_price": "1049",
+      "price": 1049,
       "strike_price": "2999",
       "discount": "(65% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14025916/2021/6/16/71e61247-d9d9-4c7f-9db7-a332eb84541f1623827034043-Varanga-Blue-And-White-Striped-Straight--Kurta-With-V-Shape--1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5144,10 +5420,15 @@
       "title": "Anouk",
       "subtitle": "Kurta Set With Dupatta",
       "discounted_price": "1329",
+      "price": 1329,
       "strike_price": "3799",
       "discount": "(65% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15599320/2022/4/28/c06a6b1a-4e0b-43ed-ad2e-394b588a0d8b1651144480179-Difference-of-Opinion-Women-Black-Conversational-Printed-Pur-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5160,6 +5441,7 @@
         "4XL"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "1.2k"
     },
     {
@@ -5168,10 +5450,15 @@
       "title": "Indo Era",
       "subtitle": "Women Yoke Design Kurta Set",
       "discounted_price": "1239",
+      "price": 1239,
       "strike_price": "3999",
       "discount": "(69% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/8/11/77b35c02-855a-451a-8167-efda7e7351d21565468587932-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5182,6 +5469,7 @@
         "XXL"
       ],
       "rating": "4.3",
+      "quantity": 1,
       "rating_count": "236"
     },
     {
@@ -5190,10 +5478,15 @@
       "title": "Tokyo Talkies",
       "subtitle": "Women Slim Fit Track Pants",
       "discounted_price": "402",
+      "price": 402,
       "strike_price": "1149",
       "discount": "(65% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/12/15/98e4cd89-4c1a-40ed-a659-645f5c2d3f801608051833514-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5202,6 +5495,7 @@
         "XL"
       ],
       "rating": "4.3",
+      "quantity": 1,
       "rating_count": "2.7k"
     },
     {
@@ -5210,15 +5504,21 @@
       "title": "Saree mall",
       "subtitle": "Floral Saree",
       "discounted_price": "899",
+      "price": 899,
       "strike_price": "3599",
       "discount": "(75% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "Onesize"
       ],
       "rating": "3.9",
+      "quantity": 1,
       "rating_count": "1.5k"
     },
     {
@@ -5227,10 +5527,15 @@
       "title": "SASSAFRAS",
       "subtitle": "High Neck Cropped Top",
       "discounted_price": "449",
+      "price": 449,
       "strike_price": "999",
       "discount": "(55% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15599320/2022/4/28/c06a6b1a-4e0b-43ed-ad2e-394b588a0d8b1651144480179-Difference-of-Opinion-Women-Black-Conversational-Printed-Pur-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5241,6 +5546,7 @@
         "XXL"
       ],
       "rating": "4.5",
+      "quantity": 1,
       "rating_count": "21k"
     },
     {
@@ -5249,10 +5555,15 @@
       "title": "Varanga",
       "subtitle": "Printed Straight Kurta",
       "discounted_price": "599",
+      "price": 599,
       "strike_price": "2199",
       "discount": "(Rs. 1600 OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/8/11/77b35c02-855a-451a-8167-efda7e7351d21565468587932-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5265,6 +5576,7 @@
         "4XL"
       ],
       "rating": "4.1",
+      "quantity": 1,
       "rating_count": "7.1k"
     },
     {
@@ -5273,10 +5585,15 @@
       "title": "Anouk",
       "subtitle": "Women Bandhani Printed Kurta",
       "discounted_price": "594",
+      "price": 594,
       "strike_price": "1699",
       "discount": "(65% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/12/15/98e4cd89-4c1a-40ed-a659-645f5c2d3f801608051833514-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5289,6 +5606,7 @@
         "4XL"
       ],
       "rating": "4.4",
+      "quantity": 1,
       "rating_count": "1.5k"
     },
     {
@@ -5297,10 +5615,15 @@
       "title": "SASSAFRAS",
       "subtitle": "Women Cotton Straight Trousers",
       "discounted_price": "696",
+      "price": 696,
       "strike_price": "1699",
       "discount": "(59% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "26",
@@ -5311,6 +5634,7 @@
         "36"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "7.7k"
     },
     {
@@ -5319,10 +5643,15 @@
       "title": "KALINI",
       "subtitle": "Women Kurta Set With Dupatta",
       "discounted_price": "1079",
+      "price": 1079,
       "strike_price": "3999",
       "discount": "(73% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14025916/2021/6/16/71e61247-d9d9-4c7f-9db7-a332eb84541f1623827034043-Varanga-Blue-And-White-Striped-Straight--Kurta-With-V-Shape--1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "M",
@@ -5335,6 +5664,7 @@
         "7XL"
       ],
       "rating": "4.1",
+      "quantity": 1,
       "rating_count": "1.6k"
     },
     {
@@ -5343,10 +5673,15 @@
       "title": "FASHOR",
       "subtitle": "Printed Straight Fit Kurta",
       "discounted_price": "1229",
+      "price": 1229,
       "strike_price": "2699",
       "discount": "(Rs. 1470 OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14025916/2021/6/16/71e61247-d9d9-4c7f-9db7-a332eb84541f1623827034043-Varanga-Blue-And-White-Striped-Straight--Kurta-With-V-Shape--1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5355,7 +5690,12 @@
         "XL",
         "XXL"
       ],
+<<<<<<< HEAD
       "rating": null,
+=======
+      "rating": "3.7",
+      "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -5364,10 +5704,15 @@
       "title": "Shae by SASSAFRAS",
       "subtitle": "Women Printed Anarkali Kurta",
       "discounted_price": "747",
+      "price": 747,
       "strike_price": "1699",
       "discount": "(56% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15599320/2022/4/28/c06a6b1a-4e0b-43ed-ad2e-394b588a0d8b1651144480179-Difference-of-Opinion-Women-Black-Conversational-Printed-Pur-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5378,6 +5723,7 @@
         "XXL"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "5.4k"
     },
     {
@@ -5386,10 +5732,15 @@
       "title": "KALINI",
       "subtitle": "Women Kurta with Trousers With Dupatta",
       "discounted_price": "887",
+      "price": 887,
       "strike_price": "3699",
       "discount": "(76% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/8/11/77b35c02-855a-451a-8167-efda7e7351d21565468587932-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5399,6 +5750,7 @@
         "XXL"
       ],
       "rating": "4.1",
+      "quantity": 1,
       "rating_count": "257"
     },
     {
@@ -5407,10 +5759,15 @@
       "title": "HERE&NOW",
       "subtitle": "Women Skinny Fit Jeans",
       "discounted_price": "699",
+      "price": 699,
       "strike_price": "1999",
       "discount": "(65% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/12/15/98e4cd89-4c1a-40ed-a659-645f5c2d3f801608051833514-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "26",
@@ -5423,6 +5780,7 @@
         "40"
       ],
       "rating": "4",
+      "quantity": 1,
       "rating_count": "3.1k"
     },
     {
@@ -5431,10 +5789,15 @@
       "title": "Anouk",
       "subtitle": "Women Cotton Schiffli Kurta",
       "discounted_price": "599",
+      "price": 599,
       "strike_price": "1499",
       "discount": "(60% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5445,6 +5808,7 @@
         "XXL"
       ],
       "rating": "4.3",
+      "quantity": 1,
       "rating_count": "857"
     },
     {
@@ -5453,10 +5817,15 @@
       "title": "Libas",
       "subtitle": "Cotton Floral Print Kurta Sets",
       "discounted_price": "1907",
+      "price": 1907,
       "strike_price": "3599",
       "discount": "(47% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5467,6 +5836,7 @@
         "XXL"
       ],
       "rating": "4.4",
+      "quantity": 1,
       "rating_count": "9.8k"
     },
     {
@@ -5475,10 +5845,15 @@
       "title": "Chemistry",
       "subtitle": "Women Solid Longline Overcoat",
       "discounted_price": "2999",
+      "price": 2999,
       "strike_price": "5999",
       "discount": "(50% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15599320/2022/4/28/c06a6b1a-4e0b-43ed-ad2e-394b588a0d8b1651144480179-Difference-of-Opinion-Women-Black-Conversational-Printed-Pur-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5487,6 +5862,7 @@
         "XL"
       ],
       "rating": "4.3",
+      "quantity": 1,
       "rating_count": "122"
     },
     {
@@ -5495,10 +5871,15 @@
       "title": "Azira",
       "subtitle": "Kurta Set & Ethnic Jacket",
       "discounted_price": "999",
+      "price": 999,
       "strike_price": "1999",
       "discount": "(50% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15599320/2022/4/28/c06a6b1a-4e0b-43ed-ad2e-394b588a0d8b1651144480179-Difference-of-Opinion-Women-Black-Conversational-Printed-Pur-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5509,6 +5890,7 @@
         "XXL"
       ],
       "rating": "4.3",
+      "quantity": 1,
       "rating_count": "7.8k"
     },
     {
@@ -5517,10 +5899,15 @@
       "title": "Roadster",
       "subtitle": "Polo Collar T-shirt",
       "discounted_price": "349",
+      "price": 349,
       "strike_price": "999",
       "discount": "(65% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/8/11/77b35c02-855a-451a-8167-efda7e7351d21565468587932-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5530,6 +5917,7 @@
         "XL"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "4k"
     },
     {
@@ -5538,10 +5926,15 @@
       "title": "fabGLOBAL",
       "subtitle": "Embroidered  Kurta",
       "discounted_price": "1299",
+      "price": 1299,
       "strike_price": "2399",
       "discount": "(Rs. 1100 OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5552,7 +5945,12 @@
         "XXL",
         "4XL"
       ],
+<<<<<<< HEAD
       "rating": null,
+=======
+      "rating": "4.1",
+      "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -5561,10 +5959,15 @@
       "title": "SASSAFRAS",
       "subtitle": "Women Jogger Jeans",
       "discounted_price": "739",
+      "price": 739,
       "strike_price": "1999",
       "discount": "(63% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14025916/2021/6/16/71e61247-d9d9-4c7f-9db7-a332eb84541f1623827034043-Varanga-Blue-And-White-Striped-Straight--Kurta-With-V-Shape--1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "26",
@@ -5575,6 +5978,7 @@
         "36"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "6.4k"
     },
     {
@@ -5583,10 +5987,15 @@
       "title": "Varanga",
       "subtitle": "Women Floral Embroidered Kurta",
       "discounted_price": "849",
+      "price": 849,
       "strike_price": "2999",
       "discount": "(Rs. 2150 OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14025916/2021/6/16/71e61247-d9d9-4c7f-9db7-a332eb84541f1623827034043-Varanga-Blue-And-White-Striped-Straight--Kurta-With-V-Shape--1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5596,6 +6005,7 @@
         "XXL"
       ],
       "rating": "3.9",
+      "quantity": 1,
       "rating_count": "1.1k"
     },
     {
@@ -5604,10 +6014,15 @@
       "title": "AHIKA",
       "subtitle": "Floral Printed Straight Kurta",
       "discounted_price": "515",
+      "price": 515,
       "strike_price": "1198",
       "discount": "(57% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/8/11/77b35c02-855a-451a-8167-efda7e7351d21565468587932-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5620,6 +6035,7 @@
         "4XL"
       ],
       "rating": "4.1",
+      "quantity": 1,
       "rating_count": "17.1k"
     },
     {
@@ -5628,10 +6044,15 @@
       "title": "Ahalyaa",
       "subtitle": "Printed Kurta with Trousers",
       "discounted_price": "1210",
+      "price": 1210,
       "strike_price": "5500",
       "discount": "(78% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/12/15/98e4cd89-4c1a-40ed-a659-645f5c2d3f801608051833514-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5641,6 +6062,7 @@
         "XXL"
       ],
       "rating": "4",
+      "quantity": 1,
       "rating_count": "2.9k"
     },
     {
@@ -5649,10 +6071,15 @@
       "title": "Prakhya",
       "subtitle": "Women Printed Kurta with Palazzos With Dupatta",
       "discounted_price": "1599",
+      "price": 1599,
       "strike_price": "3298",
       "discount": "(Rs. 1699 OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5663,6 +6090,7 @@
         "3XL"
       ],
       "rating": "4.1",
+      "quantity": 1,
       "rating_count": "384"
     },
     {
@@ -5671,10 +6099,15 @@
       "title": "Anouk",
       "subtitle": "Printed A-Line Kurta",
       "discounted_price": "639",
+      "price": 639,
       "strike_price": "1599",
       "discount": "(60% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15599320/2022/4/28/c06a6b1a-4e0b-43ed-ad2e-394b588a0d8b1651144480179-Difference-of-Opinion-Women-Black-Conversational-Printed-Pur-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5687,6 +6120,7 @@
         "4XL"
       ],
       "rating": "4.1",
+      "quantity": 1,
       "rating_count": "2.9k"
     },
     {
@@ -5695,10 +6129,15 @@
       "title": "Varanga",
       "subtitle": "Yoke Design Kurta with Palazzos & Dupatta",
       "discounted_price": "1399",
+      "price": 1399,
       "strike_price": "5999",
       "discount": "(Rs. 4600 OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/8/11/77b35c02-855a-451a-8167-efda7e7351d21565468587932-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5708,6 +6147,7 @@
         "XXL"
       ],
       "rating": "4",
+      "quantity": 1,
       "rating_count": "1.5k"
     },
     {
@@ -5716,10 +6156,15 @@
       "title": "Roadster",
       "subtitle": "Solid Sweatshirt",
       "discounted_price": "623",
+      "price": 623,
       "strike_price": "1199",
       "discount": "(48% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/12/15/98e4cd89-4c1a-40ed-a659-645f5c2d3f801608051833514-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5730,6 +6175,7 @@
         "XXL"
       ],
       "rating": "4.4",
+      "quantity": 1,
       "rating_count": "1.3k"
     },
     {
@@ -5738,10 +6184,15 @@
       "title": "Kotty",
       "subtitle": "Women Flared Jeans",
       "discounted_price": "639",
+      "price": 639,
       "strike_price": "1999",
       "discount": "(68% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "26",
@@ -5751,6 +6202,7 @@
         "34"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "6.5k"
     },
     {
@@ -5759,10 +6211,15 @@
       "title": "GUNVANTI FAB",
       "subtitle": "Women Striped Kurti with Trousers",
       "discounted_price": "1299",
+      "price": 1299,
       "strike_price": "3499",
       "discount": "(Rs. 2200 OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5771,7 +6228,12 @@
         "XL",
         "XXL"
       ],
+<<<<<<< HEAD
       "rating": null,
+=======
+      "rating": "4.2",
+      "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -5780,10 +6242,15 @@
       "title": "La Aimee",
       "subtitle": "Embroidered Schiffli Top",
       "discounted_price": "1239",
+      "price": 1239,
       "strike_price": "1549",
       "discount": "(20% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15599320/2022/4/28/c06a6b1a-4e0b-43ed-ad2e-394b588a0d8b1651144480179-Difference-of-Opinion-Women-Black-Conversational-Printed-Pur-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5792,7 +6259,12 @@
         "XL",
         "XXL"
       ],
+<<<<<<< HEAD
       "rating": null,
+=======
+      "rating": "3.8",
+      "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -5801,15 +6273,21 @@
       "title": "Sangria",
       "subtitle": "Colourblocked Pure Chiffon Saree",
       "discounted_price": "578",
+      "price": 578,
       "strike_price": "1700",
       "discount": "(66% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15599320/2022/4/28/c06a6b1a-4e0b-43ed-ad2e-394b588a0d8b1651144480179-Difference-of-Opinion-Women-Black-Conversational-Printed-Pur-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "Onesize"
       ],
       "rating": "3.6",
+      "quantity": 1,
       "rating_count": "228"
     },
     {
@@ -5818,10 +6296,15 @@
       "title": "Mast & Harbour",
       "subtitle": "Women Boyfriend Fit Jeans",
       "discounted_price": "1079",
+      "price": 1079,
       "strike_price": "2699",
       "discount": "(60% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "26",
@@ -5832,6 +6315,7 @@
         "36"
       ],
       "rating": "4.1",
+      "quantity": 1,
       "rating_count": "1k"
     },
     {
@@ -5840,10 +6324,15 @@
       "title": "KALINI",
       "subtitle": "Women Embroidered Kurti with Sharara With Dupatta",
       "discounted_price": "899",
+      "price": 899,
       "strike_price": "2999",
       "discount": "(70% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15599320/2022/4/28/c06a6b1a-4e0b-43ed-ad2e-394b588a0d8b1651144480179-Difference-of-Opinion-Women-Black-Conversational-Printed-Pur-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "M",
@@ -5852,7 +6341,9 @@
         "XXL"
       ],
       "rating": "3.9",
+      "quantity": 1,
       "rating_count": "365"
+<<<<<<< HEAD
     },
     {
       "id": 214,
@@ -5928,6 +6419,8 @@
       "size": [],
       "rating": null,
       "rating_count": null
+=======
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
     }
   ],
   "Kids": [
@@ -5937,6 +6430,7 @@
       "title": "HELLCAT",
       "subtitle": "Set Of 2 Boys Sweatshirt",
       "discounted_price": "679",
+      "price": 679,
       "strike_price": "3998",
       "discount": "(83% OFF)",
       "images": [
@@ -5959,6 +6453,7 @@
         "15-16Y"
       ],
       "rating": "4.4",
+      "quantity": 1,
       "rating_count": "5"
     },
     {
@@ -5967,6 +6462,7 @@
       "title": "HELLCAT",
       "subtitle": "Boys Pack Of 5 Printed T-shirt",
       "discounted_price": "799",
+      "price": 799,
       "strike_price": "4995",
       "discount": "(84% OFF)",
       "images": [
@@ -5989,6 +6485,7 @@
         "15-16Y"
       ],
       "rating": "4.1",
+      "quantity": 1,
       "rating_count": "1.5k"
     },
     {
@@ -5997,6 +6494,7 @@
       "title": "VASTRAMAY",
       "subtitle": "Boys Printed Kurti with Dhoti Pants",
       "discounted_price": "989",
+      "price": 989,
       "strike_price": "2999",
       "discount": "(67% OFF)",
       "images": [
@@ -6021,6 +6519,7 @@
         "13-14Y"
       ],
       "rating": "4.3",
+      "quantity": 1,
       "rating_count": "1.1k"
     },
     {
@@ -6029,6 +6528,7 @@
       "title": "A.T.U.N.",
       "subtitle": "Boys Casual Shirt",
       "discounted_price": "681",
+      "price": 681,
       "strike_price": "2199",
       "discount": "(69% OFF)",
       "images": [
@@ -6062,6 +6562,7 @@
         "15-16Y"
       ],
       "rating": "4.5",
+      "quantity": 1,
       "rating_count": "31"
     },
     {
@@ -6070,6 +6571,7 @@
       "title": "HELLCAT",
       "subtitle": "Boys Pack of 3 Solid Track Pants",
       "discounted_price": "808",
+      "price": 808,
       "strike_price": "2994",
       "discount": "(73% OFF)",
       "images": [
@@ -6088,6 +6590,7 @@
         "13-14Y"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "165"
     },
     {
@@ -6096,6 +6599,7 @@
       "title": "MANZON",
       "subtitle": "Kids Velvet 6 Pcs Set",
       "discounted_price": "1099",
+      "price": 1099,
       "strike_price": "1999",
       "discount": "(45% OFF)",
       "images": [
@@ -6116,6 +6620,7 @@
         "2-3Y"
       ],
       "rating": "3.5",
+      "quantity": 1,
       "rating_count": "41"
     },
     {
@@ -6124,6 +6629,7 @@
       "title": "max",
       "subtitle": "Boys Pack Of 5 T-shirts",
       "discounted_price": "569",
+      "price": 569,
       "strike_price": "949",
       "discount": "(40% OFF)",
       "images": [
@@ -6143,6 +6649,7 @@
         "7-8Y"
       ],
       "rating": "4.3",
+      "quantity": 1,
       "rating_count": "27"
     },
     {
@@ -6151,6 +6658,7 @@
       "title": "Urbano Juniors",
       "subtitle": "Boys Slim Fit Denim Joggers",
       "discounted_price": "601",
+      "price": 601,
       "strike_price": "1399",
       "discount": "(57% OFF)",
       "images": [
@@ -6173,6 +6681,7 @@
         "13-14Y"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "2.3k"
     },
     {
@@ -6181,6 +6690,7 @@
       "title": "PLUM TREE",
       "subtitle": "Boys Camouflage Pure Cotton Joggers",
       "discounted_price": "636",
+      "price": 636,
       "strike_price": "1249",
       "discount": "(49% OFF)",
       "images": [
@@ -6204,6 +6714,7 @@
         "13-14Y"
       ],
       "rating": "4.3",
+      "quantity": 1,
       "rating_count": "286"
     },
     {
@@ -6212,6 +6723,7 @@
       "title": "Hopscotch",
       "subtitle": "Boys Shirt Pyjamas & Blazer",
       "discounted_price": "621",
+      "price": 621,
       "strike_price": "1479",
       "discount": "(58% OFF)",
       "images": [
@@ -6232,6 +6744,7 @@
         "4-5Y"
       ],
       "rating": "4",
+      "quantity": 1,
       "rating_count": "683"
     },
     {
@@ -6240,6 +6753,7 @@
       "title": "MANZON",
       "subtitle": "Kids Pack Of 3 Thermal Sets",
       "discounted_price": "799",
+      "price": 799,
       "strike_price": "1999",
       "discount": "(60% OFF)",
       "images": [
@@ -6268,6 +6782,7 @@
         "15-16Y"
       ],
       "rating": "3.9",
+      "quantity": 1,
       "rating_count": "204"
     },
     {
@@ -6276,6 +6791,7 @@
       "title": "YK Disney",
       "subtitle": "Boys Printed Applique T-shirt",
       "discounted_price": "532",
+      "price": 532,
       "strike_price": "2049",
       "discount": "(74% OFF)",
       "images": [
@@ -6297,6 +6813,7 @@
         "6-7Y"
       ],
       "rating": "4",
+      "quantity": 1,
       "rating_count": "76"
     },
     {
@@ -6305,6 +6822,7 @@
       "title": "UTH by Roadster",
       "subtitle": "Boys Solid Hooded Sweatshirt",
       "discounted_price": "584",
+      "price": 584,
       "strike_price": "1299",
       "discount": "(55% OFF)",
       "images": [
@@ -6323,6 +6841,7 @@
         "16-17Y"
       ],
       "rating": "4.5",
+      "quantity": 1,
       "rating_count": "93"
     },
     {
@@ -6331,6 +6850,7 @@
       "title": "HELLCAT",
       "subtitle": "Set of 2 Colourblocked T-shirt",
       "discounted_price": "559",
+      "price": 559,
       "strike_price": "1999",
       "discount": "(72% OFF)",
       "images": [
@@ -6353,6 +6873,7 @@
         "15-16Y"
       ],
       "rating": "4.1",
+      "quantity": 1,
       "rating_count": "475"
     },
     {
@@ -6361,6 +6882,7 @@
       "title": "Nauti Nati",
       "subtitle": "Boys Kurta Set & Nehru Jacket",
       "discounted_price": "1199",
+      "price": 1199,
       "strike_price": "1999",
       "discount": "(40% OFF)",
       "images": [
@@ -6381,6 +6903,7 @@
         "5Y"
       ],
       "rating": "4.6",
+      "quantity": 1,
       "rating_count": "36"
     },
     {
@@ -6389,6 +6912,7 @@
       "title": "HELLCAT",
       "subtitle": "Boys Pack Of 3 Shorts",
       "discounted_price": "654",
+      "price": 654,
       "strike_price": "2847",
       "discount": "(77% OFF)",
       "images": [
@@ -6408,6 +6932,7 @@
         "9-10Y"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "234"
     },
     {
@@ -6416,6 +6941,7 @@
       "title": "JBN Creation",
       "subtitle": "Boys Kurta with Pyjamas",
       "discounted_price": "999",
+      "price": 999,
       "strike_price": "1999",
       "discount": "(50% OFF)",
       "images": [
@@ -6440,6 +6966,7 @@
         "13-14Y"
       ],
       "rating": "4.1",
+      "quantity": 1,
       "rating_count": "1.1k"
     },
     {
@@ -6448,6 +6975,7 @@
       "title": "HELLCAT",
       "subtitle": "Boys Printed Bio Finish T-shirt",
       "discounted_price": "799",
+      "price": 799,
       "strike_price": "4995",
       "discount": "(84% OFF)",
       "images": [
@@ -6470,6 +6998,7 @@
         "15-16Y"
       ],
       "rating": "3.9",
+      "quantity": 1,
       "rating_count": "253"
     },
     {
@@ -6478,6 +7007,7 @@
       "title": "max",
       "subtitle": "Boys Pack of 5 Printed T-shirt",
       "discounted_price": "569",
+      "price": 569,
       "strike_price": "949",
       "discount": "(40% OFF)",
       "images": [
@@ -6497,6 +7027,7 @@
         "7-8Y"
       ],
       "rating": "4.5",
+      "quantity": 1,
       "rating_count": "605"
     },
     {
@@ -6505,6 +7036,7 @@
       "title": "x2o",
       "subtitle": "Pack of 6 Cotton Lounge Pants",
       "discounted_price": "899",
+      "price": 899,
       "strike_price": "2999",
       "discount": "(70% OFF)",
       "images": [
@@ -6530,6 +7062,7 @@
         "5-6Y"
       ],
       "rating": "4.1",
+      "quantity": 1,
       "rating_count": "2.9k"
     },
     {
@@ -6537,6 +7070,7 @@
       "title": "YK Marvel",
       "subtitle": "Boys Avengers Hooded Jacket",
       "discounted_price": "1394",
+      "price": 1394,
       "strike_price": "3099",
       "discount": "(55% OFF)",
       "images": [
@@ -6562,6 +7096,7 @@
         "13-14Y"
       ],
       "rating": "4.1",
+      "quantity": 1,
       "rating_count": "301"
     },
     {
@@ -6570,6 +7105,7 @@
       "title": "HELLCAT",
       "subtitle": "Boys Pack Of 2 Sweatshirt",
       "discounted_price": "679",
+      "price": 679,
       "strike_price": "3998",
       "discount": "(83% OFF)",
       "images": [
@@ -6592,6 +7128,7 @@
         "15-16Y"
       ],
       "rating": "3.3",
+      "quantity": 1,
       "rating_count": "8"
     },
     {
@@ -6600,6 +7137,7 @@
       "title": "BONKIDS",
       "subtitle": "Boys Spiderman Printed Slim Fit Pure Cotton T-shirt",
       "discounted_price": "498",
+      "price": 498,
       "strike_price": "1660",
       "discount": "(70% OFF)",
       "images": [
@@ -6679,6 +7217,7 @@
         "14-15Y"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "1.7k"
     },
     {
@@ -6687,6 +7226,7 @@
       "title": "HERE&NOW",
       "subtitle": "Boys Slim Fit Jeans",
       "discounted_price": "665",
+      "price": 665,
       "strike_price": "1799",
       "discount": "(63% OFF)",
       "images": [
@@ -6708,6 +7248,7 @@
         "13-14Y"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "143"
     },
     {
@@ -6716,6 +7257,7 @@
       "title": "Pantaloons Baby",
       "subtitle": "Boys Printed Track Pants",
       "discounted_price": "269",
+      "price": 269,
       "strike_price": "299",
       "discount": "(10% OFF)",
       "images": [
@@ -6736,6 +7278,7 @@
         "18-24M"
       ],
       "rating": null,
+      "quantity": 1,
       "rating_count": null
     },
     {
@@ -6744,6 +7287,7 @@
       "title": "HRX by Hrithik Roshan",
       "subtitle": "U-17 Boys Lifestyle Tracksuit",
       "discounted_price": "1499",
+      "price": 1499,
       "strike_price": "2999",
       "discount": "(50% OFF)",
       "images": [
@@ -6764,6 +7308,7 @@
         "16-17Y"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "62"
     },
     {
@@ -6772,6 +7317,7 @@
       "title": "HELLCAT",
       "subtitle": "Boys Pack of 3 T-shirts",
       "discounted_price": "389",
+      "price": 389,
       "strike_price": "2997",
       "discount": "(87% OFF)",
       "images": [
@@ -6792,6 +7338,7 @@
         "11-12Y"
       ],
       "rating": "4",
+      "quantity": 1,
       "rating_count": "309"
     },
     {
@@ -6799,6 +7346,7 @@
       "title": "Aj DEZInES",
       "subtitle": "Boys Solid Kurta Set",
       "discounted_price": "809",
+      "price": 809,
       "strike_price": "2999",
       "discount": "(73% OFF)",
       "images": [
@@ -6824,6 +7372,7 @@
         "10-11Y"
       ],
       "rating": "4.5",
+      "quantity": 1,
       "rating_count": "181"
     },
     {
@@ -6832,6 +7381,7 @@
       "title": "Superminis",
       "subtitle": "Pack of 6 Cotton Pyjamas",
       "discounted_price": "884",
+      "price": 884,
       "strike_price": "1499",
       "discount": "(41% OFF)",
       "images": [
@@ -6851,6 +7401,7 @@
         "12-18M"
       ],
       "rating": "4.4",
+      "quantity": 1,
       "rating_count": "278"
     },
     {
@@ -6859,6 +7410,7 @@
       "title": "YK Disney",
       "subtitle": "Boys Pack of 3 Printed T-shirt",
       "discounted_price": "620",
+      "price": 620,
       "strike_price": "2299",
       "discount": "(73% OFF)",
       "images": [
@@ -6880,6 +7432,7 @@
         "15-16Y"
       ],
       "rating": "4.5",
+      "quantity": 1,
       "rating_count": "44"
     },
     {
@@ -6888,6 +7441,7 @@
       "title": "VASTRAMAY",
       "subtitle": "Kids-Boys Kurta with Trousers",
       "discounted_price": "1649",
+      "price": 1649,
       "strike_price": "2999",
       "discount": "(45% OFF)",
       "images": [
@@ -6916,6 +7470,7 @@
         "14-15Y"
       ],
       "rating": "4.7",
+      "quantity": 1,
       "rating_count": "17"
     },
     {
@@ -6924,6 +7479,7 @@
       "title": "Luke & Lilly",
       "subtitle": "Boys Printed Sweatshirt",
       "discounted_price": "359",
+      "price": 359,
       "strike_price": "1799",
       "discount": "(80% OFF)",
       "images": [
@@ -6945,6 +7501,7 @@
         "5-6Y"
       ],
       "rating": "4.1",
+      "quantity": 1,
       "rating_count": "116"
     },
     {
@@ -6952,9 +7509,10 @@
       "category": "Child",
       "title": "Bodycare Kids",
       "subtitle": "Boys Pack Of 3 Cotton Briefs",
-      "discounted_price": null,
+      "discounted_price": "405",
+      "price": 405,
       "strike_price": "405",
-      "discount": null,
+      "discount": "(28% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/20007622/2022/9/16/29af1b1b-1ab4-4a2e-b924-bb888c8c4f741663320696079Briefs1.jpg",
         "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/20007622/2022/9/16/29af1b1b-1ab4-4a2e-b924-bb888c8c4f741663320696079Briefs1.jpg",
@@ -6970,7 +7528,12 @@
         "7-8Y",
         "9-10Y"
       ],
+<<<<<<< HEAD
       "rating": null,
+=======
+      "rating": "3.9",
+      "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -6979,6 +7542,7 @@
       "title": "HELLCAT",
       "subtitle": "Boys Colourblocked Sweatshirt",
       "discounted_price": "679",
+      "price": 679,
       "strike_price": "3998",
       "discount": "(83% OFF)",
       "images": [
@@ -7000,7 +7564,8 @@
         "13-14Y, ",
         "15-16Y"
       ],
-      "rating": null,
+      "rating": "3.7",
+      "quantity": 1,
       "rating_count": null
     },
     {
@@ -7009,6 +7574,7 @@
       "title": "HELLCAT",
       "subtitle": "Boys Set Of 3 Solid Cotton Track Pants",
       "discounted_price": "807",
+      "price": 807,
       "strike_price": "2991",
       "discount": "(73% OFF)",
       "images": [
@@ -7027,6 +7593,7 @@
         "7-8Y"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "99"
     },
     {
@@ -7035,10 +7602,15 @@
       "title": "max",
       "subtitle": "Boys Pack Of 5 T-shirts",
       "discounted_price": "569",
+      "price": 569,
       "strike_price": "949",
       "discount": "(40% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/1/6/67da079f-ed42-4cfc-b4d3-7d99a4e679771609921410998-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -7047,6 +7619,7 @@
         "7-8Y"
       ],
       "rating": "4.6",
+      "quantity": 1,
       "rating_count": "17"
     },
     {
@@ -7055,10 +7628,15 @@
       "title": "YK",
       "subtitle": "Boys Camouflage Sweatshirt",
       "discounted_price": "600",
+      "price": 600,
       "strike_price": "1999",
       "discount": "(Rs. 1399 OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "7-8Y",
@@ -7068,6 +7646,7 @@
         "13-14Y"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "193"
     },
     {
@@ -7075,11 +7654,18 @@
       "category": "Child",
       "title": "Pantaloons Junior",
       "subtitle": "Boys Tapered Fit Jeans",
-      "discounted_price": null,
+      "discounted_price": "699",
+      "price": 699,
       "strike_price": "699",
+<<<<<<< HEAD
       "discount": null,
       "images": [
         null
+=======
+      "discount": "( 63 % OFF)",
+      "images": [
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -7090,6 +7676,7 @@
         "7-8Y"
       ],
       "rating": "4.6",
+      "quantity": 1,
       "rating_count": "26"
     },
     {
@@ -7097,11 +7684,18 @@
       "category": "Child",
       "title": "Marks & Spencer",
       "subtitle": "Boys Pack of 5 Solid Trunks",
-      "discounted_price": null,
+      "discounted_price": "999",
+      "price": 999,
       "strike_price": "999",
+<<<<<<< HEAD
       "discount": null,
       "images": [
         null
+=======
+      "discount": "(13% OFF)",
+      "images": [
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y, ",
@@ -7117,6 +7711,7 @@
         "15-16Y"
       ],
       "rating": "4.6",
+      "quantity": 1,
       "rating_count": "91"
     },
     {
@@ -7125,10 +7720,15 @@
       "title": "max",
       "subtitle": "Boys Kurta with Pyjamas",
       "discounted_price": "539",
+      "price": 539,
       "strike_price": "899",
       "discount": "(40% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/18898246/2022/6/29/10a1bd4c-03b8-41ea-bef8-90017384e2ef1656513837606VASTRAMAYBoysMaroonEthnicMotifsMirrorWorkKurtawithTrousersWi6.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "8-9Y",
@@ -7138,6 +7738,7 @@
         "15-16Y"
       ],
       "rating": "4.3",
+      "quantity": 1,
       "rating_count": "49"
     },
     {
@@ -7146,10 +7747,15 @@
       "title": "x2o",
       "subtitle": "Kids Pack of 6 Lounge Pants",
       "discounted_price": "899",
+      "price": 899,
       "strike_price": "2999",
       "discount": "(70% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/1/6/67da079f-ed42-4cfc-b4d3-7d99a4e679771609921410998-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "0-3M, ",
@@ -7166,6 +7772,7 @@
         "9-10Y"
       ],
       "rating": "3.9",
+      "quantity": 1,
       "rating_count": "151"
     },
     {
@@ -7173,11 +7780,18 @@
       "category": "Child",
       "title": "Pantaloons Junior",
       "subtitle": "Boys Striped Pullover",
-      "discounted_price": null,
+      "discounted_price": "699",
+      "price": 699,
       "strike_price": "699",
+<<<<<<< HEAD
       "discount": null,
       "images": [
         null
+=======
+      "discount": "(7% OFF)",
+      "images": [
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -7188,6 +7802,7 @@
         "7-8Y"
       ],
       "rating": "4.6",
+      "quantity": 1,
       "rating_count": "9"
     },
     {
@@ -7196,10 +7811,15 @@
       "title": "Jack & Jones",
       "subtitle": "Boys Printed Casual Shirt",
       "discounted_price": "849",
+      "price": 849,
       "strike_price": "1699",
       "discount": "(50% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "4-5Y, ",
@@ -7211,6 +7831,7 @@
         "13-14Y"
       ],
       "rating": "4.5",
+      "quantity": 1,
       "rating_count": "18"
     },
     {
@@ -7219,10 +7840,15 @@
       "title": "HELLCAT",
       "subtitle": "Boys Pack Of 2 Hood T-shirts",
       "discounted_price": "599",
+      "price": 599,
       "strike_price": "1999",
       "discount": "(70% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "3-4Y, ",
@@ -7234,6 +7860,7 @@
         "15-16Y"
       ],
       "rating": "3.9",
+      "quantity": 1,
       "rating_count": "627"
     },
     {
@@ -7242,10 +7869,15 @@
       "title": "BonOrganik",
       "subtitle": "Boys Graphic Printed T-shirt",
       "discounted_price": "349",
+      "price": 349,
       "strike_price": "1164",
       "discount": "(70% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/18898246/2022/6/29/10a1bd4c-03b8-41ea-bef8-90017384e2ef1656513837606VASTRAMAYBoysMaroonEthnicMotifsMirrorWorkKurtawithTrousersWi6.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -7256,6 +7888,7 @@
         "12-13Y"
       ],
       "rating": "4.4",
+      "quantity": 1,
       "rating_count": "2.6k"
     },
     {
@@ -7264,10 +7897,15 @@
       "title": "HERE&NOW",
       "subtitle": "Boys Washed Mid-Rise Denim Shorts",
       "discounted_price": "524",
+      "price": 524,
       "strike_price": "1499",
       "discount": "(65% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y, ",
@@ -7284,6 +7922,7 @@
         "13-14Y"
       ],
       "rating": "4.4",
+      "quantity": 1,
       "rating_count": "354"
     },
     {
@@ -7291,11 +7930,18 @@
       "category": "Child",
       "title": "Okane",
       "subtitle": "Boys Reversible Bomber Jacket",
-      "discounted_price": null,
+      "discounted_price": "2299",
+      "price": 2299,
       "strike_price": "2299",
+<<<<<<< HEAD
       "discount": null,
       "images": [
         null
+=======
+      "discount": "(13% OFF)",
+      "images": [
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/1/6/67da079f-ed42-4cfc-b4d3-7d99a4e679771609921410998-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "18-24M, ",
@@ -7308,7 +7954,8 @@
         "11-12Y, ",
         "13-14Y"
       ],
-      "rating": null,
+      "rating": "3.8",
+      "quantity": 1,
       "rating_count": null
     },
     {
@@ -7317,10 +7964,15 @@
       "title": "HRX by Hrithik Roshan",
       "subtitle": "U-17 Boys Lifestyle Sweatshirt",
       "discounted_price": "599",
+      "price": 599,
       "strike_price": "1999",
       "discount": "(70% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "8-9Y",
@@ -7330,6 +7982,7 @@
         "16-17Y"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "146"
     },
     {
@@ -7338,10 +7991,15 @@
       "title": "BUMZEE",
       "subtitle": "Pack of 2 T-shirt with Shorts",
       "discounted_price": "499",
+      "price": 499,
       "strike_price": "1349",
       "discount": "(63% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "3-6M",
@@ -7350,6 +8008,7 @@
         "18-24M"
       ],
       "rating": "4.8",
+      "quantity": 1,
       "rating_count": "32"
     },
     {
@@ -7358,10 +8017,15 @@
       "title": "BONKIDS",
       "subtitle": "Boys Mickey Mouse Printed T-shirt",
       "discounted_price": "439",
+      "price": 439,
       "strike_price": "1332",
       "discount": "(67% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -7372,9 +8036,11 @@
         "12-13Y"
       ],
       "rating": "4.5",
+      "quantity": 1,
       "rating_count": "64"
     },
     {
+<<<<<<< HEAD
       "id": 267,
       "category": "Child",
       "title": null,
@@ -7450,11 +8116,14 @@
       "rating_count": null
     },
     {
+=======
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "id": 272,
       "category": "Child",
       "title": "BONKIDS",
       "subtitle": "Boys Mickey Mouse Printed T-shirt",
       "discounted_price": "439",
+      "price": 439,
       "strike_price": "1332",
       "discount": "(67% OFF)",
       "images": [
@@ -7477,6 +8146,7 @@
         "12-13Y"
       ],
       "rating": "4.5",
+      "quantity": 1,
       "rating_count": "64"
     },
     {
@@ -7485,6 +8155,7 @@
       "title": "A.T.U.N.",
       "subtitle": "Striped Cotton Casual Shirt",
       "discounted_price": "681",
+      "price": 681,
       "strike_price": "2199",
       "discount": "(69% OFF)",
       "images": [
@@ -7519,6 +8190,7 @@
         "15-16Y"
       ],
       "rating": "3.8",
+      "quantity": 1,
       "rating_count": "20"
     },
     {
@@ -7527,6 +8199,7 @@
       "title": "U.S. Polo Assn. Kids",
       "subtitle": "Boys Solid Puffer Jacket",
       "discounted_price": "1649",
+      "price": 1649,
       "strike_price": "3299",
       "discount": "(50% OFF)",
       "images": [
@@ -7553,6 +8226,7 @@
         "13-14Y"
       ],
       "rating": "4.3",
+      "quantity": 1,
       "rating_count": "44"
     },
     {
@@ -7561,6 +8235,7 @@
       "title": "VASTRAMAY",
       "subtitle": "Boys White Kurta with Pyjamas",
       "discounted_price": "799",
+      "price": 799,
       "strike_price": "1999",
       "discount": "(60% OFF)",
       "images": [
@@ -7586,6 +8261,7 @@
         "13-14Y"
       ],
       "rating": "4",
+      "quantity": 1,
       "rating_count": "154"
     },
     {
@@ -7593,9 +8269,10 @@
       "category": "Child",
       "title": "H&M",
       "subtitle": "Cotton Jersey Top",
-      "discounted_price": null,
+      "discounted_price": "399",
+      "price": 399,
       "strike_price": "399",
-      "discount": null,
+      "discount": "(12% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19593562/2022/8/22/d095664f-ffce-42b0-91e0-6d05fe4926691661129027708Cottonjerseytop1.jpg",
         "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/19593562/2022/8/22/d095664f-ffce-42b0-91e0-6d05fe4926691661129027708Cottonjerseytop1.jpg",
@@ -7614,6 +8291,7 @@
         "8-10Y"
       ],
       "rating": "4",
+      "quantity": 1,
       "rating_count": "25"
     },
     {
@@ -7622,6 +8300,7 @@
       "title": "HELLCAT",
       "subtitle": "Boys Pack Of 3 Shorts",
       "discounted_price": "689",
+      "price": 689,
       "strike_price": "2997",
       "discount": "(77% OFF)",
       "images": [
@@ -7641,6 +8320,7 @@
         "15-16Y"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "256"
     },
     {
@@ -7649,6 +8329,7 @@
       "title": "HELLCAT",
       "subtitle": "Boys Pack of 2 Hood T-shirts",
       "discounted_price": "599",
+      "price": 599,
       "strike_price": "1999",
       "discount": "(70% OFF)",
       "images": [
@@ -7663,74 +8344,6 @@
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
         "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
         "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/4a8467f0-b0a4-44f6-907d-f7258fbff0b51602799578995-3.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/4a8467f0-b0a4-44f6-907d-f7258fbff0b51602799578995-3.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/4a8467f0-b0a4-44f6-907d-f7258fbff0b51602799578995-3.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/4a8467f0-b0a4-44f6-907d-f7258fbff0b51602799578995-3.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/4a8467f0-b0a4-44f6-907d-f7258fbff0b51602799578995-3.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/4a8467f0-b0a4-44f6-907d-f7258fbff0b51602799578995-3.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/4a8467f0-b0a4-44f6-907d-f7258fbff0b51602799578995-3.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/4a8467f0-b0a4-44f6-907d-f7258fbff0b51602799578995-3.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/1ec79034-487a-4499-a6b8-75fbc909c20b1602799579042-4.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/1ec79034-487a-4499-a6b8-75fbc909c20b1602799579042-4.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/1ec79034-487a-4499-a6b8-75fbc909c20b1602799579042-4.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/1ec79034-487a-4499-a6b8-75fbc909c20b1602799579042-4.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/1ec79034-487a-4499-a6b8-75fbc909c20b1602799579042-4.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/1ec79034-487a-4499-a6b8-75fbc909c20b1602799579042-4.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/1ec79034-487a-4499-a6b8-75fbc909c20b1602799579042-4.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/1ec79034-487a-4499-a6b8-75fbc909c20b1602799579042-4.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/636c3bd3-bd8b-479e-b615-767d8f4e86ab1602799578953-2.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/636c3bd3-bd8b-479e-b615-767d8f4e86ab1602799578953-2.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/636c3bd3-bd8b-479e-b615-767d8f4e86ab1602799578953-2.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/636c3bd3-bd8b-479e-b615-767d8f4e86ab1602799578953-2.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/636c3bd3-bd8b-479e-b615-767d8f4e86ab1602799578953-2.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/636c3bd3-bd8b-479e-b615-767d8f4e86ab1602799578953-2.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/636c3bd3-bd8b-479e-b615-767d8f4e86ab1602799578953-2.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/636c3bd3-bd8b-479e-b615-767d8f4e86ab1602799578953-2.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/55500ee8-060e-44e4-aecd-0902089058941602799579146-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/55500ee8-060e-44e4-aecd-0902089058941602799579146-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/55500ee8-060e-44e4-aecd-0902089058941602799579146-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/55500ee8-060e-44e4-aecd-0902089058941602799579146-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/55500ee8-060e-44e4-aecd-0902089058941602799579146-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/55500ee8-060e-44e4-aecd-0902089058941602799579146-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/55500ee8-060e-44e4-aecd-0902089058941602799579146-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/55500ee8-060e-44e4-aecd-0902089058941602799579146-6.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/fa4d5121-482e-4d4e-91ce-4f8f0eca1eb91602799579102-5.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/fa4d5121-482e-4d4e-91ce-4f8f0eca1eb91602799579102-5.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/fa4d5121-482e-4d4e-91ce-4f8f0eca1eb91602799579102-5.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/fa4d5121-482e-4d4e-91ce-4f8f0eca1eb91602799579102-5.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/fa4d5121-482e-4d4e-91ce-4f8f0eca1eb91602799579102-5.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/fa4d5121-482e-4d4e-91ce-4f8f0eca1eb91602799579102-5.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/fa4d5121-482e-4d4e-91ce-4f8f0eca1eb91602799579102-5.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/fa4d5121-482e-4d4e-91ce-4f8f0eca1eb91602799579102-5.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
-        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
         "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
         "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/10/16/99003f6b-9231-4c9c-b3dc-1716dc2af60d1602799578905-1.jpg",
@@ -7752,6 +8365,7 @@
         "15-16Y"
       ],
       "rating": "3.9",
+      "quantity": 1,
       "rating_count": "1.3k"
     },
     {
@@ -7760,6 +8374,7 @@
       "title": "Tiber Taber",
       "subtitle": "Boys Printed Kurta with Dhoti Pants",
       "discounted_price": "1452",
+      "price": 1452,
       "strike_price": "1650",
       "discount": "(12% OFF)",
       "images": [
@@ -7781,6 +8396,7 @@
         "2-3Y"
       ],
       "rating": "4.5",
+      "quantity": 1,
       "rating_count": "169"
     },
     {
@@ -7789,6 +8405,7 @@
       "title": "YK",
       "subtitle": "Boys Cotton Clothing Set",
       "discounted_price": "540",
+      "price": 540,
       "strike_price": "1799",
       "discount": "(Rs. 1259 OFF)",
       "images": [
@@ -7808,7 +8425,12 @@
         "11-12Y",
         "13-14Y"
       ],
+<<<<<<< HEAD
       "rating": null,
+=======
+      "rating": "3.7",
+      "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -7817,6 +8439,7 @@
       "title": "U.S. Polo Assn. Kids",
       "subtitle": "Pack of 2 Pure Cotton T-shirts",
       "discounted_price": "629",
+      "price": 629,
       "strike_price": "1399",
       "discount": "(55% OFF)",
       "images": [
@@ -7842,7 +8465,8 @@
         "11-12Y, ",
         "13-14Y"
       ],
-      "rating": null,
+      "rating": "4.2",
+      "quantity": 1,
       "rating_count": null
     },
     {
@@ -7851,6 +8475,7 @@
       "title": "HELLCAT",
       "subtitle": "Boys Pack Of 3 Solid Track Pants",
       "discounted_price": "808",
+      "price": 808,
       "strike_price": "2994",
       "discount": "(73% OFF)",
       "images": [
@@ -7870,6 +8495,7 @@
         "13-14Y"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "9"
     },
     {
@@ -7878,6 +8504,7 @@
       "title": "H&M",
       "subtitle": "Boys Printed T-shirt",
       "discounted_price": "239",
+      "price": 239,
       "strike_price": "299",
       "discount": "(20% OFF)",
       "images": [
@@ -7899,6 +8526,7 @@
         "8-10Y"
       ],
       "rating": "4.1",
+      "quantity": 1,
       "rating_count": "44"
     },
     {
@@ -7906,9 +8534,10 @@
       "category": "Child",
       "title": "Pantaloons Junior",
       "subtitle": "Boys Solid Cotton Joggers",
-      "discounted_price": null,
+      "discounted_price": "799",
+      "price": 799,
       "strike_price": "799",
-      "discount": null,
+      "discount": "(Rs. 1100 OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19490968/2022/8/12/20f4c1f2-c15e-4938-9766-6d148978861c1660323035119TrackPants1.jpg",
         "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/19490968/2022/8/12/20f4c1f2-c15e-4938-9766-6d148978861c1660323035119TrackPants1.jpg",
@@ -7927,6 +8556,7 @@
         "13-14Y"
       ],
       "rating": "4.5",
+      "quantity": 1,
       "rating_count": "11"
     },
     {
@@ -7934,9 +8564,10 @@
       "category": "Child",
       "title": "Pantaloons Junior",
       "subtitle": "Boys Blue Tapered Fit Jeans",
-      "discounted_price": null,
+      "discounted_price": "699",
+      "price": 699,
       "strike_price": "699",
-      "discount": null,
+      "discount": "(21% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19262978/2022/7/26/8b953081-38af-4dff-b6b6-cd3bf6ff6db41658840746641Jeans1.jpg",
         "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/19262978/2022/7/26/8b953081-38af-4dff-b6b6-cd3bf6ff6db41658840746641Jeans1.jpg",
@@ -7957,6 +8588,7 @@
         "7-8Y"
       ],
       "rating": "4.3",
+      "quantity": 1,
       "rating_count": "7"
     },
     {
@@ -7964,9 +8596,10 @@
       "category": "Child",
       "title": "H&M",
       "subtitle": "Boys 2-Pack Joggers",
-      "discounted_price": null,
+      "discounted_price": "1499",
+      "price": 1499,
       "strike_price": "1499",
-      "discount": null,
+      "discount": "(12% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19266994/2022/7/27/bebae58b-2b26-482f-8776-cbbf2f7ab04116589010039672-packjoggers1.jpg",
         "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/19266994/2022/7/27/bebae58b-2b26-482f-8776-cbbf2f7ab04116589010039672-packjoggers1.jpg",
@@ -7989,6 +8622,7 @@
         "9-10Y"
       ],
       "rating": "3.8",
+      "quantity": 1,
       "rating_count": "8"
     },
     {
@@ -7996,11 +8630,18 @@
       "category": "Child",
       "title": "Clt.s",
       "subtitle": "Kids Pure Cotton Night Suit",
-      "discounted_price": null,
+      "discounted_price": "499",
+      "price": 499,
       "strike_price": "499",
+<<<<<<< HEAD
       "discount": null,
       "images": [
         null
+=======
+      "discount": "(25% OFF)",
+      "images": [
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "3-6M",
@@ -8011,6 +8652,7 @@
         "2-3Y"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "78"
     },
     {
@@ -8019,10 +8661,15 @@
       "title": "YK Disney",
       "subtitle": "Boys Pack of 3 Printed T-shirt",
       "discounted_price": "501",
+      "price": 501,
       "strike_price": "1930",
       "discount": "(74% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -8032,6 +8679,7 @@
         "6-7Y"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "367"
     },
     {
@@ -8040,10 +8688,15 @@
       "title": "JBN Creation",
       "subtitle": "Boys Solid Kurta with Churidar",
       "discounted_price": "665",
+      "price": 665,
       "strike_price": "1799",
       "discount": "(63% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "6-12M, ",
@@ -8060,6 +8713,7 @@
         "13-14Y"
       ],
       "rating": "4.3",
+      "quantity": 1,
       "rating_count": "820"
     },
     {
@@ -8068,10 +8722,15 @@
       "title": "Red Rose",
       "subtitle": "Boys Pack Of 6 Printed Boxer Style Cotton Briefs",
       "discounted_price": "719",
+      "price": 719,
       "strike_price": "899",
       "discount": "(20% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "3-4Y",
@@ -8081,7 +8740,12 @@
         "11-12Y",
         "12-13Y"
       ],
+<<<<<<< HEAD
       "rating": null,
+=======
+      "rating": "3.9",
+      "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -8090,10 +8754,15 @@
       "title": "V-Mart",
       "subtitle": "Boys Colourblocked Sweatshirt",
       "discounted_price": "450",
+      "price": 450,
       "strike_price": "600",
       "discount": "(25% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/18898246/2022/6/29/10a1bd4c-03b8-41ea-bef8-90017384e2ef1656513837606VASTRAMAYBoysMaroonEthnicMotifsMirrorWorkKurtawithTrousersWi6.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -8101,7 +8770,12 @@
         "6-7Y",
         "8-9Y"
       ],
+<<<<<<< HEAD
       "rating": null,
+=======
+      "rating": "3.9",
+      "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -8110,10 +8784,15 @@
       "title": "Cherry Crumble",
       "subtitle": "Kids Self Design Sweater",
       "discounted_price": "1039",
+      "price": 1039,
       "strike_price": "2599",
       "discount": "(60% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/1/6/67da079f-ed42-4cfc-b4d3-7d99a4e679771609921410998-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "9-12M, ",
@@ -8129,6 +8808,7 @@
         "10-12Y"
       ],
       "rating": "4",
+      "quantity": 1,
       "rating_count": "210"
     },
     {
@@ -8137,10 +8817,15 @@
       "title": "MANZON",
       "subtitle": "Kids Pack of 6 Thermal Sets",
       "discounted_price": "714",
+      "price": 714,
       "strike_price": "1099",
       "discount": "(35% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "0-3M",
@@ -8151,6 +8836,7 @@
         "3-4Y"
       ],
       "rating": "4",
+      "quantity": 1,
       "rating_count": "670"
     },
     {
@@ -8159,10 +8845,15 @@
       "title": "HRX by Hrithik Roshan",
       "subtitle": "U-17 Boys Active Jogger",
       "discounted_price": "480",
+      "price": 480,
       "strike_price": "1299",
       "discount": "(63% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "8-9Y",
@@ -8172,6 +8863,7 @@
         "16-17Y"
       ],
       "rating": "4.4",
+      "quantity": 1,
       "rating_count": "361"
     },
     {
@@ -8180,10 +8872,15 @@
       "title": "VASTRAMAY",
       "subtitle": "Boys Printed Kurta with Salwar",
       "discounted_price": "989",
+      "price": 989,
       "strike_price": "2999",
       "discount": "(67% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y, ",
@@ -8197,6 +8894,7 @@
         "13-14Y"
       ],
       "rating": "4.3",
+      "quantity": 1,
       "rating_count": "154"
     },
     {
@@ -8205,10 +8903,15 @@
       "title": "V-Mart",
       "subtitle": "Beige Classic Joggers Trousers",
       "discounted_price": "418",
+      "price": 418,
       "strike_price": "450",
       "discount": "(7% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -8217,7 +8920,12 @@
         "8-9Y",
         "10-11Y"
       ],
+<<<<<<< HEAD
       "rating": null,
+=======
+      "rating": "3.8",
+      "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -8226,10 +8934,15 @@
       "title": "HELLCAT",
       "subtitle": "Set Of 2 Boys Sweatshirt",
       "discounted_price": "679",
+      "price": 679,
       "strike_price": "3998",
       "discount": "(83% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/18898246/2022/6/29/10a1bd4c-03b8-41ea-bef8-90017384e2ef1656513837606VASTRAMAYBoysMaroonEthnicMotifsMirrorWorkKurtawithTrousersWi6.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "3-4Y, ",
@@ -8240,7 +8953,8 @@
         "13-14Y, ",
         "15-16Y"
       ],
-      "rating": null,
+      "rating": "3.8",
+      "quantity": 1,
       "rating_count": null
     },
     {
@@ -8249,10 +8963,15 @@
       "title": "U.S. Polo Assn. Kids",
       "subtitle": "Boys Printed Pullover",
       "discounted_price": "849",
+      "price": 849,
       "strike_price": "1699",
       "discount": "(50% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/1/6/67da079f-ed42-4cfc-b4d3-7d99a4e679771609921410998-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "12M, ",
@@ -8267,6 +8986,7 @@
         "13-14Y"
       ],
       "rating": "4.6",
+      "quantity": 1,
       "rating_count": "26"
     },
     {
@@ -8275,10 +8995,15 @@
       "title": "HELLCAT",
       "subtitle": "Boys Pack Of 2 Printed T-shirt",
       "discounted_price": "599",
+      "price": 599,
       "strike_price": "3998",
       "discount": "(85% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "3-4Y, ",
@@ -8290,6 +9015,7 @@
         "15-16Y"
       ],
       "rating": "4.7",
+      "quantity": 1,
       "rating_count": "9"
     },
     {
@@ -8298,17 +9024,27 @@
       "title": "HELLCAT",
       "subtitle": "Boys Pack Of 3 Solid Track Pants",
       "discounted_price": "807",
+      "price": 807,
       "strike_price": "2991",
       "discount": "(73% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "3-4Y",
         "5-6Y",
         "7-8Y"
       ],
+<<<<<<< HEAD
       "rating": null,
+=======
+      "rating": "4.1",
+      "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -8317,10 +9053,15 @@
       "title": "Cherry Crumble",
       "subtitle": "Kids Sweatshirt",
       "discounted_price": "1559",
+      "price": 1559,
       "strike_price": "2599",
       "discount": "(40% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/18898246/2022/6/29/10a1bd4c-03b8-41ea-bef8-90017384e2ef1656513837606VASTRAMAYBoysMaroonEthnicMotifsMirrorWorkKurtawithTrousersWi6.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "9-12M, ",
@@ -8336,6 +9077,7 @@
         "10-12Y"
       ],
       "rating": "4.5",
+      "quantity": 1,
       "rating_count": "140"
     },
     {
@@ -8343,11 +9085,18 @@
       "category": "Child",
       "title": "H&M",
       "subtitle": "2-Pack Cotton Sweatshirts",
-      "discounted_price": null,
+      "discounted_price": "1499",
+      "price": 1499,
       "strike_price": "1499",
+<<<<<<< HEAD
       "discount": null,
       "images": [
         null
+=======
+      "discount": "(28% OFF)",
+      "images": [
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "6M, ",
@@ -8358,7 +9107,8 @@
         "2-3Y, ",
         "3-4Y"
       ],
-      "rating": null,
+      "rating": "3.8",
+      "quantity": 1,
       "rating_count": null
     },
     {
@@ -8367,10 +9117,15 @@
       "title": "Tiber Taber",
       "subtitle": "Boys Printed Panchakattu",
       "discounted_price": "1716",
+      "price": 1716,
       "strike_price": "1950",
       "discount": "(12% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "0-3M",
@@ -8380,6 +9135,7 @@
         "2-3Y"
       ],
       "rating": "4.5",
+      "quantity": 1,
       "rating_count": "718"
     },
     {
@@ -8388,10 +9144,15 @@
       "title": "YK Marvel",
       "subtitle": "Boys Cotton Joggers",
       "discounted_price": "485",
+      "price": 485,
       "strike_price": "1799",
       "discount": "(73% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "8-9Y",
@@ -8400,6 +9161,7 @@
         "13-14Y"
       ],
       "rating": "4.8",
+      "quantity": 1,
       "rating_count": "5"
     },
     {
@@ -8408,10 +9170,15 @@
       "title": "HERE&NOW",
       "subtitle": "Boys Slim Fit Mid-Rise Denim Shorts",
       "discounted_price": "543",
+      "price": 543,
       "strike_price": "1699",
       "discount": "(68% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y, ",
@@ -8428,6 +9195,7 @@
         "13-14Y"
       ],
       "rating": "4.3",
+      "quantity": 1,
       "rating_count": "111"
     },
     {
@@ -8436,10 +9204,15 @@
       "title": "YK",
       "subtitle": "Boys Solid Hooded Sweatshirt",
       "discounted_price": "600",
+      "price": 600,
       "strike_price": "1999",
       "discount": "(Rs. 1399 OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/18898246/2022/6/29/10a1bd4c-03b8-41ea-bef8-90017384e2ef1656513837606VASTRAMAYBoysMaroonEthnicMotifsMirrorWorkKurtawithTrousersWi6.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y, ",
@@ -8454,6 +9227,7 @@
         "13-14Y"
       ],
       "rating": "4.4",
+      "quantity": 1,
       "rating_count": "190"
     },
     {
@@ -8462,10 +9236,15 @@
       "title": "Hopscotch",
       "subtitle": "Printed Cotton Clothing Set",
       "discounted_price": "814",
+      "price": 814,
       "strike_price": "1429",
       "discount": "(43% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/1/6/67da079f-ed42-4cfc-b4d3-7d99a4e679771609921410998-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "12-18M",
@@ -8474,6 +9253,7 @@
         "3-4Y"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "45"
     },
     {
@@ -8482,10 +9262,15 @@
       "title": "Puma",
       "subtitle": "Men Solid Track Pants",
       "discounted_price": "1124",
+      "price": 1124,
       "strike_price": "2499",
       "discount": "(55% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "1-2Y, ",
@@ -8500,6 +9285,7 @@
         "15-16Y"
       ],
       "rating": "4.1",
+      "quantity": 1,
       "rating_count": "39"
     },
     {
@@ -8507,11 +9293,18 @@
       "category": "Child",
       "title": "Okane",
       "subtitle": "Boys Striped Padded Jacket",
-      "discounted_price": null,
+      "discounted_price": "2399",
+      "price": 2399,
       "strike_price": "2399",
+<<<<<<< HEAD
       "discount": null,
       "images": [
         null
+=======
+      "discount": "(13% OFF)",
+      "images": [
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "18-24M, ",
@@ -8524,7 +9317,8 @@
         "11-12Y, ",
         "13-14Y"
       ],
-      "rating": null,
+      "rating": "3.9",
+      "quantity": 1,
       "rating_count": null
     },
     {
@@ -8532,11 +9326,18 @@
       "category": "Child",
       "title": "Pantaloons Junior",
       "subtitle": "Boys Polo Collar T-shirt",
-      "discounted_price": null,
+      "discounted_price": "549",
+      "price": 549,
       "strike_price": "549",
+<<<<<<< HEAD
       "discount": null,
       "images": [
         null
+=======
+      "discount": "(31% OFF)",
+      "images": [
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -8547,6 +9348,7 @@
         "7-8Y"
       ],
       "rating": "4.1",
+      "quantity": 1,
       "rating_count": "8"
     },
     {
@@ -8555,10 +9357,15 @@
       "title": "Superminis",
       "subtitle": "Kids Pack of 6 Lounge Pants",
       "discounted_price": "854",
+      "price": 854,
       "strike_price": "1499",
       "discount": "(43% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "0-6M",
@@ -8568,6 +9375,7 @@
         "18-24M"
       ],
       "rating": "4.5",
+      "quantity": 1,
       "rating_count": "40"
     },
     {
@@ -8576,10 +9384,15 @@
       "title": "Urbano Juniors",
       "subtitle": "Boys Slim Fit Joggers Trousers",
       "discounted_price": "629",
+      "price": 629,
       "strike_price": "1499",
       "discount": "(58% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "4-5Y, ",
@@ -8591,6 +9404,7 @@
         "13-14Y"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "79"
     },
     {
@@ -8599,10 +9413,15 @@
       "title": "U.S. Polo Assn. Kids",
       "subtitle": "Boys Slim Fit Jeans",
       "discounted_price": "1189",
+      "price": 1189,
       "strike_price": "1699",
       "discount": "(30% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/18898246/2022/6/29/10a1bd4c-03b8-41ea-bef8-90017384e2ef1656513837606VASTRAMAYBoysMaroonEthnicMotifsMirrorWorkKurtawithTrousersWi6.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "1-2Y, ",
@@ -8616,7 +9435,8 @@
         "11-12Y, ",
         "13-14Y"
       ],
-      "rating": null,
+      "rating": "3.6",
+      "quantity": 1,
       "rating_count": null
     },
     {
@@ -8625,10 +9445,15 @@
       "title": "max",
       "subtitle": "Infant Printed Pure Cotton Sleepsuit",
       "discounted_price": "359",
+      "price": 359,
       "strike_price": "449",
       "discount": "(20% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "0-3M",
@@ -8637,6 +9462,7 @@
         "9-12M"
       ],
       "rating": "4.6",
+      "quantity": 1,
       "rating_count": "12"
     },
     {
@@ -8645,10 +9471,15 @@
       "title": "HELLCAT",
       "subtitle": "2 Boys Cotton Sweatshirt",
       "discounted_price": "679",
+      "price": 679,
       "strike_price": "3998",
       "discount": "(83% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/1/6/67da079f-ed42-4cfc-b4d3-7d99a4e679771609921410998-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "3-4Y, ",
@@ -8660,6 +9491,7 @@
         "15-16Y"
       ],
       "rating": "4.2",
+      "quantity": 1,
       "rating_count": "9"
     },
     {
@@ -8668,10 +9500,15 @@
       "title": "Little Bansi",
       "subtitle": "Boys Printed Kurta with Dhoti Pants With Dupatta",
       "discounted_price": "1380",
+      "price": 1380,
       "strike_price": "1725",
       "discount": "(20% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "0-3M, ",
@@ -8686,6 +9523,7 @@
         "7-8Y"
       ],
       "rating": "4.4",
+      "quantity": 1,
       "rating_count": "59"
     },
     {
@@ -8694,10 +9532,15 @@
       "title": "max",
       "subtitle": "Boys Joggers Trousers",
       "discounted_price": "389",
+      "price": 389,
       "strike_price": "649",
       "discount": "(40% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "8-9Y",
@@ -8707,6 +9550,7 @@
         "15-16Y"
       ],
       "rating": "4.7",
+      "quantity": 1,
       "rating_count": "178"
     },
     {
@@ -8715,10 +9559,15 @@
       "title": "BONKIDS",
       "subtitle": "Boys Printed T-shirt",
       "discounted_price": "439",
+      "price": 439,
       "strike_price": "1332",
       "discount": "(67% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -8729,6 +9578,7 @@
         "12-13Y"
       ],
       "rating": "4.6",
+      "quantity": 1,
       "rating_count": "734"
     },
     {
@@ -8737,15 +9587,25 @@
       "title": "Bodycare Kids",
       "subtitle": "Boys Pack Of 2 Solid Cotton Basic Briefs",
       "discounted_price": "330",
+      "price": 330,
       "strike_price": "380",
       "discount": "(13% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "10-12Y"
       ],
+<<<<<<< HEAD
       "rating": null,
+=======
+      "rating": "3.8",
+      "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -8754,10 +9614,15 @@
       "title": "Aj DEZInES",
       "subtitle": "Boys Shirt with Shorts",
       "discounted_price": "1014",
+      "price": 1014,
       "strike_price": "3499",
       "discount": "(71% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "0-6M, ",
@@ -8769,6 +9634,7 @@
         "5-6Y"
       ],
       "rating": "4.6",
+      "quantity": 1,
       "rating_count": "21"
     },
     {
@@ -8777,10 +9643,15 @@
       "title": "H&M",
       "subtitle": "Cotton T-Shirt",
       "discounted_price": "399",
+      "price": 399,
       "strike_price": "499",
       "discount": "(20% OFF)",
       "images": [
+<<<<<<< HEAD
         null
+=======
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "8-10Y",
@@ -8789,7 +9660,9 @@
         "14-15Y"
       ],
       "rating": "4.4",
+      "quantity": 1,
       "rating_count": "67"
+<<<<<<< HEAD
     },
     {
       "id": 322,
@@ -8869,5 +9742,75 @@
   ],
   "users": [
     
+=======
+    }
+  ],
+  "users": [],
+  "productlist": [],
+  "wishlist": [
+    {
+      "id": 7,
+      "category": "Mens",
+      "title": "Roadster",
+      "subtitle": "Men Pure Cotton Casual Shirt",
+      "discounted_price": "494",
+      "price": 494,
+      "strike_price": "1499",
+      "discount": "(67% OFF)",
+      "images": [
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/1376577/2022/6/3/ea10ab6c-883e-437a-8780-ed87484393f81654235830793-Roadster-Men-Black--Grey-Checked-Casual-Sustainable-Shirt-42-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1376577/2022/6/3/ea10ab6c-883e-437a-8780-ed87484393f81654235830793-Roadster-Men-Black--Grey-Checked-Casual-Sustainable-Shirt-42-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/1376577/2022/6/3/ea10ab6c-883e-437a-8780-ed87484393f81654235830793-Roadster-Men-Black--Grey-Checked-Casual-Sustainable-Shirt-42-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/1376577/2022/6/3/ea10ab6c-883e-437a-8780-ed87484393f81654235830793-Roadster-Men-Black--Grey-Checked-Casual-Sustainable-Shirt-42-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/1376577/2022/6/3/ea10ab6c-883e-437a-8780-ed87484393f81654235830793-Roadster-Men-Black--Grey-Checked-Casual-Sustainable-Shirt-42-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/1376577/2022/6/3/ea10ab6c-883e-437a-8780-ed87484393f81654235830793-Roadster-Men-Black--Grey-Checked-Casual-Sustainable-Shirt-42-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/1376577/2022/6/3/ea10ab6c-883e-437a-8780-ed87484393f81654235830793-Roadster-Men-Black--Grey-Checked-Casual-Sustainable-Shirt-42-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/1376577/2022/6/3/ea10ab6c-883e-437a-8780-ed87484393f81654235830793-Roadster-Men-Black--Grey-Checked-Casual-Sustainable-Shirt-42-1.jpg"
+      ],
+      "size": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46",
+        "48"
+      ],
+      "rating": "4.3",
+      "rating_count": "34.3k",
+      "quantity": 1
+    },
+    {
+      "id": 390,
+      "category": "Mens",
+      "title": "Roadster",
+      "subtitle": "Men Time Travlr Slim Fit Chinos",
+      "discounted_price": "859",
+      "price": 2577,
+      "strike_price": "1999",
+      "discount": "(57% OFF)",
+      "images": [
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2290972/2018/5/5/11525515544459-Roadster-Men-Grey-Slim-Fit-Solid-Chinos-2351525515544256-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2290972/2018/5/5/11525515544459-Roadster-Men-Grey-Slim-Fit-Solid-Chinos-2351525515544256-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/2290972/2018/5/5/11525515544459-Roadster-Men-Grey-Slim-Fit-Solid-Chinos-2351525515544256-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/2290972/2018/5/5/11525515544459-Roadster-Men-Grey-Slim-Fit-Solid-Chinos-2351525515544256-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/2290972/2018/5/5/11525515544459-Roadster-Men-Grey-Slim-Fit-Solid-Chinos-2351525515544256-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/2290972/2018/5/5/11525515544459-Roadster-Men-Grey-Slim-Fit-Solid-Chinos-2351525515544256-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/2290972/2018/5/5/11525515544459-Roadster-Men-Grey-Slim-Fit-Solid-Chinos-2351525515544256-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/2290972/2018/5/5/11525515544459-Roadster-Men-Grey-Slim-Fit-Solid-Chinos-2351525515544256-1.jpg"
+      ],
+      "size": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "rating": "4.2",
+      "rating_count": "5.8k",
+      "quantity": 3
+    }
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
   ]
 }
