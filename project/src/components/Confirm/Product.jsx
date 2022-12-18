@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { SimpleGrid, Box, Grid, GridItem, Image, Button } from '@chakra-ui/react'
+import { SimpleGrid, Box, Grid, GridItem, Image } from '@chakra-ui/react'
 
 const Product = ({title, desc, price, quantity, subTotal, size, itemNo, image}) => {
   return (
@@ -19,7 +19,7 @@ const Product = ({title, desc, price, quantity, subTotal, size, itemNo, image}) 
   </GridItem>
 </Grid>
   </Box>
-  <Box height='auto' align='right'  borderTop='1px' borderColor='gray.300'>
+  <Box border='1px' height='auto' align='right'  borderTop='1px' borderColor='gray.300'>
      <Box h='120%' w='50%' mt='-8'>
      <Grid templateColumns='repeat(3, 1fr)' gap={6}>
   <GridItem w='100%' h='10' align='center' fontWeight='bolder' >Price</GridItem>
