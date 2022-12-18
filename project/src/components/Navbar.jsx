@@ -22,7 +22,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../redux/auth/auth.actions";
 import axios from "axios";
 
-
 export default function Navbar() {
   const { isAuth } = useSelector((store) => store.authManager.data);
   const dispatch = useDispatch();
@@ -205,12 +204,17 @@ export default function Navbar() {
 
           <Box
             w={{ base: "26%", sm: "30%", md: "32%", lg: "38%", xl: "48%" }}
-            p="20px 0"
+            p={{ base: "0px 0", lg: "20px 0" }}
             display="flex"
             alignItems="center"
-            justifyContent="center"
+            justifyContent="space-evenly"
             border={"0px solid red"}
-            margin={{ base: "auto auto auto auto", md: "auto" }}
+            margin={{
+              base: "auto auto auto auto",
+              sm: "auto 11% auto auto",
+              md: "auto 16% auto auto",
+              lg: "auto 16% auto auto",
+            }}
           >
             <Link to={"/"}>
               <Image src="https://i.ibb.co/gjhDhWZ/Logo.png" />
