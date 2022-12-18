@@ -1525,8 +1525,87 @@
         "XXL"
       ],
       "rating": "3.9",
+<<<<<<< HEAD
+      "rating_count": "2.4k"
+    },
+    {
+      "id": 48,
+      "category": "Mens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 49,
+      "category": "Mens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 50,
+      "category": "Mens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 51,
+      "category": "Mens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 52,
+      "category": "Mens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+=======
       "rating_count": "2.4k",
       "quantity": "1"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
     },
     {
       "id": 53,
@@ -1705,6 +1784,16 @@
         "44",
         "46"
       ],
+<<<<<<< HEAD
+      "size": [
+        "39",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+=======
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating": "4.1",
       "rating_count": "2.2k",
       "quantity": "1"
@@ -3093,8 +3182,87 @@
         "XL"
       ],
       "rating": "3.7",
+<<<<<<< HEAD
+      "rating_count": "17k"
+    },
+    {
+      "id": 104,
+      "category": "Mens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 105,
+      "category": "Mens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 106,
+      "category": "Mens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 107,
+      "category": "Mens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 108,
+      "category": "Mens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+=======
       "rating_count": "17k",
       "quantity": "1"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
     }
   ],
   "Womens": [
@@ -4633,8 +4801,87 @@
         "XXL"
       ],
       "rating": "4.2",
+<<<<<<< HEAD
+      "rating_count": "2.4k"
+    },
+    {
+      "id": 159,
+      "category": "Womens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 160,
+      "category": "Womens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 161,
+      "category": "Womens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 162,
+      "category": "Womens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 163,
+      "category": "Womens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+=======
       "rating_count": "2.4k",
       "quantity": 1
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
     },
     {
       "id": 164,
@@ -5123,7 +5370,11 @@
       "strike_price": "1499",
       "discount": "(60% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5146,7 +5397,11 @@
       "strike_price": "2999",
       "discount": "(65% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14025916/2021/6/16/71e61247-d9d9-4c7f-9db7-a332eb84541f1623827034043-Varanga-Blue-And-White-Striped-Straight--Kurta-With-V-Shape--1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5169,7 +5424,11 @@
       "strike_price": "3799",
       "discount": "(65% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15599320/2022/4/28/c06a6b1a-4e0b-43ed-ad2e-394b588a0d8b1651144480179-Difference-of-Opinion-Women-Black-Conversational-Printed-Pur-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5195,7 +5454,11 @@
       "strike_price": "3999",
       "discount": "(69% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/8/11/77b35c02-855a-451a-8167-efda7e7351d21565468587932-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5219,7 +5482,11 @@
       "strike_price": "1149",
       "discount": "(65% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/12/15/98e4cd89-4c1a-40ed-a659-645f5c2d3f801608051833514-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5241,7 +5508,11 @@
       "strike_price": "3599",
       "discount": "(75% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "Onesize"
@@ -5260,7 +5531,11 @@
       "strike_price": "999",
       "discount": "(55% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15599320/2022/4/28/c06a6b1a-4e0b-43ed-ad2e-394b588a0d8b1651144480179-Difference-of-Opinion-Women-Black-Conversational-Printed-Pur-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5284,7 +5559,11 @@
       "strike_price": "2199",
       "discount": "(Rs. 1600 OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/8/11/77b35c02-855a-451a-8167-efda7e7351d21565468587932-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5310,7 +5589,11 @@
       "strike_price": "1699",
       "discount": "(65% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/12/15/98e4cd89-4c1a-40ed-a659-645f5c2d3f801608051833514-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5336,7 +5619,11 @@
       "strike_price": "1699",
       "discount": "(59% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "26",
@@ -5360,7 +5647,11 @@
       "strike_price": "3999",
       "discount": "(73% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14025916/2021/6/16/71e61247-d9d9-4c7f-9db7-a332eb84541f1623827034043-Varanga-Blue-And-White-Striped-Straight--Kurta-With-V-Shape--1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "M",
@@ -5386,7 +5677,11 @@
       "strike_price": "2699",
       "discount": "(Rs. 1470 OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14025916/2021/6/16/71e61247-d9d9-4c7f-9db7-a332eb84541f1623827034043-Varanga-Blue-And-White-Striped-Straight--Kurta-With-V-Shape--1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5395,8 +5690,12 @@
         "XL",
         "XXL"
       ],
+<<<<<<< HEAD
+      "rating": null,
+=======
       "rating": "3.7",
       "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -5409,7 +5708,11 @@
       "strike_price": "1699",
       "discount": "(56% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15599320/2022/4/28/c06a6b1a-4e0b-43ed-ad2e-394b588a0d8b1651144480179-Difference-of-Opinion-Women-Black-Conversational-Printed-Pur-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5433,7 +5736,11 @@
       "strike_price": "3699",
       "discount": "(76% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/8/11/77b35c02-855a-451a-8167-efda7e7351d21565468587932-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5456,7 +5763,11 @@
       "strike_price": "1999",
       "discount": "(65% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/12/15/98e4cd89-4c1a-40ed-a659-645f5c2d3f801608051833514-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "26",
@@ -5482,7 +5793,11 @@
       "strike_price": "1499",
       "discount": "(60% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5506,7 +5821,11 @@
       "strike_price": "3599",
       "discount": "(47% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5530,7 +5849,11 @@
       "strike_price": "5999",
       "discount": "(50% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15599320/2022/4/28/c06a6b1a-4e0b-43ed-ad2e-394b588a0d8b1651144480179-Difference-of-Opinion-Women-Black-Conversational-Printed-Pur-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5552,7 +5875,11 @@
       "strike_price": "1999",
       "discount": "(50% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15599320/2022/4/28/c06a6b1a-4e0b-43ed-ad2e-394b588a0d8b1651144480179-Difference-of-Opinion-Women-Black-Conversational-Printed-Pur-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5576,7 +5903,11 @@
       "strike_price": "999",
       "discount": "(65% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/8/11/77b35c02-855a-451a-8167-efda7e7351d21565468587932-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5599,7 +5930,11 @@
       "strike_price": "2399",
       "discount": "(Rs. 1100 OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5610,8 +5945,12 @@
         "XXL",
         "4XL"
       ],
+<<<<<<< HEAD
+      "rating": null,
+=======
       "rating": "4.1",
       "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -5624,7 +5963,11 @@
       "strike_price": "1999",
       "discount": "(63% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14025916/2021/6/16/71e61247-d9d9-4c7f-9db7-a332eb84541f1623827034043-Varanga-Blue-And-White-Striped-Straight--Kurta-With-V-Shape--1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "26",
@@ -5648,7 +5991,11 @@
       "strike_price": "2999",
       "discount": "(Rs. 2150 OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/14025916/2021/6/16/71e61247-d9d9-4c7f-9db7-a332eb84541f1623827034043-Varanga-Blue-And-White-Striped-Straight--Kurta-With-V-Shape--1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5671,7 +6018,11 @@
       "strike_price": "1198",
       "discount": "(57% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/8/11/77b35c02-855a-451a-8167-efda7e7351d21565468587932-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5697,7 +6048,11 @@
       "strike_price": "5500",
       "discount": "(78% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/12/15/98e4cd89-4c1a-40ed-a659-645f5c2d3f801608051833514-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5720,7 +6075,11 @@
       "strike_price": "3298",
       "discount": "(Rs. 1699 OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5744,7 +6103,11 @@
       "strike_price": "1599",
       "discount": "(60% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15599320/2022/4/28/c06a6b1a-4e0b-43ed-ad2e-394b588a0d8b1651144480179-Difference-of-Opinion-Women-Black-Conversational-Printed-Pur-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5770,7 +6133,11 @@
       "strike_price": "5999",
       "discount": "(Rs. 4600 OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/8/11/77b35c02-855a-451a-8167-efda7e7351d21565468587932-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5793,7 +6160,11 @@
       "strike_price": "1199",
       "discount": "(48% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/12/15/98e4cd89-4c1a-40ed-a659-645f5c2d3f801608051833514-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "XS",
@@ -5817,7 +6188,11 @@
       "strike_price": "1999",
       "discount": "(68% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "26",
@@ -5840,7 +6215,11 @@
       "strike_price": "3499",
       "discount": "(Rs. 2200 OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5849,8 +6228,12 @@
         "XL",
         "XXL"
       ],
+<<<<<<< HEAD
+      "rating": null,
+=======
       "rating": "4.2",
       "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -5863,7 +6246,11 @@
       "strike_price": "1549",
       "discount": "(20% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15599320/2022/4/28/c06a6b1a-4e0b-43ed-ad2e-394b588a0d8b1651144480179-Difference-of-Opinion-Women-Black-Conversational-Printed-Pur-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "S",
@@ -5872,8 +6259,12 @@
         "XL",
         "XXL"
       ],
+<<<<<<< HEAD
+      "rating": null,
+=======
       "rating": "3.8",
       "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -5886,7 +6277,11 @@
       "strike_price": "1700",
       "discount": "(66% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15599320/2022/4/28/c06a6b1a-4e0b-43ed-ad2e-394b588a0d8b1651144480179-Difference-of-Opinion-Women-Black-Conversational-Printed-Pur-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "Onesize"
@@ -5905,7 +6300,11 @@
       "strike_price": "2699",
       "discount": "(60% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/16857684/2022/2/1/d7e8761b-6032-4fa6-9aa6-83f253e982911643693009626-Libas-Women-Kurta-Sets-8531643693008464-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "26",
@@ -5929,7 +6328,11 @@
       "strike_price": "2999",
       "discount": "(70% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15599320/2022/4/28/c06a6b1a-4e0b-43ed-ad2e-394b588a0d8b1651144480179-Difference-of-Opinion-Women-Black-Conversational-Printed-Pur-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "M",
@@ -5940,6 +6343,84 @@
       "rating": "3.9",
       "quantity": 1,
       "rating_count": "365"
+<<<<<<< HEAD
+    },
+    {
+      "id": 214,
+      "category": "Womens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 215,
+      "category": "Womens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 216,
+      "category": "Womens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 217,
+      "category": "Womens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 218,
+      "category": "Womens",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+=======
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
     }
   ],
   "Kids": [
@@ -7047,8 +7528,12 @@
         "7-8Y",
         "9-10Y"
       ],
+<<<<<<< HEAD
+      "rating": null,
+=======
       "rating": "3.9",
       "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -7121,7 +7606,11 @@
       "strike_price": "949",
       "discount": "(40% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/1/6/67da079f-ed42-4cfc-b4d3-7d99a4e679771609921410998-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -7143,7 +7632,11 @@
       "strike_price": "1999",
       "discount": "(Rs. 1399 OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "7-8Y",
@@ -7164,9 +7657,15 @@
       "discounted_price": "699",
       "price": 699,
       "strike_price": "699",
+<<<<<<< HEAD
+      "discount": null,
+      "images": [
+        null
+=======
       "discount": "( 63 % OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -7188,9 +7687,15 @@
       "discounted_price": "999",
       "price": 999,
       "strike_price": "999",
+<<<<<<< HEAD
+      "discount": null,
+      "images": [
+        null
+=======
       "discount": "(13% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y, ",
@@ -7219,7 +7724,11 @@
       "strike_price": "899",
       "discount": "(40% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/18898246/2022/6/29/10a1bd4c-03b8-41ea-bef8-90017384e2ef1656513837606VASTRAMAYBoysMaroonEthnicMotifsMirrorWorkKurtawithTrousersWi6.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "8-9Y",
@@ -7242,7 +7751,11 @@
       "strike_price": "2999",
       "discount": "(70% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/1/6/67da079f-ed42-4cfc-b4d3-7d99a4e679771609921410998-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "0-3M, ",
@@ -7270,9 +7783,15 @@
       "discounted_price": "699",
       "price": 699,
       "strike_price": "699",
+<<<<<<< HEAD
+      "discount": null,
+      "images": [
+        null
+=======
       "discount": "(7% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -7296,7 +7815,11 @@
       "strike_price": "1699",
       "discount": "(50% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "4-5Y, ",
@@ -7321,7 +7844,11 @@
       "strike_price": "1999",
       "discount": "(70% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "3-4Y, ",
@@ -7346,7 +7873,11 @@
       "strike_price": "1164",
       "discount": "(70% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/18898246/2022/6/29/10a1bd4c-03b8-41ea-bef8-90017384e2ef1656513837606VASTRAMAYBoysMaroonEthnicMotifsMirrorWorkKurtawithTrousersWi6.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -7370,7 +7901,11 @@
       "strike_price": "1499",
       "discount": "(65% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y, ",
@@ -7398,9 +7933,15 @@
       "discounted_price": "2299",
       "price": 2299,
       "strike_price": "2299",
+<<<<<<< HEAD
+      "discount": null,
+      "images": [
+        null
+=======
       "discount": "(13% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/1/6/67da079f-ed42-4cfc-b4d3-7d99a4e679771609921410998-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "18-24M, ",
@@ -7427,7 +7968,11 @@
       "strike_price": "1999",
       "discount": "(70% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "8-9Y",
@@ -7450,7 +7995,11 @@
       "strike_price": "1349",
       "discount": "(63% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "3-6M",
@@ -7472,7 +8021,11 @@
       "strike_price": "1332",
       "discount": "(67% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -7487,6 +8040,84 @@
       "rating_count": "64"
     },
     {
+<<<<<<< HEAD
+      "id": 267,
+      "category": "Child",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 268,
+      "category": "Child",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 269,
+      "category": "Child",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 270,
+      "category": "Child",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 271,
+      "category": "Child",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+=======
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "id": 272,
       "category": "Child",
       "title": "BONKIDS",
@@ -7794,8 +8425,12 @@
         "11-12Y",
         "13-14Y"
       ],
+<<<<<<< HEAD
+      "rating": null,
+=======
       "rating": "3.7",
       "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -7998,9 +8633,15 @@
       "discounted_price": "499",
       "price": 499,
       "strike_price": "499",
+<<<<<<< HEAD
+      "discount": null,
+      "images": [
+        null
+=======
       "discount": "(25% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "3-6M",
@@ -8024,7 +8665,11 @@
       "strike_price": "1930",
       "discount": "(74% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -8047,7 +8692,11 @@
       "strike_price": "1799",
       "discount": "(63% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "6-12M, ",
@@ -8077,7 +8726,11 @@
       "strike_price": "899",
       "discount": "(20% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "3-4Y",
@@ -8087,8 +8740,12 @@
         "11-12Y",
         "12-13Y"
       ],
+<<<<<<< HEAD
+      "rating": null,
+=======
       "rating": "3.9",
       "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -8101,7 +8758,11 @@
       "strike_price": "600",
       "discount": "(25% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/18898246/2022/6/29/10a1bd4c-03b8-41ea-bef8-90017384e2ef1656513837606VASTRAMAYBoysMaroonEthnicMotifsMirrorWorkKurtawithTrousersWi6.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -8109,8 +8770,12 @@
         "6-7Y",
         "8-9Y"
       ],
+<<<<<<< HEAD
+      "rating": null,
+=======
       "rating": "3.9",
       "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -8123,7 +8788,11 @@
       "strike_price": "2599",
       "discount": "(60% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/1/6/67da079f-ed42-4cfc-b4d3-7d99a4e679771609921410998-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "9-12M, ",
@@ -8152,7 +8821,11 @@
       "strike_price": "1099",
       "discount": "(35% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "0-3M",
@@ -8176,7 +8849,11 @@
       "strike_price": "1299",
       "discount": "(63% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "8-9Y",
@@ -8199,7 +8876,11 @@
       "strike_price": "2999",
       "discount": "(67% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y, ",
@@ -8226,7 +8907,11 @@
       "strike_price": "450",
       "discount": "(7% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -8235,8 +8920,12 @@
         "8-9Y",
         "10-11Y"
       ],
+<<<<<<< HEAD
+      "rating": null,
+=======
       "rating": "3.8",
       "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -8249,7 +8938,11 @@
       "strike_price": "3998",
       "discount": "(83% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/18898246/2022/6/29/10a1bd4c-03b8-41ea-bef8-90017384e2ef1656513837606VASTRAMAYBoysMaroonEthnicMotifsMirrorWorkKurtawithTrousersWi6.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "3-4Y, ",
@@ -8274,7 +8967,11 @@
       "strike_price": "1699",
       "discount": "(50% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/1/6/67da079f-ed42-4cfc-b4d3-7d99a4e679771609921410998-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "12M, ",
@@ -8302,7 +8999,11 @@
       "strike_price": "3998",
       "discount": "(85% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "3-4Y, ",
@@ -8327,15 +9028,23 @@
       "strike_price": "2991",
       "discount": "(73% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "3-4Y",
         "5-6Y",
         "7-8Y"
       ],
+<<<<<<< HEAD
+      "rating": null,
+=======
       "rating": "4.1",
       "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -8348,7 +9057,11 @@
       "strike_price": "2599",
       "discount": "(40% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/18898246/2022/6/29/10a1bd4c-03b8-41ea-bef8-90017384e2ef1656513837606VASTRAMAYBoysMaroonEthnicMotifsMirrorWorkKurtawithTrousersWi6.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "9-12M, ",
@@ -8375,9 +9088,15 @@
       "discounted_price": "1499",
       "price": 1499,
       "strike_price": "1499",
+<<<<<<< HEAD
+      "discount": null,
+      "images": [
+        null
+=======
       "discount": "(28% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "6M, ",
@@ -8402,7 +9121,11 @@
       "strike_price": "1950",
       "discount": "(12% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "0-3M",
@@ -8425,7 +9148,11 @@
       "strike_price": "1799",
       "discount": "(73% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "8-9Y",
@@ -8447,7 +9174,11 @@
       "strike_price": "1699",
       "discount": "(68% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y, ",
@@ -8477,7 +9208,11 @@
       "strike_price": "1999",
       "discount": "(Rs. 1399 OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/18898246/2022/6/29/10a1bd4c-03b8-41ea-bef8-90017384e2ef1656513837606VASTRAMAYBoysMaroonEthnicMotifsMirrorWorkKurtawithTrousersWi6.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y, ",
@@ -8505,7 +9240,11 @@
       "strike_price": "1429",
       "discount": "(43% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/1/6/67da079f-ed42-4cfc-b4d3-7d99a4e679771609921410998-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "12-18M",
@@ -8527,7 +9266,11 @@
       "strike_price": "2499",
       "discount": "(55% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "1-2Y, ",
@@ -8553,9 +9296,15 @@
       "discounted_price": "2399",
       "price": 2399,
       "strike_price": "2399",
+<<<<<<< HEAD
+      "discount": null,
+      "images": [
+        null
+=======
       "discount": "(13% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "18-24M, ",
@@ -8580,9 +9329,15 @@
       "discounted_price": "549",
       "price": 549,
       "strike_price": "549",
+<<<<<<< HEAD
+      "discount": null,
+      "images": [
+        null
+=======
       "discount": "(31% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -8606,7 +9361,11 @@
       "strike_price": "1499",
       "discount": "(43% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "0-6M",
@@ -8629,7 +9388,11 @@
       "strike_price": "1499",
       "discount": "(58% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/19888438/2022/9/22/591e68d2-7552-4e8f-a51d-63b6b028a4431663840257994-HELLCAT-Boys-Set-Of-2-Blue--White-Printed-Hooded-Sweatshirt--7.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "4-5Y, ",
@@ -8654,7 +9417,11 @@
       "strike_price": "1699",
       "discount": "(30% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/18898246/2022/6/29/10a1bd4c-03b8-41ea-bef8-90017384e2ef1656513837606VASTRAMAYBoysMaroonEthnicMotifsMirrorWorkKurtawithTrousersWi6.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "1-2Y, ",
@@ -8682,7 +9449,11 @@
       "strike_price": "449",
       "discount": "(20% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "0-3M",
@@ -8704,7 +9475,11 @@
       "strike_price": "3998",
       "discount": "(83% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/1/6/67da079f-ed42-4cfc-b4d3-7d99a4e679771609921410998-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "3-4Y, ",
@@ -8729,7 +9504,11 @@
       "strike_price": "1725",
       "discount": "(20% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "0-3M, ",
@@ -8757,7 +9536,11 @@
       "strike_price": "649",
       "discount": "(40% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "8-9Y",
@@ -8780,7 +9563,11 @@
       "strike_price": "1332",
       "discount": "(67% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "2-3Y",
@@ -8804,13 +9591,21 @@
       "strike_price": "380",
       "discount": "(13% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "10-12Y"
       ],
+<<<<<<< HEAD
+      "rating": null,
+=======
       "rating": "3.8",
       "quantity": 1,
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       "rating_count": null
     },
     {
@@ -8823,7 +9618,11 @@
       "strike_price": "3499",
       "discount": "(71% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/17137550/2022/2/11/b124b0f4-830d-44ed-a669-e8585d66cf4f1644579708683HellcatBoysRoundNeckBlendedCottonTshirt-ComboPackof51.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "0-6M, ",
@@ -8848,7 +9647,11 @@
       "strike_price": "499",
       "discount": "(20% OFF)",
       "images": [
+<<<<<<< HEAD
+        null
+=======
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/15177588/2022/3/22/3c7fc960-f492-448e-81b1-4e23555c98d51647938866127-HRX-By-Hrithik-Roshan-U-17-Lifestyle-Boys-Iron-Rapid-Dry-Col-1.jpg"
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
       ],
       "size": [
         "8-10Y",
@@ -8859,6 +9662,87 @@
       "rating": "4.4",
       "quantity": 1,
       "rating_count": "67"
+<<<<<<< HEAD
+    },
+    {
+      "id": 322,
+      "category": "Child",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 323,
+      "category": "Child",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 324,
+      "category": "Child",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 325,
+      "category": "Child",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    },
+    {
+      "id": 326,
+      "category": "Child",
+      "title": null,
+      "subtitle": null,
+      "discounted_price": null,
+      "strike_price": null,
+      "discount": null,
+      "images": [
+        null
+      ],
+      "size": [],
+      "rating": null,
+      "rating_count": null
+    }
+  ],
+  "users": [
+    
+=======
     }
   ],
   "users": [],
@@ -8927,5 +9811,6 @@
       "rating_count": "5.8k",
       "quantity": 3
     }
+>>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
   ]
 }
