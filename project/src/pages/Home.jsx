@@ -37,7 +37,7 @@ const Home = () => {
           w="100%"
         >
           <Box w="50%">
-            <Link to="/">
+            <Link to="/womenproduct">
               <Heading
                 fontWeight={400}
                 fontSize={["xl", "6xl"]}
@@ -48,9 +48,8 @@ const Home = () => {
               </Heading>
             </Link>
           </Box>
-
           <Box w="50%" display={"flex"} justifyContent="center">
-            <Link to="/">
+            <Link to="/menproduct">
               <Heading
                 fontWeight={400}
                 fontSize={["xl", "6xl"]}
@@ -62,14 +61,15 @@ const Home = () => {
             </Link>
           </Box>
         </Box>
+
         <Image
           w="100%"
           h="100%"
-          zIndex={-1}
+          zIndex={-2}
           src="https://img.mytheresa.com/media/static/raw/cms/l/Gate_page_upload_September_2022/Gatepage_Sep22_DSK_2x_20220908102600.jpg?imwidth=1180&imdensity=1"
         />
       </Flex>
-      <Link to="/">
+      <Link to="/kidproduct">
         <Flex
           m="auto"
           mt="3%"
