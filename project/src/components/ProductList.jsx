@@ -1,4 +1,4 @@
-import { Box, Button, Center, Text } from '@chakra-ui/react'
+import { Box, Button, Center, Grid, Text } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import ListChild from './ListChild'
@@ -81,8 +81,9 @@ if(error)
     navigate("/delivery")
   }
   return (
-    <Center display={'grid'}>
-      <Box width='80%' height={'400px'} marginBottom={'5%'}>
+    <Grid>
+      <Center >
+      <Box width='80%' height={'auto'} marginBottom={'5%'}>
        <div className='checkoutDiv'  >
         <Text>YOUR SHOPPING BAG</Text>
         <Button className='checkoutDiv_button' borderRadius={'none'} color={'white'} bgColor={'black'} onClick={handleCheckout}>PROCEED TO CHECKOUT</Button>
@@ -117,8 +118,11 @@ if(error)
           <Button marginBottom={'20px'}  className='checkoutDiv_button'  borderRadius={'none'} color={'white'} bgColor={'black'} onClick={handleCheckout} getData={getData}>PROCEED TO CHECKOUT</Button>
         </Box>
        </Box>
-    </Box>
+      </Box>
     </Center>
+    <Footer />
+    </Grid>
+    
   )
 }
 

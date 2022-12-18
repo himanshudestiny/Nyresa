@@ -75,7 +75,7 @@ let element=JSON.parse(localStorage.getItem("element"))
       },
       body:JSON.stringify(el)
     }).then((res)=>res.json())
-    // navigate("/wishlist")
+    navigate("/wishlist")
   }
   const handlechangesize=(e)=>
   {
