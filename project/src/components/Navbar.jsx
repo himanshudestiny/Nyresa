@@ -17,25 +17,24 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 
 import "./Navbar.css";
-<<<<<<< HEAD
+
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../redux/auth/auth.actions";
-
-export default function Navbar() {
-  const { isAuth } = useSelector((store) => store.authManager.data);
-  const dispatch = useDispatch();
-
-  const handleLogout = () => {
-    if (isAuth) {
-      dispatch(logout());
-      alert("Logged out successfully! Redirecting back to Login Page");
-    }
-  };
-
-=======
 import axios from "axios";
 
-export default function Navbar() {
+// export default function Navbar() {
+//   const { isAuth } = useSelector((store) => store.authManager.data);
+//   const dispatch = useDispatch();
+
+//   const handleLogout = () => {
+//     if (isAuth) {
+//       dispatch(logout());
+//       alert("Logged out successfully! Redirecting back to Login Page");
+//     }
+//   };
+
+
+ export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   let [mytext, setMytext] = useState(true);
   let [cart, setCart] = useState([]);
@@ -76,7 +75,7 @@ export default function Navbar() {
   //   }
   //   parent = parent.parentElement;
   // }
->>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
+
   return (
     <Box>
       <Box mb={7} paddingBottom="1rem">
