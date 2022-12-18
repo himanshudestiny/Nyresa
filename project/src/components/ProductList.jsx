@@ -65,6 +65,16 @@ if(error)
     setError(true)
   })
   }
+  const handleWishlist=(el)=>
+  {
+    fetch(' http://localhost:8080/wishlist',{
+      method:'POST',
+      headers:{
+        'Content-Type':'application/json'
+      },
+      body:JSON.stringify(el)
+    }).then((res)=>res.json())
+  }
   const handleCheckout=()=>
   {
     navigate("/delivery")
@@ -83,7 +93,7 @@ if(error)
               <ListChild key={el.id} title={el.title} id={el.id} desc={el.subtitle} price={el.discounted_price} image={el.images[el.images.length-1] } quant={el.quantity} getData={getData} setProduct={setProduct} p={el.price} />
               <div className='checkoutDiv'>
               <Button  bgColor={'red'} color={'white'} onClick={()=>handleDelete(el.id)}>X Remove</Button>
-              <Button className='checkoutDiv_button'>Add To Wishlist</Button>
+              <Button className='checkoutDiv_button' bgColor={'#c5d5e3'}onClick={()=>handleWishlist(el)} >Add To Wishlist</Button>
               </div>
             </div >
           ))
