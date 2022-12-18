@@ -1,4 +1,4 @@
-import { Box, Button, Grid, Image, Text } from '@chakra-ui/react';
+import { Box, Button, Grid, Image, Text, useToast } from '@chakra-ui/react';
 import axios from "axios"
 import "./Products.css"
 import {CloseIcon, StarIcon} from "@chakra-ui/icons"
@@ -19,7 +19,7 @@ const getwish=async()=>{
 const Wishlist = () => {
 
   const [wish,setwish]=useState([]);
-
+  const toast=useToast();
 
   const remove=async(id)=>{
     let res=await axios.delete(`http://localhost:8080/wishlist/${id}`);
@@ -40,7 +40,7 @@ const Wishlist = () => {
 
    remove(res.data.id);
    
-      
+   
   
      
    
@@ -73,8 +73,8 @@ const Wishlist = () => {
         
         {
             wish.map((el)=>
-              <Box key={el.id}  >
-               <Box width="240px" m="auto" textAlign="right" cursor="pointer"> <CloseIcon onClick={()=>remove(el.id)}/></Box>
+              <Box key={el.id} w="80%" >
+               <Box width="240px" m="auto" textAlign="right" cursor="pointer"> <CloseIcon opacity="40%" onClick={()=>remove(el.id)}/></Box>
 
                <Image m="auto" src={el.images[0]} width="240px" height="260px" alt='title' />
               <Text mt={2}>{el.title}</Text>
