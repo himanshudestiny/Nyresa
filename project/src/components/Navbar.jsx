@@ -221,7 +221,7 @@ export default function Navbar() {
             </Link>
           </Box>
 
-          <Link id="cart" to="/">
+          <Link id="cart" to="/ProductList">
             <Flex alignItems="center" cursor="pointer" pr={"15px"}>
               <Text
                 display={["none", "inline-block", "inline-block"]}
