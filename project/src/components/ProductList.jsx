@@ -1,6 +1,6 @@
 import { Box, Button, Center, Text } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import ListChild from './ListChild'
 
 const getData=()=>{
@@ -82,7 +82,7 @@ if(error)
   return (
     <Center>
       <Box width='80%' height={'400px'}>
-       <div className='checkoutDiv' >
+       <div className='checkoutDiv'  >
         <Text>YOUR SHOPPING BAG</Text>
         <Button className='checkoutDiv_button' borderRadius={'none'} color={'white'} bgColor={'black'} onClick={handleCheckout}>PROCEED TO CHECKOUT</Button>
        </div>
@@ -98,13 +98,23 @@ if(error)
             </div >
           ))
         }
-        <Box>
+        {
+        product.length==0 && 
+                <Box borderTop="1px solid grey" m="auto" lineHeight={8}>
+                <Text>THERE ARE NO PRODUCTS ON YOUR WISHLIST.</Text>
+                 <Text color="grey">Check out our new arrivals and start adding to your wishlist now!</Text>
+                 <Button mt={4}> <Link to="/menproduct">SHOP NEW ARRIVALS</Link></Button>
+
+               </Box>
+        
+       }
+        <Box marginTop={'20px'} borderTop={'1px solid gray'} borderBottom={'1px solid gray'}>
           {product.map((el)=>{
             console.log(total+=Number(el.price))
           })}
           <Text fontWeight={'bold'} align={'right'}>Total:- ${total}</Text>
           <br />
-          <Button  className='checkoutDiv_button'  borderRadius={'none'} color={'white'} bgColor={'black'} onClick={handleCheckout} getData={getData}>PROCEED TO CHECKOUT</Button>
+          <Button marginBottom={'20px'}  className='checkoutDiv_button'  borderRadius={'none'} color={'white'} bgColor={'black'} onClick={handleCheckout} getData={getData}>PROCEED TO CHECKOUT</Button>
         </Box>
        </Box>
     </Box>
