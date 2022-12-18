@@ -3,43 +3,44 @@ import Header from './Header';
 import Product from "./Product";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
-
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 import { SimpleGrid, Box, Grid, GridItem, Textarea, Checkbox } from '@chakra-ui/react'
 
 
-const products = [
-    { id : '1',
-    title: 'TOM FORD',
-    desc: 'Shelton velvet blazer',
-    size: 'IT- 46 / S',
-    itemNo: 'P00505633',
-    price: 2530.00,
-    quantity: 1,
-    subTotal: 2530.00,
-    image:'https://img.mytheresa.com/240/240/90/jpeg/catalog/product/a5/P00505633.jpg'
-},
-{ id : '2',
-title: 'OUR LEGACY',
-desc: 'Wool-blend scarf',
-size: 'One size fits all',
-itemNo: 'P00706095',
-price: 83.00,
-quantity: 2,
-subTotal: 83.00,
-image:'https://img.mytheresa.com/240/240/90/jpeg/catalog/product/f3/P00706059.jpg'
-},
-{ id : '3',
-title: 'ALANUI',
-desc: 'Dancing Light crocheted wool-blend cardigan',
-size: 'S',
-itemNo: 'P00691258',
-price: 619.00,
-quantity: 3,
-subTotal: 619.00,
-image:'https://img.mytheresa.com/240/240/90/jpeg/catalog/product/bd/P00691258.jpg'
-},
-]
+// const products = [
+//     { id : '1',
+//     title: 'TOM FORD',
+//     desc: 'Shelton velvet blazer',
+//     size: 'IT- 46 / S',
+//     itemNo: 'P00505633',
+//     price: 2530.00,
+//     quantity: 1,
+//     subTotal: 2530.00,
+//     image:'https://img.mytheresa.com/240/240/90/jpeg/catalog/product/a5/P00505633.jpg'
+// },
+// { id : '2',
+// title: 'OUR LEGACY',
+// desc: 'Wool-blend scarf',
+// size: 'One size fits all',
+// itemNo: 'P00706095',
+// price: 83.00,
+// quantity: 2,
+// subTotal: 83.00,
+// image:'https://img.mytheresa.com/240/240/90/jpeg/catalog/product/f3/P00706059.jpg'
+// },
+// { id : '3',
+// title: 'ALANUI',
+// desc: 'Dancing Light crocheted wool-blend cardigan',
+// size: 'S',
+// itemNo: 'P00691258',
+// price: 619.00,
+// quantity: 3,
+// subTotal: 619.00,
+// image:'https://img.mytheresa.com/240/240/90/jpeg/catalog/product/bd/P00691258.jpg'
+// },
+// ]
 
 
 
@@ -63,12 +64,18 @@ const Confirm = () => {
 
      const [ form, setForm ] = React.useState([]);
      const [ number, setNumber ] = React.useState([]);
+     const [ products, setProducts] = React.useState([]);
+    const navigate = useNavigate()
+
      let subtotal = 0;
 
+     const getData = async () => {
+      return axios.get('http://localhost:8080/productlist').then((res) => setProducts(res.data));
+      
+}
 
      const add = (total) => {
       subtotal=subtotal+total;
-      console.log(subtotal);
      }
 
    React.useEffect(() => {
@@ -76,6 +83,15 @@ const Confirm = () => {
       setNumber(getNumber());
    },[])
      
+   React.useEffect(() => {
+                getData();
+   },[])
+
+
+   const handlePurchase = () => {
+        alert('Your order has been placed successfully! ');
+        navigate('/');
+   }
     
   return (
     <div>
@@ -172,8 +188,8 @@ Do you agree to these conditions?</Box>  </Box>
         products.map((product) => (
           
           <div key={product.id}>
-            <Product key={product.id} title={product.title} desc={product.desc} size={product.size} itemNo={product.itemNo} quantity={product.quantity} price={product.price} subTotal={product.subTotal} image={product.image} subtotal={subtotal+ product.subTotal} />
-          { add(product.subTotal) }
+            <Product key={product.id} title={product.title} desc={product.subtitle} size={product.size} itemNo={product.itemNo} quantity={product.quantity} price={product.price} subTotal={product.price* product.quantity} image={product.images[0]} subtotal={subtotal+ product.price} />
+          { add(product.price* product.quantity) }
              </div>
         ))
     }
@@ -184,7 +200,7 @@ Do you agree to these conditions?</Box>  </Box>
     <Box opacity='80%' h='8'>Shipping (DHL Express)  <span>$ 0.00</span> </Box>
     <Box h='12' > <span style={{fontWeight:'bolder'}}>Grand Total $</span><span>{subtotal}</span> </Box>
     <Box opacity='80%' h='8'>VAT exception. VAT not included </Box>
-    <Box h='8'> <button style={{backgroundColor:"black", width:"240px", color:'white', fontSize:'14px', height:'40px', alignItems:"center", justifyContent:'center'}}>COMPLETE PURCHASE</button> </Box>
+    <Box h='8'> <button style={{backgroundColor:"black", width:"240px", color:'white', fontSize:'14px', height:'40px', alignItems:"center", justifyContent:'center'}} onClick={handlePurchase}>COMPLETE PURCHASE</button> </Box>
    
 </Box>
 
