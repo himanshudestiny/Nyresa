@@ -20,21 +20,13 @@ import "./Navbar.css";
 
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../redux/auth/auth.actions";
+import axios from "axios";
+
 
 export default function Navbar() {
   const { isAuth } = useSelector((store) => store.authManager.data);
   const dispatch = useDispatch();
 
-  const handleLogout = () => {
-    if (isAuth) {
-      dispatch(logout());
-      alert("Logged out successfully! Redirecting back to Login Page");
-    }
-  };
-
-import axios from "axios";
-
-export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   let [mytext, setMytext] = useState(true);
   let [cart, setCart] = useState([]);
@@ -44,7 +36,12 @@ export default function Navbar() {
 
     clearInterval(mn);
   }, 5000);
-
+  const handleLogout = () => {
+    if (isAuth) {
+      dispatch(logout());
+      alert("Logged out successfully! Redirecting back to Login Page");
+    }
+  };
   let abc = () => (
     <Box>
       {mytext
@@ -275,4 +272,4 @@ export default function Navbar() {
       </Box>
     </Box>
   );
-}}
+}
