@@ -183,9 +183,9 @@ export default function Carousel({ data, title, link }) {
             color="RGB(255, 255, 255)"
             backgroundColor="RGB(0, 0, 0)"
             mt={"0px"}
-            fontWeight={500}
+            fontWeight={400}
             _hover={{ bg: "gray" }}
-            fontSize={{ base: "8px", sm: "10px", md: "12px", lg: "20px" }}
+            fontSize={{ base: "8px", sm: "10px", md: "12px", lg: "18px" }}
             padding={"16px"}
             fontFamily="Century Gothic"
             letterSpacing={"4px"}
