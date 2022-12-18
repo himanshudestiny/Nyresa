@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import SizeChart from '../image/SizeChart.jpeg'
 import { useNavigate } from 'react-router-dom';
+import Footer from "./Footer"
 let count=0;
 const ProductDetails = () => {
   const navigate=useNavigate()
@@ -212,6 +213,7 @@ let element=JSON.parse(localStorage.getItem("element"))
     <Button onClick={handleNext} margin={"auto"}>{'>'}</Button>
     </Flex>
     </Center>
+    <Footer />
     </Box>
   )
 }

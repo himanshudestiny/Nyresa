@@ -11,6 +11,7 @@ import { filterdata, getdata } from '../redux/products/Prodaction'
 import { StarIcon } from '@chakra-ui/icons'
 import Pagination from './Pagination'
 import {Navigate, useNavigate } from 'react-router-dom'
+import Footer from "./Footer";
 
 const smVariant = { navigation: 'drawer', navigationButton: true }
 const mdVariant = { navigation: 'sidebar', navigationButton: false }
@@ -76,7 +77,7 @@ const Products = ({category}) => {
  
   return (
     <>
-    <Box display="flex" justifyContent="space-between" >
+    <Box display="flex" justifyContent="space-between" marginBottom={'2%'} marginTop={'2%'} >
       <Sidebar
         variant={variants?.navigation}
         isOpen={isSidebarOpen}
@@ -107,7 +108,6 @@ const Products = ({category}) => {
 
        
 
-
         <Divider/>
 
            {products.loading &&
@@ -126,17 +126,14 @@ const Products = ({category}) => {
                }
 
         <Grid p={6} templateColumns={{sm:"repeat(2,1fr)",md:"repeat(2,1fr)",lg:"repeat(3,1fr)"}} gap="20px">
-          {
+           {
             products.data?.map((el)=>
-            <Box key={el.id} className="eldiv" onClick={()=>tolocal(el)}  textAlign="center">
-
+          <Box key={el.id} className="eldiv" onClick={()=>tolocal(el)}  textAlign="center">
               <Image m="auto" src={el.images[0]} width="240px" height="260px" alt='title' />
               <Text mt={2}>{el.title}</Text>
-
               <Text className='subtitle'>{el.subtitle}</Text>
-         
-              <Box display='flex'  w="30%"  m="auto" mt={2}  alignItems='center'>
-          {Array(5)
+           <Box display='flex'  w="30%"  m="auto" mt={2}  alignItems='center'>
+            {Array(5)
             .fill('')
             .map((_, i) => (
               <StarIcon
@@ -145,20 +142,19 @@ const Products = ({category}) => {
                 
               />
             ))}
-          <Box as='span' ml='2' color='gray.600' fontSize='sm'>
-            {el.rating}
-          </Box>
-        </Box>
+              <Box as='span' ml='2' color='gray.600' fontSize='sm'>
+               {el.rating}
+              </Box>
+           </Box>
 
               <Box className='price' ><b>€{el.discounted_price}</b> 
               <Text color="grey"  textDecoration="line-through">€{el.strike_price}</Text>
                 <Text color="orange.500">{el.discount}</Text>
               </Box>
-
-            </Box>
+          </Box>
             )
           }
-        </Grid>
+       </Grid>
 
        
 
@@ -175,7 +171,7 @@ const Products = ({category}) => {
 
       
       </Box>
-      
+      <Footer />
     </>
   )
 }

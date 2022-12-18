@@ -2,6 +2,7 @@ import { Box, Button, Center, Text } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import ListChild from './ListChild'
+import Footer from "./Footer";
 
 const getData=()=>{
   return fetch(` http://localhost:8080/productlist`).then((res)=>res.json())
@@ -118,6 +119,7 @@ if(error)
         </Box>
        </Box>
     </Box>
+    <Footer />
     </Center>
   )
 }

@@ -31,10 +31,10 @@ export default function Navbar() {
   }, 5000);
 
   let abc = () => (
-    <Box>
+    <Box >
       {mytext
-        ? "FREE SHIPPING on orders over $800"
-        : "FREE RETURNS within 30 days"}
+        ?   "FREE SHIPPING on orders over $800"
+        :   "FREE RETURNS within 30 days"}
     </Box>
   );
 
@@ -247,10 +247,10 @@ export default function Navbar() {
       <Box
         className="stickyNav"
         padding={{
-          base: "0px 10px 15px 0px",
-          sm: "0px 80px 15px 0px",
-          lg: "3px 100px 15px 0px",
-          xl: "3px 180px 15px 0px",
+          base: "10px 0px 10px 0px",
+          sm: "10px 0px 10px 0px",
+          lg: "10px 0px 10px 0px",
+          xl: "10px 0px 15px 0px",
         }}
         fontSize={{ base: "10px", md: "12px", lg: "14px", xl: "18px" }}
       >
