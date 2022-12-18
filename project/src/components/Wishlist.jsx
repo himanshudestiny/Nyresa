@@ -32,6 +32,21 @@ const Wishlist = () => {
   
   }
 
+   const movecart= async(elem)=>{
+
+   let res=await axios.post("http://localhost:8080/productlist",{
+    ...elem
+   });
+
+   remove(res.data.id);
+   
+      
+  
+     
+   
+
+  }
+
 
   useEffect(()=>{
     getwish().then((res)=>setwish(res));
@@ -86,7 +101,7 @@ const Wishlist = () => {
                 <Text color="orange.500">{el.discount}</Text>
               </Box>
 
-              <Button className="endbut" borderRadius={0}   w="240px"  color="white" backgroundColor="black" mt={5}>MOVE TO BAG</Button>
+              <Button className="endbut" borderRadius={0}   w="240px"  color="white" backgroundColor="black" mt={5} onClick={()=>movecart(el)}>MOVE TO BAG</Button>
 
               </Box>
             )
