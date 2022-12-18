@@ -248,15 +248,15 @@ const Home = () => {
             fontSize={{ base: "11px", md: "15px", lg: "19px" }}
             mt={"15px"}
           >
-            <Link>
+            <Link to={"/womenproduct"}>
               <u>Mytheresa Women</u>
             </Link>
             <span>&nbsp;</span> |<span>&nbsp;</span>
-            <Link>
+            <Link to="/menproduct">
               <u>Mytheresa Men</u>
             </Link>
             <span>&nbsp;</span>|<span>&nbsp;</span>
-            <Link>
+            <Link to="/kidproduct">
               <u>Mytheresa Kids</u>
             </Link>
             <span>&nbsp;</span>|<span>&nbsp;</span>
