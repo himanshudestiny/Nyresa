@@ -81,7 +81,7 @@ if(error)
     navigate("/delivery")
   }
   return (
-    <Center>
+    <Center display={'grid'}>
       <Box width='80%' height={'400px'} marginBottom={'5%'}>
        <div className='checkoutDiv'  >
         <Text>YOUR SHOPPING BAG</Text>
