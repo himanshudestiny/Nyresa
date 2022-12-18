@@ -87,7 +87,6 @@ let element=JSON.parse(localStorage.getItem("element"))
     }
     else if(value)
     {
-      // console.log("selected")
       count++
     }
   }
@@ -172,49 +171,6 @@ let element=JSON.parse(localStorage.getItem("element"))
     </Center>
     <br />
     <br />
-    {/* <Center>
-    <Flex width={'80%'} marginTop={'50px'} >
-    <Button onclick={handlePrev} margin={"auto"}>{'<'}</Button>
-    <Swiper
-    className='Swipeslider_one'
-      spaceBetween={20}
-      slidesPerView={3}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-    >
-      <SwiperSlide><Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52UW-ccgwBNNJCAIaeO4P5RjTxSsi91KyX8Rcl_wC8gTwZP2ErO0QmmKZBKB7qC5KrrA&usqp=CAU' /></SwiperSlide>
-      <SwiperSlide><Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf-moQYrmDZkMh8KdESM67LpEdbwGm1P4m-WB68POXHiJwZ3YCYjMRI_6C3LnJ9XNRRO8&usqp=CAU' /></SwiperSlide>
-      <SwiperSlide><Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2j6hjj6y-mJoJBMo7NqdS3SaOQBLJwb3eCB6OyJs-hcZyeTs4C4R70TfBLTl0dojJxcM&usqp=CAU' /></SwiperSlide>
-      <SwiperSlide><Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMRJCOUtLjGU4x_x-N-wj4345zvnAIXIr3uqRwm5PlCHXTDYONBCmqZDkzXEBsjKQEka0&usqp=CAU' /></SwiperSlide>
-      <SwiperSlide><Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52UW-ccgwBNNJCAIaeO4P5RjTxSsi91KyX8Rcl_wC8gTwZP2ErO0QmmKZBKB7qC5KrrA&usqp=CAU' /></SwiperSlide>
-      <SwiperSlide><Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf-moQYrmDZkMh8KdESM67LpEdbwGm1P4m-WB68POXHiJwZ3YCYjMRI_6C3LnJ9XNRRO8&usqp=CAU' /></SwiperSlide>
-      <SwiperSlide><Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2j6hjj6y-mJoJBMo7NqdS3SaOQBLJwb3eCB6OyJs-hcZyeTs4C4R70TfBLTl0dojJxcM&usqp=CAU' /></SwiperSlide>
-      <SwiperSlide><Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMRJCOUtLjGU4x_x-N-wj4345zvnAIXIr3uqRwm5PlCHXTDYONBCmqZDkzXEBsjKQEka0&usqp=CAU' /></SwiperSlide>
-    </Swiper>
-    <Button onClick={handleNext} margin={"auto"}>{'>'}</Button>
-    </Flex>
-    </Center>
-    <Center><Heading marginTop={'20px'}>YOU MIGHT ALSO LIKE</Heading></Center>
-    <Center>
-    <Flex width={'80%'} marginTop={'50px'} marginBottom={'%'}>
-    <Button onclick={handlePrev} margin={"auto"}>{'<'}</Button>
-    <Swiper
-    className='Swipeslider_one'
-      spaceBetween={20}
-      slidesPerView={4}
-    >
-      <SwiperSlide><Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52UW-ccgwBNNJCAIaeO4P5RjTxSsi91KyX8Rcl_wC8gTwZP2ErO0QmmKZBKB7qC5KrrA&usqp=CAU' /></SwiperSlide>
-      <SwiperSlide><Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf-moQYrmDZkMh8KdESM67LpEdbwGm1P4m-WB68POXHiJwZ3YCYjMRI_6C3LnJ9XNRRO8&usqp=CAU' /></SwiperSlide>
-      <SwiperSlide><Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2j6hjj6y-mJoJBMo7NqdS3SaOQBLJwb3eCB6OyJs-hcZyeTs4C4R70TfBLTl0dojJxcM&usqp=CAU' /></SwiperSlide>
-      <SwiperSlide><Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMRJCOUtLjGU4x_x-N-wj4345zvnAIXIr3uqRwm5PlCHXTDYONBCmqZDkzXEBsjKQEka0&usqp=CAU' /></SwiperSlide>
-      <SwiperSlide><Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52UW-ccgwBNNJCAIaeO4P5RjTxSsi91KyX8Rcl_wC8gTwZP2ErO0QmmKZBKB7qC5KrrA&usqp=CAU' /></SwiperSlide>
-      <SwiperSlide><Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf-moQYrmDZkMh8KdESM67LpEdbwGm1P4m-WB68POXHiJwZ3YCYjMRI_6C3LnJ9XNRRO8&usqp=CAU' /></SwiperSlide>
-      <SwiperSlide><Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2j6hjj6y-mJoJBMo7NqdS3SaOQBLJwb3eCB6OyJs-hcZyeTs4C4R70TfBLTl0dojJxcM&usqp=CAU' /></SwiperSlide>
-      <SwiperSlide><Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMRJCOUtLjGU4x_x-N-wj4345zvnAIXIr3uqRwm5PlCHXTDYONBCmqZDkzXEBsjKQEka0&usqp=CAU' /></SwiperSlide>
-    </Swiper>
-    <Button onClick={handleNext} margin={"auto"}>{'>'}</Button>
-    </Flex>
-    </Center> */}
     <Carousel
         link={"/menproduct"}
         title="Men's New Arrivals"
