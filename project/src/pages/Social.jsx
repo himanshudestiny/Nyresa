@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import {
   Box,
   Container,
@@ -13,11 +13,15 @@ import {
   Radio,
   Select,
   Link,
+  Alert,
+  AlertIcon,
+  AlertTitle,
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { addUser } from "../redux/social/social.actions";
 import { login } from "../redux/auth/auth.actions";
+import Footer from "../components/Footer";
 
 const initState = {
   initials: "",
@@ -31,28 +35,22 @@ const initState = {
 
 const Social = () => {
   const { loading, error } = useSelector((store) => store.authManager);
-  const { isAuth } = useSelector((store) => store.authManager.data);
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const [registerformData, setRegisterFormData] = useState(initState);
   const [loginformData, setLoginFormData] = useState([]);
 
-  useEffect(() => {
-    if (isAuth) {
-      navigate("/");
-    } else {
-      navigate("/login");
-    }
-  }, [isAuth, navigate]);
-
   const handleRegisterSubmit = (e) => {
     e.preventDefault();
     dispatch(addUser(registerformData));
+    alert("Registration Successfull! You can Login now!");
   };
 
   const handleInputSubmit = (e) => {
     e.preventDefault();
     dispatch(login(loginformData));
+    alert("Login Successfull! Redirecting to Home Page now!");
+    navigate("/");
   };
 
   const handleRegisterChange = (e) => {
@@ -68,7 +66,12 @@ const Social = () => {
   if (loading) {
     return <h1>Loading...</h1>;
   } else if (error) {
-    return <h1>Error Occurred</h1>;
+    return (
+      <Alert status="error">
+        <AlertIcon />
+        <AlertTitle>Some Error Occurred, Please Refresh!</AlertTitle>
+      </Alert>
+    );
   }
 
   const { title, firstname, lastname, email, password, repassword } =
@@ -291,6 +294,7 @@ const Social = () => {
           </GridItem>
         </Grid>
       </Container>
+      <Footer />
     </>
   );
 };

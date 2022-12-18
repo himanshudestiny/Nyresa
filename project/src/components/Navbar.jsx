@@ -4,8 +4,20 @@ import { Link } from "react-router-dom";
 import { AiOutlineHeart } from "react-icons/ai";
 
 import "./Navbar.css";
+import { useDispatch, useSelector } from "react-redux";
+import { logout } from "../redux/auth/auth.actions";
 
 export default function Navbar() {
+  const { isAuth } = useSelector((store) => store.authManager.data);
+  const dispatch = useDispatch();
+
+  const handleLogout = () => {
+    if (isAuth) {
+      dispatch(logout());
+      alert("Logged out successfully! Redirecting back to Login Page");
+    }
+  };
+
   return (
     <Box>
       <Box mb={7} paddingBottom="1rem">
@@ -48,8 +60,8 @@ export default function Navbar() {
             <Link to="/signup">
               <Text cursor="pointer">Signup For Newsletter</Text>
             </Link>
-            <Link to="/login">
-              <Text cursor="pointer">My account</Text>
+            <Link to="/login" onClick={handleLogout}>
+              <Text cursor="pointer">{isAuth ? "Logout" : "My account"}</Text>
             </Link>
 
             <Link to="/wishlist" style={{ display: "flex" }}>
