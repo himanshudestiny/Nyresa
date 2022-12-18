@@ -50,10 +50,10 @@ const ListHeader = ({ children }) => {
 export default function LargeWithNewsletter() {
   return (
     <Box
-      bg="#DCDCDC"
+      bg="#e1e7eb"
       color={useColorModeValue("gray.700", "gray.200")}
       mt="4%"
-      pt="2%"
+      pt="1%"
       pb="2%"
     >
       <Container as={Stack} maxW={"6xl"} py={10}>
