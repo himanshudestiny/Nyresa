@@ -9,6 +9,7 @@ import ProductList from "../components/ProductList";
 import Payment from './../components/Payment/Payment';
 import Delivery from './../components/Delivery/Delivery';
 import Confirm from './../components/Confirm/Confirm';
+import Wishlist from "../components/Wishlist";
 
 const AllRoutes = () => {
   return (
@@ -25,6 +26,7 @@ const AllRoutes = () => {
         <Route path='/delivery' element={<Delivery />} />
         <Route path='/payment' element={<Payment />} />
         <Route path='/confirm' element={<Confirm />} />
+        <Route path="/wishlist" element={<Wishlist/>}/>
       </Routes>
     </div>
   );
