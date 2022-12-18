@@ -106,7 +106,7 @@ export default function Navbar() {
               <Text cursor="pointer">My account</Text>
             </Link>
 
-            <Link id="heart" to="/" style={{ display: "flex" }}>
+            <Link id="heart" to="/wishlist" style={{ display: "flex" }}>
               <Text cursor="pointer">My wishlist </Text>
               <Box mt={{ base: "1px", md: "2px", lg: "4px" }} pl="3px">
                 <AiOutlineHeart />
