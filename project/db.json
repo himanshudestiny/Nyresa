@@ -8895,12 +8895,12 @@
     {
       "id": 390,
       "category": "Mens",
-      "title": "Roadster",
-      "subtitle": "Men Time Travlr Slim Fit Chinos",
-      "discounted_price": "859",
-      "price": 859,
-      "strike_price": "1999",
-      "discount": "(57% OFF)",
+      "title": "Dennis Lingo",
+      "subtitle": "Men Slim Fit Casual Shirt",
+      "discounted_price": "628",
+      "price": 1256,
+      "strike_price": "1849",
+      "discount": "(66% OFF)",
       "images": [
         "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2290972/2018/5/5/11525515544459-Roadster-Men-Grey-Slim-Fit-Solid-Chinos-2351525515544256-1.jpg",
         "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2290972/2018/5/5/11525515544459-Roadster-Men-Grey-Slim-Fit-Solid-Chinos-2351525515544256-1.jpg",
@@ -8920,9 +8920,9 @@
         "38",
         "40"
       ],
-      "rating": "4.2",
-      "rating_count": "5.8k",
-      "quantity": 1
+      "rating": "4.1",
+      "rating_count": "13.1k",
+      "quantity": 2
     },
     {
       "id": 3,
@@ -9045,7 +9045,5 @@
       "rating_count": "8.2k",
       "quantity": 1
     }
-  ],
-  "users": [],
-  "wishlist": []
+  ]
 }
