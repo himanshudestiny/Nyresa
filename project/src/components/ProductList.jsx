@@ -118,7 +118,6 @@ if(error)
         </Box>
        </Box>
     </Box>
-    <Footer />
     </Center>
   )
 }
