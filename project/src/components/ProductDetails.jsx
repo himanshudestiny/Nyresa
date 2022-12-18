@@ -7,6 +7,8 @@ import 'swiper/css';
 import SizeChart from '../image/SizeChart.jpeg'
 import { useNavigate } from 'react-router-dom';
 import Footer from "./Footer"
+import Carousel from './Carousel';
+import data from "../assets/data/products.json";
 let count=0;
 const ProductDetails = () => {
   const navigate=useNavigate()
@@ -170,7 +172,7 @@ let element=JSON.parse(localStorage.getItem("element"))
     </Center>
     <br />
     <br />
-    <Center>
+    {/* <Center>
     <Flex width={'80%'} marginTop={'50px'} >
     <Button onclick={handlePrev} margin={"auto"}>{'<'}</Button>
     <Swiper
@@ -212,7 +214,22 @@ let element=JSON.parse(localStorage.getItem("element"))
     </Swiper>
     <Button onClick={handleNext} margin={"auto"}>{'>'}</Button>
     </Flex>
-    </Center>
+    </Center> */}
+    <Carousel
+        link={"/menproduct"}
+        title="Men's New Arrivals"
+        data={data.Mens}
+      />
+      <Carousel
+        link={"/womenproduct"}
+        title="Women's New Arrivals"
+        data={data.Womens}
+      />
+      <Carousel
+        link={"/kidproduct"}
+        title="Kid's New Arrivals"
+        data={data.Kids} 
+        />
     <Footer />
     </Box>
   )

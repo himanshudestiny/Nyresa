@@ -73,10 +73,10 @@ export default function Carousel({ data, title, link }) {
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       />
       <Heading
-        fontSize={{ base: "20px", sm: "26px", md: "38px", lg: "42px" }}
+        fontSize={{ base: "20px", sm: "24px", md: "33px", lg: "36px" }}
         fontFamily="Century Gothic"
         letterSpacing="0.8px"
-        fontWeight={400}
+        fontWeight={300}
       >
         {title}
       </Heading>
