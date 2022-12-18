@@ -15,7 +15,6 @@ const Product = ({title, desc, price, quantity, subTotal, size, itemNo, image}) 
     <Box align='left' mt='6'>{title}</Box>
     <Box align='left'>{desc}</Box>
     <Box align='left'>Size:   <span>{size}</span></Box>
-    <Box align='left'>item no.:   <span> {itemNo}</span> </Box>
   </GridItem>
 </Grid>
   </Box>
