@@ -19,31 +19,31 @@ let element=JSON.parse(localStorage.getItem("element"))
   },[element])
   const handleAddtobag=(e)=>
   {
-    console.log('click')
+    // console.log('click')
     count++;//1
-    console.log(count)
+    // console.log(count)
     if(count>=2)
     {
       setFlag(true)
-      console.log(flag)
+      // console.log(flag)
     }
     else if(count<=1)
     {
       handlechangesize(e)
     }
   }
-  console.log(flag)
+  // console.log(flag)
 
 
   const handlewishlist=(e)=>
   {
-    console.log('click')
+    // console.log('click')
     count++;
-    console.log(count)
+    // console.log(count)
     if(count>1)
     {
       setFlag(true)
-      console.log(flag)
+      // console.log(flag)
       count++
     }
     else if(count<=1)
@@ -67,15 +67,13 @@ let element=JSON.parse(localStorage.getItem("element"))
   {
     let value=e.target.value
     localStorage.setItem("ElementSize",JSON.stringify(value))
-    console.log(value)
     if(!value)
     {
       alert('please Select size')
     }
     else if(value)
     {
-      console.log(value)
-      console.log("selected")
+      // console.log("selected")
       count++
     }
   }

@@ -1,36 +1,38 @@
 import { SimpleGrid, Box, Grid, GridItem, Image, Button } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
-import ProductList from './ProductList'
 
-const ListChild = ({title,desc,id,price,image,quant}) => {
-    const [quantity,setQuantity]=useState(1)
-let subtotal=Number(price)*(Number(quant))
+
+const ListChild = ({title,desc,id,price,image,quant,getData,p}) => {
+  // console.log(quant)
+    // const [quantity,setQuantity]=useState(1)
     const handleInc=(id)=>
     {
         console.log(id)
-        console.log(quantity)
-        setQuantity((prev)=>prev+1)
+        // console.log(quantity)
+        // setQuantity((prev)=>prev+1)
         fetch(`http://localhost:8080/productlist/${id}`,{
         method:'PATCH',
         headers:{
          'Content-Type':'application/json'
         },
-        body:JSON.stringify({quantity:quantity})
+        body:JSON.stringify({quantity:quant+1,price:(quant+1)*(Number(price))})
         }).then((res)=>res.json())
     }
+    // console.log(quantity)
     const handleDec=(id)=>
     {
         console.log(id)
-        console.log(quantity)
-        setQuantity((prev)=>prev-1)
+        // console.log(quantity)
+        // setQuantity((prev)=>prev-1)
         fetch(`http://localhost:8080/productlist/${id}`,{
         method:'PATCH',
         headers:{
          'Content-Type':'application/json'
         },
-        body:JSON.stringify({quantity:quantity})
+        body:JSON.stringify({quantity:quant-1})
         }).then((res)=>res.json())
     }
+  
   return (
     <Box key={id} marginTop={'20px'}>
      <SimpleGrid columns={[1,1,1,2,2,2]} spacing={0} p='8' borderTop='1px' borderColor='grey' w={['95%','95%','95%','100%','100%','100%']}>
@@ -56,10 +58,10 @@ let subtotal=Number(price)*(Number(quant))
 </Grid>
 <Grid templateColumns='repeat(5, 1fr)' gap={6} >
   <GridItem w='100%' h='10' align='center' opacity='80%' >${price}</GridItem>
-  <button style={{backgroundColor:'rgb(240, 240, 240)'}}  disabled={quantity==1} onClick={()=>handleDec(id)}>-</button>
+  <button style={{backgroundColor:'rgb(240, 240, 240)'}}  disabled={quant==1} onClick={()=>handleDec(id)}>-</button>
   <GridItem w='100%' h='10' align='center'>{quant}</GridItem>
   <button style={{backgroundColor:'rgb(240, 240, 240)'}} onClick={()=>handleInc(id)}>+</button>
-  <GridItem w='100%' h='10' align='center' opacity='80%' >{subtotal}</GridItem>
+  <GridItem w='100%' h='10' align='center' opacity='80%' >{quant*(Number(price))}</GridItem>
 </Grid>
      </Box>
   </Box>
