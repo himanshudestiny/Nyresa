@@ -215,8 +215,8 @@ export default function Navbar() {
               sm: "auto 14% auto auto",
               md: "auto 18.5% auto auto",
               lg: "auto 19.3% auto auto",
-              xl: "auto 14% auto auto",
-              "2xl": "auto 17% auto auto",
+              xl: "auto 12% auto auto",
+              "2xl": "auto 14.5% auto auto",
             }}
           >
             <Link to={"/"}>
