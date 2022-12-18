@@ -2,14 +2,14 @@ import { SimpleGrid, Box, Grid, GridItem, Image, Button } from '@chakra-ui/react
 import React, { useEffect, useState } from 'react'
 
 
-const ListChild = ({title,desc,id,price,image,quant,getData,p}) => {
+const ListChild = ({title,desc,id,price,image,quant,getData,setProduct}) => {
   // console.log(quant)
-    // const [quantity,setQuantity]=useState(1)
+    const [quantity,setQuantity]=useState(1)
     const handleInc=(id)=>
     {
         console.log(id)
         // console.log(quantity)
-        // setQuantity((prev)=>prev+1)
+        setQuantity((prev)=>prev+1)
         fetch(`http://localhost:8080/productlist/${id}`,{
         method:'PATCH',
         headers:{
@@ -17,6 +17,7 @@ const ListChild = ({title,desc,id,price,image,quant,getData,p}) => {
         },
         body:JSON.stringify({quantity:quant+1,price:(quant+1)*(Number(price))})
         }).then((res)=>res.json())
+        getData().then((res)=>setProduct(res))
     }
     // console.log(quantity)
     const handleDec=(id)=>
@@ -29,8 +30,9 @@ const ListChild = ({title,desc,id,price,image,quant,getData,p}) => {
         headers:{
          'Content-Type':'application/json'
         },
-        body:JSON.stringify({quantity:quant-1})
+        body:JSON.stringify({quantity:quant-1,price:(quant-1)*(Number(price))})
         }).then((res)=>res.json())
+        getData().then((res)=>setProduct(res))
     }
   
   return (
@@ -49,7 +51,7 @@ const ListChild = ({title,desc,id,price,image,quant,getData,p}) => {
   </GridItem>
 </Grid>
   </Box>
-  <Box height='auto' align='right'  borderTop='1px' borderColor='grey'>
+  <Box height='auto' align='left'  borderTop='1px' borderColor='grey'>
      <Box h='auto' w='50%' mt='-8'>
      <Grid templateColumns='repeat(3, 1fr)' gap={6}>
   <GridItem w='100%' h='10' align='center' fontWeight='bolder' >Price</GridItem>

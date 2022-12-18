@@ -80,7 +80,7 @@ if(error)
         {
           product.map((el) => (
             <div style={{borderBottom:'1px solid gray',padding:"1rem"}} key={el.id}>
-              <ListChild key={el.id} title={el.title} id={el.id} desc={el.subtitle} price={el.discounted_price} image={el.images[el.images.length-1] } quant={el.quantity} getData={getData} p={el.price} />
+              <ListChild key={el.id} title={el.title} id={el.id} desc={el.subtitle} price={el.discounted_price} image={el.images[el.images.length-1] } quant={el.quantity} getData={getData} setProduct={setProduct} p={el.price} />
               <div className='checkoutDiv'>
               <Button  bgColor={'red'} color={'white'} onClick={()=>handleDelete(el.id)}>X Remove</Button>
               <Button className='checkoutDiv_button'>Add To Wishlist</Button>
@@ -90,11 +90,11 @@ if(error)
         }
         <Box>
           {product.map((el)=>{
-            console.log(total+=Number(el.discounted_price))
+            console.log(total+=Number(el.price))
           })}
           <Text fontWeight={'bold'} align={'right'}>Total:- ${total}</Text>
           <br />
-          <Button  className='checkoutDiv_button'  borderRadius={'none'} color={'white'} bgColor={'black'} onClick={handleCheckout}>PROCEED TO CHECKOUT</Button>
+          <Button  className='checkoutDiv_button'  borderRadius={'none'} color={'white'} bgColor={'black'} onClick={handleCheckout} getData={getData}>PROCEED TO CHECKOUT</Button>
         </Box>
        </Box>
     </Box>
