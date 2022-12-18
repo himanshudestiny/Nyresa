@@ -32,7 +32,6 @@ export default function Navbar() {
     }
   };
 
-=======
 import axios from "axios";
 
 export default function Navbar() {
@@ -276,4 +275,4 @@ export default function Navbar() {
       </Box>
     </Box>
   );
-}
+}}
