@@ -82,7 +82,7 @@ if(error)
   }
   return (
     <Center>
-      <Box width='80%' height={'400px'}>
+      <Box width='80%' height={'400px'} marginBottom={'5%'}>
        <div className='checkoutDiv'  >
         <Text>YOUR SHOPPING BAG</Text>
         <Button className='checkoutDiv_button' borderRadius={'none'} color={'white'} bgColor={'black'} onClick={handleCheckout}>PROCEED TO CHECKOUT</Button>
@@ -105,7 +105,6 @@ if(error)
                 <Text>THERE ARE NO PRODUCTS ON YOUR WISHLIST.</Text>
                  <Text color="grey">Check out our new arrivals and start adding to your wishlist now!</Text>
                  <Button mt={4}> <Link to="/menproduct">SHOP NEW ARRIVALS</Link></Button>
-
                </Box>
         
        }

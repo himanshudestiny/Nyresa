@@ -99,7 +99,7 @@ let element=JSON.parse(localStorage.getItem("element"))
     console.log('click')
   }
   return (
-    <Box marginTop={'40px'} > 
+    <Box marginTop={'40px'}  > 
     <Center >
        <Box className="Product_details_Mega_container" bgColor={'RGBA(0, 0, 0, 0.06)'} padding='20px'>
       <div className='Product_details_Mega_container_first_child'>
@@ -194,7 +194,7 @@ let element=JSON.parse(localStorage.getItem("element"))
     </Center>
     <Center><Heading marginTop={'20px'}>YOU MIGHT ALSO LIKE</Heading></Center>
     <Center>
-    <Flex width={'80%'} marginTop={'50px'} >
+    <Flex width={'80%'} marginTop={'50px'} marginBottom={'%'}>
     <Button onclick={handlePrev} margin={"auto"}>{'<'}</Button>
     <Swiper
     className='Swipeslider_one'
