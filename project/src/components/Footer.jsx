@@ -50,10 +50,11 @@ const ListHeader = ({ children }) => {
 export default function LargeWithNewsletter() {
   return (
     <Box
-      bg="gray.300"
+      bg="#DCDCDC"
       color={useColorModeValue("gray.700", "gray.200")}
-      pt="5%"
-      pb="3%"
+      mt="4%"
+      pt="2%"
+      pb="2%"
     >
       <Container as={Stack} maxW={"6xl"} py={10}>
         <SimpleGrid

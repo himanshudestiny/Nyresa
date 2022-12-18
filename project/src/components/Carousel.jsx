@@ -99,13 +99,19 @@ export default function Carousel({ data, title, link }) {
             aria-label="leftButton"
             border="0px solid blue"
             // mt={{ base: "26%", sm: "22%", md: "20%", lg: "16%", xl: "14%" }}
-            _hover={{ bg: "white" }}
             bg={"transparent"}
             zIndex={2}
             onClick={() => slider?.slickPrev()}
+            _hover={{ bg: "none" }}
           >
             <ChevronLeftIcon
-              fontSize={"5rem"}
+              fontSize={{
+                base: "2rem",
+                sm: "3rem",
+                md: "3rem",
+                lg: "4rem",
+                xl: "5rem",
+              }}
               onClick={() => slider?.slickPrev()}
             />
           </IconButton>
@@ -114,6 +120,7 @@ export default function Carousel({ data, title, link }) {
           position={"relative"}
           width={"85%"}
           m="auto"
+          mt="40px"
           overflow={"hidden"}
           textAlign={"center"}
           border="0px solid red"
@@ -121,9 +128,9 @@ export default function Carousel({ data, title, link }) {
           <Slider {...settings} ref={(slider) => setSlider(slider)}>
             {data.map((ele) => (
               <Link key={ele.id} to="">
-                <Box p="1rem" h="55vh">
+                <Box p="1rem" h="70vh">
                   <Box textAlign="center" h="100%" w="100%">
-                    <Image w="100%" h="80%" src={ele.images[0]} />
+                    <Image w="100%" h="70%" src={ele.images[0]} />
                     <Text color={"#9e9d9d"} p="1rem">
                       {ele.title}
                     </Text>
@@ -145,13 +152,21 @@ export default function Carousel({ data, title, link }) {
           <IconButton
             aria-label="rightButton"
             border="0px solid blue"
-            mt="15%"
             _hover={{ bg: "none" }}
             bg={"transparent"}
             zIndex={2}
             onClick={() => slider?.slickNext()}
           >
-            <ChevronRightIcon color="#111" fontSize={"5rem"} />
+            <ChevronRightIcon
+              color="#111"
+              fontSize={{
+                base: "2rem",
+                sm: "3rem",
+                md: "3rem",
+                lg: "4rem",
+                xl: "5rem",
+              }}
+            />
           </IconButton>
         </Flex>
       </Box>
