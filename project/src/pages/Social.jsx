@@ -13,10 +13,6 @@ import {
   Radio,
   Select,
   Link,
-  Alert,
-  AlertIcon,
-  AlertTitle,
-  Heading,
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -35,7 +31,7 @@ const initState = {
 };
 
 const Social = () => {
-  const { loading, error } = useSelector((store) => store.authManager);
+  const { error } = useSelector((store) => store.authManager);
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const [registerformData, setRegisterFormData] = useState(initState);
@@ -72,10 +68,9 @@ const Social = () => {
     setLoginFormData({ ...loginformData, [name]: value });
   };
 
-  if (loading) {
-    return <Heading size="2xl">Loading...</Heading>;
-  } else if (error) {
-    return alert("Wrong Credentials, Please Refresh and Try Again!");
+  if (error) {
+    alert("Wrong Credentials, Please try Again!");
+    window.location.reload();
   }
 
   const { title, firstname, lastname, email, password, repassword } =
