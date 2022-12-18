@@ -17,11 +17,16 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 
 import "./Navbar.css";
-<<<<<<< HEAD
+
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../redux/auth/auth.actions";
 
+import axios from "axios";
+
 export default function Navbar() {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  let [mytext, setMytext] = useState(true);
+  let [cart, setCart] = useState([]);
   const { isAuth } = useSelector((store) => store.authManager.data);
   const dispatch = useDispatch();
 
@@ -32,14 +37,6 @@ export default function Navbar() {
     }
   };
 
-=======
-import axios from "axios";
-
-export default function Navbar() {
-  const { isOpen, onOpen, onClose } = useDisclosure();
-  let [mytext, setMytext] = useState(true);
-  let [cart, setCart] = useState([]);
-
   let mn = setInterval(() => {
     setMytext(!mytext);
 
@@ -47,10 +44,10 @@ export default function Navbar() {
   }, 5000);
 
   let abc = () => (
-    <Box >
+    <Box>
       {mytext
-        ?   "FREE SHIPPING on orders over $800"
-        :   "FREE RETURNS within 30 days"}
+        ? "FREE SHIPPING on orders over $800"
+        : "FREE RETURNS within 30 days"}
     </Box>
   );
 
@@ -62,6 +59,7 @@ export default function Navbar() {
 
   useEffect(() => {
     abc();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mytext]);
   useEffect(() => {
     console.log(getCart());
@@ -76,7 +74,7 @@ export default function Navbar() {
   //   }
   //   parent = parent.parentElement;
   // }
->>>>>>> 7e5bfa1954618c68dc42cbedcb0c7d05116d9960
+
   return (
     <Box>
       <Box mb={7} paddingBottom="1rem">
