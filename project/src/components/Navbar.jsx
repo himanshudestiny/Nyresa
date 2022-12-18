@@ -211,9 +211,11 @@ export default function Navbar() {
             border={"0px solid red"}
             margin={{
               base: "auto auto auto auto",
-              sm: "auto 11% auto auto",
-              md: "auto 16% auto auto",
+              sm: "auto 11.5% auto auto",
+              md: "auto 18% auto auto",
               lg: "auto 16% auto auto",
+              xl: "auto 11% auto auto",
+              "2xl": "auto 15% auto auto",
             }}
           >
             <Link to={"/"}>
