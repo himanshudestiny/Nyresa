@@ -8903,7 +8903,7 @@
       "title": "Dennis Lingo",
       "subtitle": "Men Slim Fit Casual Shirt",
       "discounted_price": "628",
-      "price": 628,
+      "price": 1256,
       "strike_price": "1849",
       "discount": "(66% OFF)",
       "images": [
@@ -8925,7 +8925,7 @@
       ],
       "rating": "4.1",
       "rating_count": "13.1k",
-      "quantity": 1
+      "quantity": 2
     },
     {
       "id": 233,
@@ -8933,7 +8933,7 @@
       "title": "Nauti Nati",
       "subtitle": "Boys Kurta Set & Nehru Jacket",
       "discounted_price": "1199",
-      "price": 1199,
+      "price": 2398,
       "strike_price": "1999",
       "discount": "(40% OFF)",
       "images": [
@@ -8954,8 +8954,40 @@
         "5Y"
       ],
       "rating": "4.6",
-      "quantity": 1,
+      "quantity": 2,
       "rating_count": "36"
+    },
+    {
+      "id": 388,
+      "category": "Mens",
+      "title": "Roadster",
+      "subtitle": "Printed Casual Shirt",
+      "discounted_price": "599",
+      "price": 1198,
+      "strike_price": "1499",
+      "discount": "(60% OFF)",
+      "images": [
+        "https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/1364628/2016/8/31/11472636737718-Roadster-Men-Blue-Regular-Fit-Printed-Casual-Shirt-6121472636737160-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1364628/2016/8/31/11472636737718-Roadster-Men-Blue-Regular-Fit-Printed-Casual-Shirt-6121472636737160-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/1364628/2016/8/31/11472636737718-Roadster-Men-Blue-Regular-Fit-Printed-Casual-Shirt-6121472636737160-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/1364628/2016/8/31/11472636737718-Roadster-Men-Blue-Regular-Fit-Printed-Casual-Shirt-6121472636737160-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_2.2,q_60,w_210,c_limit,fl_progressive/assets/images/1364628/2016/8/31/11472636737718-Roadster-Men-Blue-Regular-Fit-Printed-Casual-Shirt-6121472636737160-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_2.4,q_60,w_210,c_limit,fl_progressive/assets/images/1364628/2016/8/31/11472636737718-Roadster-Men-Blue-Regular-Fit-Printed-Casual-Shirt-6121472636737160-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_2.6,q_60,w_210,c_limit,fl_progressive/assets/images/1364628/2016/8/31/11472636737718-Roadster-Men-Blue-Regular-Fit-Printed-Casual-Shirt-6121472636737160-1.jpg",
+        "https://assets.myntassets.com/f_webp,dpr_2.8,q_60,w_210,c_limit,fl_progressive/assets/images/1364628/2016/8/31/11472636737718-Roadster-Men-Blue-Regular-Fit-Printed-Casual-Shirt-6121472636737160-1.jpg"
+      ],
+      "size": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL",
+        "3XL",
+        "XXXL"
+      ],
+      "rating": "4.1",
+      "rating_count": "25.9k",
+      "quantity": 2
     }
   ]
 }
