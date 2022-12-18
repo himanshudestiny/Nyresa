@@ -190,7 +190,7 @@ export default function Navbar() {
           {/* ================================================================ */}
 
           <Box
-            w={{ base: "30%", lg: "38%", xl: "50%" }}
+            w={{ base: "26%", sm: "30%", md: "32%", lg: "38%", xl: "48%" }}
             p="20px 0"
             display="flex"
             alignItems="center"
