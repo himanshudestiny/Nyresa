@@ -8868,7 +8868,7 @@
       "title": "HELLCAT",
       "subtitle": "Set of 2 Colourblocked T-shirt",
       "discounted_price": "559",
-      "price": 559,
+      "price": 2236,
       "strike_price": "1999",
       "discount": "(72% OFF)",
       "images": [
@@ -8891,7 +8891,7 @@
         "15-16Y"
       ],
       "rating": "4.1",
-      "quantity": 1,
+      "quantity": 4,
       "rating_count": "475"
     },
     {
@@ -9111,13 +9111,12 @@
       "quantity": 1
     },
     {
-
       "id": 388,
       "category": "Mens",
       "title": "Roadster",
       "subtitle": "Printed Casual Shirt",
       "discounted_price": "599",
-      "price": 559,
+      "price": 1797,
       "strike_price": "1499",
       "discount": "(60% OFF)",
       "images": [
@@ -9141,8 +9140,7 @@
       ],
       "rating": "4.1",
       "rating_count": "25.9k",
-      "quantity": 1
-
+      "quantity": 3
     }
   ],
   "wishlist": [],
