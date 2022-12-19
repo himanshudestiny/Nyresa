@@ -7,8 +7,13 @@ import ProductDetails from "./components/ProductDetails";
 import Payment from "./components/Payment/Payment";
 import Confirm from "./components/Confirm/Confirm";
 import Address from "./components/Delivery/Address";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    document.title = "NYRESA";
+  }, []);
+
   return (
     <div className="App">
       <Navbar />
