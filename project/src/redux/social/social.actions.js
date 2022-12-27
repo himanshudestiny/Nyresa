@@ -4,7 +4,7 @@ import axios from "axios";
 export const addUser = (newUser) => async (dispatch) => {
   dispatch({ type: USER_LOADING });
   try {
-    let res = axios.post("http://localhost:8080/users", {
+    let res = axios.post("https://nyresa-database.vercel.app/users", {
       ...newUser,
     });
     dispatch({ type: ADD_USER, payload: res.data });

@@ -13,6 +13,7 @@ import {
   Radio,
   Select,
   Link,
+  useToast,
 } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -33,29 +34,63 @@ const initState = {
 const Social = () => {
   const { error } = useSelector((store) => store.authManager);
   const navigate = useNavigate();
-  const dispatch = useDispatch();
+
   const [registerformData, setRegisterFormData] = useState(initState);
+  const [registerformErrors, setRegisterFormErrors] = useState({});
+
   const [loginformData, setLoginFormData] = useState([]);
+  const [loginformErrors, setLoginFormErrors] = useState({});
+
+  const dispatch = useDispatch();
+
   const { isAuth } = useSelector((store) => store.authManager.data);
+  const toast = useToast();
 
   useEffect(() => {
     if (isAuth) {
+      toast({
+        title: "Login Successful!",
+        status: "success",
+        duration: 2000,
+        isClosable: true,
+        position: "top",
+      });
       navigate("/");
-      alert("Login Successfull, Redirecting to Home Page");
     } else {
       navigate("/login");
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isAuth, navigate]);
 
-  const handleRegisterSubmit = (e) => {
-    e.preventDefault();
-    dispatch(addUser(registerformData));
-    alert("Registration Successfull! You can Login now!");
-  };
-
-  const handleInputSubmit = (e) => {
-    e.preventDefault();
-    dispatch(login(loginformData));
+  const validateRegister = (values) => {
+    let errors = {};
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+    if (!values.firstname) {
+      errors.firstname = "Firstname is required!";
+    }
+    if (!values.lastname) {
+      errors.lastname = "Lastname is required!";
+    }
+    if (!values.email) {
+      errors.email = "Email is required!";
+    } else if (!regex.test(values.email)) {
+      errors.email = "This is not a valid email format!";
+    }
+    if (!values.password) {
+      errors.password = "Password is required!";
+    } else if (values.password.length < 4) {
+      errors.password = "Password must be more than 4 characters";
+    } else if (values.password.length > 10) {
+      errors.password = "Password cannot exceed 10 characters";
+    }
+    if (!values.repassword) {
+      errors.repassword = "Confirm Password is required!";
+    } else if (values.repassword.length < 4) {
+      errors.repassword = "Password must be more than 4 characters";
+    } else if (values.repassword.length > 10) {
+      errors.repassword = "Password cannot exceed 10 characters";
+    }
+    return errors;
   };
 
   const handleRegisterChange = (e) => {
@@ -63,14 +98,69 @@ const Social = () => {
     setRegisterFormData({ ...registerformData, [name]: value });
   };
 
-  const handleInputChange = (e) => {
+  const handleRegisterSubmit = (e) => {
+    e.preventDefault();
+    const registerformErrors = validateRegister(registerformData);
+    setRegisterFormErrors(registerformErrors);
+
+    if (Object.keys(registerformErrors).length === 0) {
+      dispatch(addUser(registerformData));
+      toast({
+        title: "Registration Successful!",
+        description: "You can Login now.",
+        status: "success",
+        duration: 5000,
+        isClosable: true,
+        position: "top",
+      });
+    }
+  };
+
+  const validateLogin = (values) => {
+    let errors = {};
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+    if (!values.email) {
+      errors.email = "Email is required!";
+    } else if (!regex.test(values.email)) {
+      errors.email = "This is not a valid email format!";
+    }
+    if (!values.password) {
+      errors.password = "Password is required!";
+    } else if (values.password.length < 4) {
+      errors.password = "Password must be more than 4 characters";
+    } else if (values.password.length > 10) {
+      errors.password = "Password cannot exceed 10 characters";
+    }
+    return errors;
+  };
+
+  const handleLoginChange = (e) => {
     const { value, name } = e.target;
     setLoginFormData({ ...loginformData, [name]: value });
   };
 
+  const handleLoginSubmit = (e) => {
+    e.preventDefault();
+    const loginformErrors = validateLogin(loginformData);
+    setLoginFormErrors(loginformErrors);
+
+    if (Object.keys(loginformErrors).length === 0) {
+      dispatch(login(loginformData));
+    }
+  };
+
   if (error) {
-    alert("Wrong Credentials, Please try Again!");
-    window.location.reload();
+    toast({
+      title: "Wrong Credentials!",
+      description: "Try again.",
+      status: "error",
+      duration: 5000,
+      isClosable: true,
+      position: "top",
+    });
+    setTimeout(() => {
+      window.location.reload();
+    }, 500);
   }
 
   const { title, firstname, lastname, email, password, repassword } =
@@ -132,6 +222,7 @@ const Social = () => {
                     <option value="Prof">Prof.</option>
                   </Select>
 
+                  <Text color="tomato">{registerformErrors.firstname}</Text>
                   <Input
                     borderColor="blackAlpha.500"
                     borderRadius={0}
@@ -141,9 +232,9 @@ const Social = () => {
                     value={firstname}
                     onChange={handleRegisterChange}
                     mb={4}
-                    isRequired
                   />
 
+                  <Text color="tomato">{registerformErrors.lastname}</Text>
                   <Input
                     borderColor="blackAlpha.500"
                     borderRadius={0}
@@ -153,9 +244,9 @@ const Social = () => {
                     value={lastname}
                     onChange={handleRegisterChange}
                     mb={4}
-                    isRequired
                   />
 
+                  <Text color="tomato">{registerformErrors.email}</Text>
                   <Input
                     borderColor="blackAlpha.500"
                     borderRadius={0}
@@ -165,9 +256,9 @@ const Social = () => {
                     value={email}
                     onChange={handleRegisterChange}
                     mb={4}
-                    isRequired
                   />
 
+                  <Text color="tomato">{registerformErrors.password}</Text>
                   <Input
                     borderColor="blackAlpha.500"
                     borderRadius={0}
@@ -177,9 +268,9 @@ const Social = () => {
                     value={password}
                     onChange={handleRegisterChange}
                     mb={4}
-                    isRequired
                   />
 
+                  <Text color="tomato">{registerformErrors.repassword}</Text>
                   <Input
                     borderColor="blackAlpha.500"
                     borderRadius={0}
@@ -189,7 +280,6 @@ const Social = () => {
                     value={repassword}
                     onChange={handleRegisterChange}
                     mb={4}
-                    isRequired
                   />
 
                   <Text pt="30px" w="100%" margin="auto" fontSize="14px">
@@ -245,8 +335,9 @@ const Social = () => {
               <Text display="inline">
                 If you have an account with us, please log in.
               </Text>
-              <form onSubmit={handleInputSubmit}>
+              <form onSubmit={handleLoginSubmit}>
                 <FormControl mt="40px">
+                  <Text color="tomato">{loginformErrors.email}</Text>
                   <Input
                     borderColor="blackAlpha.500"
                     borderRadius={0}
@@ -255,9 +346,10 @@ const Social = () => {
                     placeholder="Email address"
                     value={loginformData.email}
                     mb={4}
-                    onChange={handleInputChange}
+                    onChange={handleLoginChange}
                   />
 
+                  <Text color="tomato">{loginformErrors.password}</Text>
                   <Input
                     borderColor="blackAlpha.500"
                     borderRadius={0}
@@ -265,7 +357,7 @@ const Social = () => {
                     placeholder="Password"
                     name="password"
                     value={loginformData.password}
-                    onChange={handleInputChange}
+                    onChange={handleLoginChange}
                   />
                   <Text mt={8} mb={2}>
                     *required fields

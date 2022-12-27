@@ -12,7 +12,7 @@ import { prodReducer } from "./products/ProdReducer";
 const rootReducer = combineReducers({
   socialManager: socialReducer,
   authManager: authReducer,
-  prodManager:prodReducer,
+  prodManager: prodReducer,
 });
 
 const composer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;

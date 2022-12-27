@@ -11,6 +11,7 @@ import {
   MenuDivider,
   IconButton,
   useDisclosure,
+  useToast,
 } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 import { AiOutlineHeart } from "react-icons/ai";
@@ -25,6 +26,7 @@ import axios from "axios";
 export default function Navbar() {
   const { isAuth } = useSelector((store) => store.authManager.data);
   const dispatch = useDispatch();
+  const toast = useToast();
 
   const { isOpen, onOpen, onClose } = useDisclosure();
   let [mytext, setMytext] = useState(true);
@@ -38,7 +40,13 @@ export default function Navbar() {
   const handleLogout = () => {
     if (isAuth) {
       dispatch(logout());
-      alert("Logged out successfully! Redirecting back to Login Page");
+      toast({
+        title: "Logout Successful!",
+        status: "success",
+        duration: 2000,
+        isClosable: true,
+        position: "top",
+      });
     }
   };
 
@@ -52,7 +60,7 @@ export default function Navbar() {
 
   const getCart = async () => {
     axios
-      .get(`http://localhost:8080/productlist`)
+      .get(`https://nyresa-database.vercel.app/productlist`)
       .then((res) => setCart(res.data));
   };
 
@@ -63,16 +71,6 @@ export default function Navbar() {
   useEffect(() => {
     console.log(getCart());
   }, []);
-  // console.log(cart);
-  // let parent = document.querySelector(".stickyNav").parentElement;
-
-  // while (parent) {
-  //   const hasOverflow = getComputedStyle(parent).overflow;
-  //   if (hasOverflow !== "visible") {
-  //     console.log(hasOverflow, parent);
-  //   }
-  //   parent = parent.parentElement;
-  // }
 
   return (
     <Box>
@@ -183,9 +181,9 @@ export default function Navbar() {
 
                 <MenuDivider />
                 <MenuItem _hover={{ bg: "#f3f3f3" }} transition="1s">
-                  <Link to="/login">
+                  <Link to="/login" onClick={handleLogout}>
                     <Text letterSpacing={1} cursor="pointer">
-                      My Account
+                      {isAuth ? "Logout" : "My account"}
                     </Text>
                   </Link>
                 </MenuItem>
