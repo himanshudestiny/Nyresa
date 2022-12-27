@@ -9,7 +9,7 @@ export const getdata =
 
     try {
       let res = await axios.get(
-        `http://nyresa-database.vercel.app/${cat}?_page=${page}&_limit=12&_sort=${sort}&_order=${order}`
+        `https://nyresa-database.vercel.app/${cat}?_page=${page}&_limit=12&_sort=${sort}&_order=${order}`
       );
 
       dispatch({ type: GET_PRODUCT, payload: res.data });
@@ -24,7 +24,7 @@ export const filterdata =
     dispatch({ type: Loading });
 
     let res = await axios.get(
-      `http://nyresa-database.vercel.app/${cat}?_page=${page}&_limit=30&_sort=${sort}&_order=${order}`
+      `https://nyresa-database.vercel.app/${cat}?_page=${page}&_limit=30&_sort=${sort}&_order=${order}`
     );
 
     let filtered = res.data.filter((el) => {
