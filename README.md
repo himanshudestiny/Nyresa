@@ -1,7 +1,8 @@
 <h1>Nyresa</h1>
 
 <h2>Description</h2>
-<p>Nyresa is basically an e-commerce website where users can buy products such as clothings, apparels etc.</p
+<p>Nyresa is basically an e-commerce website where users can buy products such as clothings, apparels etc.</p>
+<img src="https://i.ibb.co/R6JqyP9/Nyresa.png" alt="Nyresa" border="0">
 
 <h2>Tech Stacks we have used</h2>
 <ul>
