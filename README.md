@@ -4,9 +4,9 @@
 <p>Nyresa is basically an e-commerce website where users can buy products such as clothings, apparels etc.</p>
 <img src="https://i.ibb.co/R6JqyP9/Nyresa.png" alt="Nyresa" border="0">
 <img src="https://i.postimg.cc/SNC0mnbk/1.png" alt="Nyresa" border="0">
-<img src="" alt="Nyresa" border="0">
-<img src="" alt="Nyresa" border="0">
-<img src="" alt="Nyresa" border="0">
+<img src="https://i.postimg.cc/Kc3w51zB/2.png" alt="Nyresa" border="0">
+<img src="https://i.postimg.cc/gk95tGX5/3.png" alt="Nyresa" border="0">
+<img src="https://i.postimg.cc/0jS45B3c/4.png" alt="Nyresa" border="0">
 <h2>Tech Stacks we have used</h2>
 <ul>
 <li>React</li>
