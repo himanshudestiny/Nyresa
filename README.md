@@ -3,10 +3,10 @@
 <h2>Description</h2>
 <p>Nyresa is basically an e-commerce website where users can buy products such as clothings, apparels etc.</p>
 <img src="https://i.ibb.co/R6JqyP9/Nyresa.png" alt="Nyresa" border="0">
-<img src="https://i.postimg.cc/SNC0mnbk/1.png" alt="Nyresa" border="0">
-<img src="https://i.postimg.cc/Kc3w51zB/2.png" alt="Nyresa" border="0">
-<img src="https://i.postimg.cc/gk95tGX5/3.png" alt="Nyresa" border="0">
-<img src="https://i.postimg.cc/0jS45B3c/4.png" alt="Nyresa" border="0">
+<img src="https://i.postimg.cc/tT4yNCYF/1.png" alt="Nyresa" border="0">
+<img src="https://i.postimg.cc/Rh3B2s1F/2.png" alt="Nyresa" border="0">
+<img src="https://i.postimg.cc/j2GbTHvh/3.png" alt="Nyresa" border="0">
+<img src="https://i.postimg.cc/vB2yqFVk/4.png" alt="Nyresa" border="0">
 <h2>Tech Stacks we have used</h2>
 <ul>
 <li>React</li>
