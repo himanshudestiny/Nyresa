@@ -16,7 +16,7 @@ import Header from "../components/sidebar/Header";
 import Sidebar from "../components/sidebar/Sidebar";
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from "react";
-import { filterdata, getdata } from "../redux/products/Prodaction";
+import {  getdata } from "../redux/products/Prodaction";
 import { StarIcon } from "@chakra-ui/icons";
 import Pagination from "./Pagination";
 import { useNavigate } from "react-router-dom";
@@ -26,11 +26,13 @@ const smVariant = { navigation: "drawer", navigationButton: true };
 const mdVariant = { navigation: "sidebar", navigationButton: false };
 
 const Products = ({ category }) => {
+  
+  const [c,setc]=useState(category);
   const [page, setpage] = useState(1);
   const [sort, setsort] = useState("");
   const [order, setorder] = useState("");
   const [filtval, setfiltval] = useState("");
-  const [normal, setnormal] = useState(false);
+ 
 
   const navigate = useNavigate();
 
@@ -43,30 +45,38 @@ const Products = ({ category }) => {
 
   const dispatch = useDispatch();
 
-  const tognormal = (val) => {
-    setnormal(true);
-    setfiltval(val);
-  };
+  
 
-  const norm = () => {
-    setnormal(false);
-  };
+  
 
   useEffect(() => {
-    if (normal === false) {
-      dispatch(getdata(page, sort, order, category));
-    } else {
-      dispatch(filterdata(filtval, page, sort, order, category));
+
+    if(c!==category){
+      setpage(1);
+      setfiltval("");
+      setc(category);
     }
+    
+      dispatch(getdata(category, page, sort, order, filtval));
+    
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [page, sort, order, category]);
+  }, [category, page, sort, order, filtval]);
+
+
+  const filterbyval=(filt)=>{
+    setfiltval(filt)
+  }
 
   const sortorder = (val) => {
     setsort("discounted_price");
     setorder(val);
   };
 
+
+  const updateCurrentPage=(pan)=>{
+    setpage(pan);
+  }
   const tolocal = (el) => {
     localStorage.setItem("element", JSON.stringify(el));
     navigate("/ProductDetails");
@@ -87,9 +97,11 @@ const Products = ({ category }) => {
           page={page}
           sort="discounted_price"
           order={order}
-          tognormal={tognormal}
-          norm={norm}
+          
+          
           category={category}
+          filterbyval={filterbyval}
+          updateCurrentPage={updateCurrentPage}
         />
         <Box width="100%">
           <Header
@@ -97,7 +109,7 @@ const Products = ({ category }) => {
             onShowSidebar={toggleSidebar}
             count={10}
             page={page}
-            updateCurrentPage={(pan) => setpage(pan)}
+            updateCurrentPage={updateCurrentPage}
             sortorder={sortorder}
             category={category}
           />
@@ -183,7 +195,7 @@ const Products = ({ category }) => {
               <Pagination
                 count={10}
                 currentPage={page}
-                updateCurrentPage={(pan) => setpage(pan)}
+                updateCurrentPage={updateCurrentPage}
               />
             </Box>
           </Box>

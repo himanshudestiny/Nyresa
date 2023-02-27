@@ -15,13 +15,17 @@ import {
   AccordionIcon,
   AccordionPanel,
   Checkbox,
+  RadioGroup,
+  Stack,
+  Radio,
 } from "@chakra-ui/react";
 
-import { filterdata, getdata } from "../../redux/products/Prodaction";
+import {  getdata } from "../../redux/products/Prodaction";
 
 import { useDispatch } from "react-redux";
 
 import "../Products.css";
+import { useState } from "react";
 
 const SidebarContent = ({
   onClick,
@@ -30,10 +34,16 @@ const SidebarContent = ({
   page,
   sort,
   order,
-  tognormal,
-  norm,
+ 
   category,
+  filterbyval,
+  updateCurrentPage,
+
+
 }) => {
+
+ 
+
   let val1 =
     category === "Mens"
       ? "Joggers"
@@ -52,6 +62,10 @@ const SidebarContent = ({
       : category === "Womens"
       ? "Trousers"
       : "Joggers";
+
+
+   
+      
 
   return (
     <>
@@ -98,8 +112,10 @@ const SidebarContent = ({
                 <Flex flexDirection="column">
                   <Checkbox
                     onChange={() => {
-                      dispatch(getdata(1, "", "", category));
-                      norm();
+                      filterbyval("");
+                      updateCurrentPage(1)
+                      dispatch(getdata( category ,page,"","",""));
+                     
                       onClick();
                     }}
                   >
@@ -109,8 +125,11 @@ const SidebarContent = ({
                   </Checkbox>
                   <Checkbox
                     onChange={() => {
-                      dispatch(filterdata(val1, page, sort, order, category));
-                      tognormal(val1);
+
+                      filterbyval(val1);
+                      updateCurrentPage(1)
+                      dispatch(getdata(category, page, sort, order,val1 ));
+                     
                       onClick();
                     }}
                   >
@@ -120,8 +139,11 @@ const SidebarContent = ({
                   </Checkbox>
                   <Checkbox
                     onChange={() => {
-                      dispatch(filterdata(val2, page, sort, order, category));
-                      tognormal(val2);
+
+                      filterbyval(val2);
+                      updateCurrentPage(1)
+                      dispatch(getdata(category, page, sort, order,val2 ));
+                      
                       onClick();
                     }}
                   >
@@ -131,8 +153,11 @@ const SidebarContent = ({
                   </Checkbox>
                   <Checkbox
                     onChange={() => {
-                      dispatch(filterdata(val3, page, sort, order, category));
-                      tognormal(val3);
+
+                      filterbyval(val3);
+                      updateCurrentPage(1)
+                      dispatch(getdata(category, page, sort, order,val3 ));
+                      
                       onClick();
                     }}
                   >
@@ -141,6 +166,10 @@ const SidebarContent = ({
                     </Text>
                   </Checkbox>
                 </Flex>
+
+                       
+
+
               </AccordionPanel>
             </AccordionItem>
 
@@ -337,10 +366,14 @@ const Sidebar = ({
   page,
   sort,
   order,
-  tognormal,
-  norm,
+  
   category,
+  filterbyval,
+  updateCurrentPage
 }) => {
+
+ 
+
   const dispatch = useDispatch();
 
   return variant === "sidebar" ? (
@@ -362,9 +395,11 @@ const Sidebar = ({
         page={page}
         sort={sort}
         order={order}
-        tognormal={tognormal}
-        norm={norm}
+       
         category={category}
+        filterbyval={filterbyval}
+        updateCurrentPage={updateCurrentPage}
+       
       />
     </Box>
   ) : (
@@ -381,9 +416,11 @@ const Sidebar = ({
               page={page}
               sort={sort}
               order={order}
-              tognormal={tognormal}
-              norm={norm}
+              
               category={category}
+              filterbyval={filterbyval}
+              updateCurrentPage={updateCurrentPage}
+             
             />
           </DrawerBody>
         </DrawerContent>

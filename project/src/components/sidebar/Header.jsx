@@ -1,4 +1,5 @@
 import { Box, Text, Flex, Select } from "@chakra-ui/react";
+import { useEffect } from "react";
 import { FaListUl } from "react-icons/fa";
 import Pagination from "../Pagination";
 import "../Products.css";
@@ -12,9 +13,17 @@ const Header = ({
   sortorder,
   category,
 }) => {
+
+
+
   const handlechange = (e) => {
     sortorder(e.target.value);
+    
   };
+
+      // useEffect(()=>{
+
+      // },[count,category,sortorder,page])
 
   return (
     <Flex p={3}>
@@ -40,9 +49,10 @@ const Header = ({
           border="none"
           color="grey"
           onChange={handlechange}
-          placeholder="Sort by"
+          
           height={6}
         >
+          <option value="">Sort by price</option>
           <option value="asc">Price low-to-high</option>
           <option value="desc">Price high-to-low</option>
         </Select>
