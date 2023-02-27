@@ -22,13 +22,13 @@ export const prodReducer = (state = init, action) => {
       };
     }
 
-    case Filter: {
-      return {
-        ...state,
-        loading: false,
-        data: action.payload,
-      };
-    }
+    // case Filter: {
+    //   return {
+    //     ...state,
+    //     loading: false,
+    //     data: action.payload,
+    //   };
+    // }
 
     default: {
       return state;
