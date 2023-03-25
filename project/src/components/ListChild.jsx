@@ -108,7 +108,7 @@ const ListChild = ({
                 ${price}
               </GridItem>
               <button
-                style={{ backgroundColor: "rgb(240, 240, 240)" }}
+                style={{width:"2px", backgroundColor: "rgb(240, 240, 240)" }}
                 disabled={quant === 1}
                 onClick={() => handleDec(id)}
               >
@@ -118,7 +118,7 @@ const ListChild = ({
                 {quant}
               </GridItem>
               <button
-                style={{ backgroundColor: "rgb(240, 240, 240)" }}
+                style={{width:"2px", backgroundColor: "rgb(240, 240, 240)" }}
                 onClick={() => handleInc(id)}
               >
                 +
