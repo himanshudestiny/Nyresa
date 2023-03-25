@@ -10,7 +10,7 @@ export const getdata = (cat = "Mens",page = 1, sort , order, val) => async (disp
      if(cat!=="" && page!=="" && sort!=="" && order!=="" &&  val!==""){
 
       let res = await axios.get(
-        `https://nyresa-database.vercel.app/${cat}?_page=${page}&_limit=30&_sort=${sort}&_order=${order}`
+        `https://nyresa-project-server.onrender.com/${cat}?_page=${page}&_limit=30&_sort=${sort}&_order=${order}`
       );
        
       let filtered = res.data.filter((el) => {
@@ -27,7 +27,7 @@ export const getdata = (cat = "Mens",page = 1, sort , order, val) => async (disp
      else if(cat!=="" && page!=="" && sort!=="" && order!==""){
 
       let res = await axios.get(
-        `https://nyresa-database.vercel.app/${cat}?_page=${page}&_limit=12&_sort=${sort}&_order=${order}`
+        `https://nyresa-project-server.onrender.com/${cat}?_page=${page}&_limit=12&_sort=${sort}&_order=${order}`
       );
 
       dispatch({ type: GET_PRODUCT, payload: res.data });
@@ -37,7 +37,7 @@ export const getdata = (cat = "Mens",page = 1, sort , order, val) => async (disp
      else if(cat!=="" && page!=="" && val!==""){
             
       let res = await axios.get(
-        `https://nyresa-database.vercel.app/${cat}?_page=${page}&_limit=30`
+        `https://nyresa-project-server.onrender.com/${cat}?_page=${page}&_limit=30`
       );
        
       let filtered = res.data.filter((el) => {
@@ -54,7 +54,7 @@ export const getdata = (cat = "Mens",page = 1, sort , order, val) => async (disp
      else {
            
       let res = await axios.get(
-        `https://nyresa-database.vercel.app/${cat}?_page=${page}&_limit=12`
+        `https://nyresa-project-server.onrender.com/${cat}?_page=${page}&_limit=12`
       );
 
       dispatch({ type: GET_PRODUCT, payload: res.data });

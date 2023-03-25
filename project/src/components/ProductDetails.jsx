@@ -51,9 +51,8 @@ const ProductDetails = () => {
     }
   };
 
-  const handleShopingBag = (el) => {
-    console.log(el);
-    fetch("https://nyresa-database.vercel.app/productlist", {
+  const handleShopingBag = async(el) => {
+    await fetch("https://nyresa-project-server.onrender.com/productlist", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -63,7 +62,7 @@ const ProductDetails = () => {
     navigate("/ProductList");
   };
   const handleWishlistBag = (el) => {
-    fetch(" https://nyresa-database.vercel.app/wishlist", {
+    fetch("https://nyresa-project-server.onrender.com/wishlist", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
