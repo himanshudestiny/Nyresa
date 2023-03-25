@@ -107,7 +107,11 @@ const ProductList = () => {
           <div className="checkoutDiv">
             <Text>YOUR SHOPPING BAG</Text>
             <Button
-              
+              className="checkoutDiv_button"
+              borderRadius={"none"}
+              color={"white"}
+              bgColor={"black"}
+              onClick={handleCheckout}
             >
               PROCEED TO CHECKOUT
             </Button>
