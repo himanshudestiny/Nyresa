@@ -28,9 +28,11 @@ const ProductList = () => {
   const [product, setProduct] = useState([]);
   const [flag, setFlag] = useState(false);
   let total = 0;
-
+  let s=JSON.parse(localStorage.getItem("ElementSize"));
   useEffect(() => {
     setLoading(true);
+    s=JSON.parse(localStorage.getItem("ElementSize"))||{};
+    // console.log(s)
     getData()
       .then((res) => {
         setLoading(false);
@@ -131,6 +133,7 @@ const ProductList = () => {
                   getData={getData}
                   setProduct={setProduct}
                   p={el.price}
+                  size={s}
                 />
                 <div className="checkoutDiv">
                   <Button
@@ -216,7 +219,7 @@ const ProductList = () => {
               borderBottom={"1px solid gray"}
             >
               {product.map((el)=>{
-                console.log(total+=Number(el.price))
+                total+=Number(el.price)
               })}
               <Text fontWeight={"bold"} align={"right"}>
                 Total:- ${total}

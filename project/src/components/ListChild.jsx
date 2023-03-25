@@ -1,4 +1,4 @@
-import { SimpleGrid, Box, Grid, GridItem, Image } from "@chakra-ui/react";
+import { SimpleGrid, Box, Grid, GridItem, Image, Heading, Text } from "@chakra-ui/react";
 import React, { useState } from "react";
 
 const ListChild = ({
@@ -10,6 +10,7 @@ const ListChild = ({
   quant,
   getData,
   setProduct,
+  size
 }) => {
   // eslint-disable-next-line no-unused-vars
   const [quantity, setQuantity] = useState(1);
@@ -77,11 +78,11 @@ const ListChild = ({
             </GridItem>
             <GridItem w="100%" h="auto">
               <Box align="left" mt="6">
-                {title}
+                <Text fontWeight={"bold"} >{title}</Text>
               </Box>
               <Box align="left">{desc}</Box>
               <Box align="left">
-                Size: <span>size</span>
+                Size: <span>{size}</span>
               </Box>
               <Box align="left">
                 item no.: <span>{id}</span>{" "}
