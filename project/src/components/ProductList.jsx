@@ -49,8 +49,8 @@ const ProductList = () => {
     return <div>ERROR</div>;
   }
 
-  const handleDelete = async (id) => {
-    let res=await fetch(
+  const handleDelete = (id) => {
+    fetch(
       `https://nyresa-project-server.onrender.com/productlist/${id}`,
       {
         method: "DELETE",

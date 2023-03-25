@@ -8,7 +8,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 const getwish = async () => {
-  let res = await axios.get("https://nyresa-database.vercel.app/wishlist");
+  let res = await axios.get("https://nyresa-project-server.onrender.com/wishlist");
   return res.data;
 };
 
@@ -19,7 +19,7 @@ const Wishlist = () => {
   const remove = async (id) => {
     // eslint-disable-next-line no-unused-vars
     let res = await axios.delete(
-      `https://nyresa-database.vercel.app/wishlist/${id}`
+      `https://nyresa-project-server.onrender.com/wishlist/${id}`
     );
 
     let updt = wish.filter((el) => el.id !== id);
@@ -29,7 +29,7 @@ const Wishlist = () => {
 
   const movecart = async (elem) => {
     let res = await axios.post(
-      "https://nyresa-database.vercel.app/productlist",
+      "https://nyresa-project-server.onrender.com/productlist",
       {
         ...elem,
       }

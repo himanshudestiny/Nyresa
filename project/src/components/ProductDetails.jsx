@@ -51,8 +51,8 @@ const ProductDetails = () => {
     }
   };
 
-  const handleShopingBag = async(el) => {
-    await fetch("https://nyresa-project-server.onrender.com/productlist", {
+  const handleShopingBag =(el) => {
+    fetch("https://nyresa-project-server.onrender.com/productlist", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
