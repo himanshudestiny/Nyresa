@@ -13,11 +13,12 @@ const ListChild = ({
 }) => {
   // eslint-disable-next-line no-unused-vars
   const [quantity, setQuantity] = useState(1);
+
   const handleInc = (id) => {
     console.log(id);
 
     setQuantity((prev) => prev + 1);
-    fetch(`https://nyresa-database.vercel.app/productlist/${id}`, {
+    fetch(`https://nyresa-project-server.onrender.com/productlist/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -26,14 +27,13 @@ const ListChild = ({
         quantity: quant + 1,
         price: (quant + 1) * Number(price),
       }),
-    }).then((res) => res.json());
-    getData().then((res) => setProduct(res));
+    }).then((res) => res.json()).then(()=>getData().then((res)=>setProduct(res)))
   };
 
   const handleDec = (id) => {
     console.log(id);
 
-    fetch(`https://nyresa-database.vercel.app/productlist/${id}`, {
+    fetch(`https://nyresa-project-server.onrender.com/productlist/${id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -42,8 +42,7 @@ const ListChild = ({
         quantity: quant - 1,
         price: (quant - 1) * Number(price),
       }),
-    }).then((res) => res.json());
-    getData().then((res) => setProduct(res));
+    }).then((res) => res.json()).then(()=>getData().then((res)=>setProduct(res)))
   };
 
   return (

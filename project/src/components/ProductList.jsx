@@ -16,7 +16,7 @@ import ListChild from "./ListChild";
 import Footer from "./Footer";
 
 const getData = () => {
-  return fetch(` https://nyresa-database.vercel.app/productlist`).then((res) =>
+  return fetch(`https://nyresa-project-server.onrender.com/productlist`).then((res) =>
     res.json()
   );
 };
@@ -41,7 +41,7 @@ const ProductList = () => {
         setLoading(false);
         setError(true);
       });
-  }, []);
+  },[]);
   if (loading) {
     return <div>LOADING........</div>;
   }
@@ -50,31 +50,29 @@ const ProductList = () => {
   }
 
   const handleDelete = async (id) => {
-    let res = await fetch(
-      ` https://nyresa-database.vercel.app/productlist/${id}`,
+    let res=await fetch(
+      `https://nyresa-project-server.onrender.com/productlist/${id}`,
       {
         method: "DELETE",
         headers: {
           "Content-Type": "application/jaon",
         },
-        body: JSON.stringify({ id }),
+        body: JSON.stringify({id}),
       }
-    ).then((res) => res.json());
-
-    getData()
-      .then((res) => {
-        setLoading(false);
-        setError(false);
-        setProduct(res);
-      })
-      .catch((err) => {
-        setLoading(false);
-        setError(true);
-      });
+    ).then((res) => res.json()).then(()=>getData()
+    .then((res) => {
+      setLoading(false);
+      setError(false);
+      setProduct(res);
+    })
+    .catch((err) => {
+      setLoading(false);
+      setError(true);
+    }))
   };
   const handleWishlist = (el) => {
     setFlag(true);
-    fetch(" https://nyresa-database.vercel.app/wishlist", {
+    fetch("https://nyresa-project-server.onrender.com/wishlist", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -205,8 +203,8 @@ const ProductList = () => {
               borderTop={"1px solid gray"}
               borderBottom={"1px solid gray"}
             >
-              {product.map((el) => {
-                console.log((total += Number(el.price)));
+              {product.map((el)=>{
+                console.log(total+=Number(el.price))
               })}
               <Text fontWeight={"bold"} align={"right"}>
                 Total:- ${total}
