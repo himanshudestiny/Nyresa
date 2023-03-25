@@ -32,12 +32,11 @@ const Confirm = () => {
   const [number, setNumber] = React.useState([]);
   const [products, setProducts] = React.useState([]);
   const navigate = useNavigate();
-
   let subtotal = 0;
 
   const getData = async () => {
     return axios
-      .get("https://nyresa-database.vercel.app/productlist")
+      .get("https://nyresa-project-server.onrender.com/productlist")
       .then((res) => setProducts(res.data));
   };
 
@@ -56,7 +55,10 @@ const Confirm = () => {
 
   const handlePurchase = () => {
     alert("Your order has been placed successfully! ");
-    navigate("/");
+    products.forEach(d=>{
+      axios.delete(`https://nyresa-project-server.onrender.com/productlist/${d.id}`)
+    })
+    navigate("/")
   };
 
   return (
