@@ -311,12 +311,12 @@ const Confirm = () => {
                 size={product.size[2]}
                 itemNo={product.itemNo}
                 quantity={product.quantity}
-                price={product.price}
-                subTotal={product.price * product.quantity}
+                price={Number(product.discounted_price)}
+                subTotal={product.price * 1}
                 image={product.images[0]}
                 subtotal={subtotal + product.price}
               />
-              {add(product.price * product.quantity)}
+              {add(product.price * 1)}
             </div>
           ))}
         </Box>
