@@ -131,6 +131,7 @@ const ProductList = () => {
                   getData={getData}
                   setProduct={setProduct}
                   p={el.price}
+                  size={el.size[2]}
                 />
                 <div className="checkoutDiv">
                   <Button

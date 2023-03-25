@@ -308,7 +308,7 @@ const Confirm = () => {
                 key={product.id}
                 title={product.title}
                 desc={product.subtitle}
-                size={product.size}
+                size={product.size[2]}
                 itemNo={product.itemNo}
                 quantity={product.quantity}
                 price={product.price}
