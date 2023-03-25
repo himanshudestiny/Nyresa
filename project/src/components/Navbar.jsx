@@ -60,12 +60,13 @@ export default function Navbar() {
 
   const getCart = async () => {
     axios
-      .get(`https://nyresa-database.vercel.app/productlist`)
+      .get(`https://nyresa-project-server.onrender.com/productlist`)
       .then((res) => setCart(res.data));
   };
 
   useEffect(() => {
     abc();
+    getCart()
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mytext]);
   useEffect(() => {

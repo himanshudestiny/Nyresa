@@ -15,8 +15,8 @@ import { Link, useNavigate } from "react-router-dom";
 import ListChild from "./ListChild";
 import Footer from "./Footer";
 
-const getData = () => {
-  return fetch(`https://nyresa-project-server.onrender.com/productlist`).then((res) =>
+const getData = async() => {
+  return await fetch(`https://nyresa-project-server.onrender.com/productlist`).then((res) =>
     res.json()
   );
 };
@@ -41,7 +41,18 @@ const ProductList = () => {
         setLoading(false);
         setError(true);
       });
-  },[]);
+  },[getData]);
+  useEffect(()=>{
+    getData().then((res) => {
+      setLoading(false);
+      setError(false);
+      setProduct(res);
+    })
+    .catch((err) => {
+      setLoading(false);
+      setError(true);
+    })
+  },[])
   if (loading) {
     return <div>LOADING........</div>;
   }
@@ -83,7 +94,8 @@ const ProductList = () => {
   const handleCheckout = () => {
     navigate("/delivery");
   };
-  const handleWishlistBag = () => {
+  const handleWishlistBag = (el) => {
+    handleDelete(el.id)
     navigate("/wishlist");
   };
   return (
