@@ -133,7 +133,7 @@ const ProductList = () => {
                   getData={getData}
                   setProduct={setProduct}
                   p={el.price}
-                  size={s}
+                  size={el.size}
                 />
                 <div className="checkoutDiv">
                   <Button

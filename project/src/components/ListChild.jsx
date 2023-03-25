@@ -82,7 +82,7 @@ const ListChild = ({
               </Box>
               <Box align="left">{desc}</Box>
               <Box align="left">
-                Size: <span>{size}</span>
+                Size: <span>{size[3]}</span>
               </Box>
               <Box align="left">
                 item no.: <span>{id}</span>{" "}
