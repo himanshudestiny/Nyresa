@@ -3,23 +3,24 @@ import axios from "axios";
 import "./Products.css";
 import { CloseIcon, StarIcon } from "@chakra-ui/icons";
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { useEffect } from "react";
 
 const getwish = async () => {
-  let res = await axios.get("https://nyresa-database.vercel.app/wishlist");
+  let res = await axios.get("https://nyresa-project-server.onrender.com/wishlist");
   return res.data;
 };
 
 const Wishlist = () => {
   const [wish, setwish] = useState([]);
   const toast = useToast();
+  const navigate=useNavigate()
 
   const remove = async (id) => {
     // eslint-disable-next-line no-unused-vars
     let res = await axios.delete(
-      `https://nyresa-database.vercel.app/wishlist/${id}`
+      `https://nyresa-project-server.onrender.com/wishlist/${id}`
     );
 
     let updt = wish.filter((el) => el.id !== id);
@@ -27,28 +28,17 @@ const Wishlist = () => {
     setwish(updt);
   };
 
-  const movecart = async (elem) => {
-    let res = await axios.post(
-      "https://nyresa-database.vercel.app/productlist",
-      {
-        ...elem,
-      }
-    );
-
-    if (res.data) {
-      remove(res.data.id);
-
-      toast({
-        title: "ITEM MOVED TO BAG SUCCESSFULLY",
-        position: "top",
-        description: "Happy shopping",
-        status: "success",
-        duration: 3000,
-        isClosable: true,
-      });
-    }
-  };
-
+  const movecart =(el) => {
+    fetch("https://nyresa-project-server.onrender.com/productlist", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(el),
+    }).then((res) => res.json());
+    navigate("/ProductList");
+    remove(el.id)
+  }
   useEffect(() => {
     getwish().then((res) => setwish(res));
   }, []);
